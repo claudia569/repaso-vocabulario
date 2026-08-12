@@ -47,12 +47,28 @@ abiertas" abajo). No hay nada a medio construir.
 - Créditos de ARASAAC (CC BY-NC-SA) al pie de cada ficha y del índice:
   obligatorio desde que el material deja de estar solo en local.
 
-## Decisiones abiertas (bloquean el siguiente paso)
+### ✅ Publicado y en producción (12/08/2026)
 
-1. **Activar GitHub Pages** en Settings → Pages (rama `main`, carpeta raíz).
-   Pendiente de la usuaria; hasta entonces la URL pública no existe.
-2. **Qué curso se completa a continuación.** Quedan ~1230 palabras de la
+- **URL pública:** <https://claudia569.github.io/repaso-vocabulario/>
+- **Ya incrustado en el site del centro** por la usuaria, y funcionando.
+- Verificado desde aquí: portada, `Infantil.html`, `Primaria.html`, articulemas
+  e imágenes de palabra devuelven 200, y el render real de la página en vivo
+  muestra la ficha completa con los créditos de ARASAAC.
+- A partir de aquí, cualquier cambio se publica solo con `generar_html.py` +
+  `git push`: **no hay que tocar nada en Google Sites**.
+
+## Decisiones abiertas
+
+1. **Qué curso se completa a continuación.** Quedan ~1230 palabras de la
    programación sin power de origen.
+
+## Detectado y pendiente de decisión de la usuaria
+
+- **`INF3/PENSAR` usa la misma imagen en *Dibujo* y en *Frase*** (viene así del
+  pptx: la portada y la imagen de la slide 11 son el mismo archivo). Es el único
+  caso de las 120 palabras. Se arregla desde `datos/correcciones.json` en cuanto
+  se elija una imagen distinta para la frase "EL SABIO SUELE PENSAR ANTES DE
+  HABLAR".
 
 ## Detalles técnicos que conviene no volver a descubrir
 
