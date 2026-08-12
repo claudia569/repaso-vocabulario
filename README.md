@@ -20,7 +20,8 @@ bloque empieza tapado y se destapa al pulsarlo**.
 |---|---|
 | `Infantil.html` | 90 palabras (Infantil 3, 4 y 5 años · U1–U10 de cada curso) |
 | `Primaria.html` | 30 palabras (1º Primaria · U1–U10) |
-| `datos/*.json` | Contenido de cada curso: palabra, fonemas, sílabas, definición, sinónimos, antónimos, frase e imágenes |
+| `datos/<CURSO>.json` | Contenido extraído de los pptx: palabra, fonemas, sílabas, definición, sinónimos, antónimos, frase e imágenes |
+| `datos/correcciones.json` | Retoques manuales que se aplican encima de lo extraído (ver abajo) |
 | `assets/articulemas/` | Los 25 articulemas del set del proyecto, en WebP |
 | `assets/img/<CURSO>/` | Imágenes de cada palabra (dibujo, frase, 3 sinónimos, 3 antónimos) |
 | `scripts/extraer_pptx.py` | Vuelca el contenido de los powers tipo A a `datos/*.json` + imágenes |
@@ -53,6 +54,31 @@ python scripts\extraer_pptx.py     :: relee los pptx -> datos\*.json + assets\im
 python scripts\generar_html.py     :: datos\ + assets\ -> Infantil.html, Primaria.html
 python scripts\generar_html.py --embed   :: versión autónoma con las imágenes dentro
 ```
+
+## Correcciones manuales
+
+`extraer_pptx.py` **reescribe** `datos/<CURSO>.json` cada vez que se ejecuta, así
+que un retoque hecho ahí a mano se perdería al añadir unidades nuevas. Los
+retoques van en `datos/correcciones.json`, que la extracción nunca toca y que
+`generar_html.py` aplica encima:
+
+```json
+{
+  "INF3/DEBAJO": {
+    "frase": "EL GATO DUERME DEBAJO DE LA CAMA.",
+    "antonimo2": { "texto": "ARRIBA", "img": "INF3_U1_DEBAJO_ant2.webp" }
+  }
+}
+```
+
+Clave: `CURSO/PALABRA`. Campos: `palabra`, `definicion`, `frase`, `silabas`,
+`fonemas`, `img_dibujo`, `img_frase`, `sinonimo1..3`, `antonimo1..3`,
+`sinonimos`, `antonimos`, y `oculta: true` para que una palabra no aparezca.
+Si una clave no corresponde a ninguna palabra, o se usa un campo que no existe,
+`generar_html.py` lo avisa por consola en vez de fallar en silencio.
+
+Cuando un cambio sea de fondo y no un retoque visual, conviene llevarlo también
+al pptx de origen para que el power y la web no acaben diciendo cosas distintas.
 
 ## Uso en clase
 

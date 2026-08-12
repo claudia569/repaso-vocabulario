@@ -1,0 +1,26 @@
+{
+  "_ayuda": [
+    "Retoques manuales que se aplican ENCIMA de lo extraído de los pptx.",
+    "Sobreviven a una reextracción: extraer_pptx.py reescribe INF3.json, INF4.json...,",
+    "pero nunca toca este archivo.",
+    "",
+    "La clave es CURSO/PALABRA, por ejemplo 'INF3/DEBAJO' o '1EP/GIGANTESCO'.",
+    "Códigos de curso: INF3, INF4, INF5, 1EP, 5EP.",
+    "",
+    "Campos que se pueden cambiar:",
+    "  palabra, definicion, frase        -> texto",
+    "  silabas, fonemas                  -> listas, p. ej. ['DE','BA','JO']",
+    "  img_dibujo, img_frase             -> nombre de archivo dentro de assets/img/<CURSO>/",
+    "  sinonimo1..3, antonimo1..3        -> {'texto': '...', 'img': '...'}; se puede poner solo uno de los dos",
+    "  sinonimos, antonimos              -> sustituyen la lista entera de tres",
+    "  oculta: true                      -> esa palabra no aparece en la web",
+    "",
+    "Las claves que empiezan por _ son notas y se ignoran.",
+    "Si una clave apunta a una palabra que no existe, generar_html.py avisa por consola."
+  ],
+
+  "_ejemplo": {
+    "frase": "LA FRASE NUEVA VA AQUÍ.",
+    "antonimo2": { "texto": "OTRA PALABRA", "img": "INF3_U1_DEBAJO_ant2.webp" }
+  }
+}

@@ -31,12 +31,26 @@ abiertas" abajo). No hay nada a medio construir.
 | Sinónimos/antónimos | 3 + 3, cada uno con su pictograma |
 | Formato de salida | Un archivo por etapa: Infantil · Primaria · ESO/CFGB |
 
+| Alojamiento | GitHub Pages, repo público `claudia569/repaso-vocabulario` |
+| Retoques de contenido | Capa `datos/correcciones.json` encima de lo extraído, en vez de editar los pptx por cada cambio |
+
+## Publicación
+
+- Repositorio: `https://github.com/claudia569/repaso-vocabulario` (público —
+  `Programación de Vocabulario.xlsx` queda fuera por `.gitignore`).
+- Subida hecha el 12/08/2026 (commit `72f4f22`). El push desde este entorno
+  necesita `GIT_TERMINAL_PROMPT=1` y `-c credential.interactive=true`; sin eso
+  falla con "Cannot prompt because user interactivity has been disabled".
+  Windows ya guardó las credenciales, así que los siguientes push no deberían
+  pedir nada.
+- Pasos de publicación y de incrustación en Google Sites: `PUBLICAR.md`.
+- Créditos de ARASAAC (CC BY-NC-SA) al pie de cada ficha y del índice:
+  obligatorio desde que el material deja de estar solo en local.
+
 ## Decisiones abiertas (bloquean el siguiente paso)
 
-1. **Dónde se publica.** Google Sites no admite subir archivos HTML: solo
-   incrustar código muy corto o un iframe a una web ya alojada. Hace falta un
-   hosting (GitHub Pages sirve y es gratis). Sin esto, los archivos solo
-   funcionan en local.
+1. **Activar GitHub Pages** en Settings → Pages (rama `main`, carpeta raíz).
+   Pendiente de la usuaria; hasta entonces la URL pública no existe.
 2. **Qué curso se completa a continuación.** Quedan ~1230 palabras de la
    programación sin power de origen.
 

@@ -20,6 +20,7 @@ Cada bloque empieza tapado y se destapa al pulsarlo.
 import base64
 import json
 import mimetypes
+import re
 import sys
 from pathlib import Path
 
@@ -57,6 +58,54 @@ def src_img(curso, nombre):
     if not f.exists():
         return ""
     return data_uri(f) if EMBED else f"assets/img/{curso}/{nombre}"
+
+
+CAMPOS_SIMPLES = {"palabra", "definicion", "frase", "silabas", "fonemas",
+                  "img_dibujo", "img_frase", "curso_nombre"}
+
+
+def cargar_correcciones():
+    """Lee datos/correcciones.json (retoques manuales que sobreviven a una
+    reextracción de los pptx). Las claves que empiezan por '_' son notas."""
+    ruta = DATOS / "correcciones.json"
+    if not ruta.exists():
+        return {}
+    datos = json.loads(ruta.read_text(encoding="utf-8"))
+    return {k: v for k, v in datos.items() if not k.startswith("_")}
+
+
+def aplicar_correcciones(fichas, correcciones, avisos):
+    """Aplica los retoques sobre las fichas extraídas. Clave: 'CURSO/PALABRA'."""
+    indice = {f"{f['curso']}/{f['palabra']}": f for f in fichas}
+    usadas = set()
+
+    for clave, cambios in correcciones.items():
+        ficha = indice.get(clave.upper())
+        if ficha is None:
+            continue                      # puede ser de otra etapa; se avisa fuera
+        usadas.add(clave)
+
+        if cambios.get("oculta"):
+            ficha["_oculta"] = True
+
+        for campo, valor in cambios.items():
+            if campo in ("oculta",):
+                continue
+            if campo in CAMPOS_SIMPLES:
+                ficha[campo] = valor
+            elif campo in ("sinonimos", "antonimos"):
+                ficha[campo] = valor
+            elif re.fullmatch(r"(sinonimo|antonimo)([1-3])", campo):
+                tipo, n = re.fullmatch(r"(sinonimo|antonimo)([1-3])", campo).groups()
+                lista = ficha[tipo + "s"]
+                i = int(n) - 1
+                while len(lista) <= i:
+                    lista.append({"texto": "", "img": None})
+                lista[i] = {**lista[i], **valor}
+            else:
+                avisos.append(f"{clave}: campo desconocido '{campo}', ignorado")
+
+    return [f for f in fichas if not f.get("_oculta")], usadas
 
 
 def cargar(etapa):
@@ -458,9 +507,17 @@ def generar_indice(resumen):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+    correcciones = cargar_correcciones()
+    avisos, usadas_total = [], set()
+    if correcciones:
+        print(f"Correcciones manuales: {len(correcciones)} palabras")
+
     resumen = []
     for etapa in ETAPAS:
         fichas = cargar(etapa)
+        if fichas and correcciones:
+            fichas, usadas = aplicar_correcciones(fichas, correcciones, avisos)
+            usadas_total |= usadas
         if not fichas:
             print(f"{etapa}: sin fichas todavía, no se genera")
             resumen.append((etapa, 0, None, "todavía sin palabras"))
@@ -472,6 +529,12 @@ def main():
               f"({salida.stat().st_size/1024/1024:.2f} MB)")
     if not EMBED:
         print("índice ->", generar_indice(resumen).name)
+
+    huerfanas = set(correcciones) - usadas_total
+    for clave in sorted(huerfanas):
+        avisos.append(f"{clave}: no existe esa palabra en ese curso, corrección sin aplicar")
+    for a in avisos:
+        print("  AVISO:", a)
 
 
 if __name__ == "__main__":
