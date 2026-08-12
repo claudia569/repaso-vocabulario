@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repaso de vocabulario · Primaria</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --azul:#1268b3; --cian:#00b0f0; --verde:#00a94f; --verdeclaro:#92d050;
+  --rojo:#e8112d; --rojoosc:#b00020; --ambar:#f5a800;
+  --gris:#f1f2f4; --borde:#d8dbe0; --texto:#22262b;
+}
+html,body{margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;color:var(--texto);
+     background:#e9ecef;display:flex;min-height:100vh}
+
+/* ---------- índice lateral ---------- */
+#indice{width:270px;flex:0 0 270px;background:#fff;border-right:1px solid var(--borde);
+        display:flex;flex-direction:column;height:100vh;position:sticky;top:0}
+#indice h1{font-size:17px;margin:0;padding:16px 16px 10px;line-height:1.25}
+#indice h1 small{display:block;font-weight:400;font-size:12px;color:#6b7280;margin-top:3px}
+#buscar{margin:0 16px 10px;padding:8px 10px;border:1px solid var(--borde);
+        border-radius:8px;font-size:14px;width:calc(100% - 32px)}
+#lista{overflow-y:auto;flex:1;padding-bottom:24px}
+.grupo{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+       color:#6b7280;background:#f6f7f9;padding:7px 16px;position:sticky;top:0;
+       border-top:1px solid var(--borde);border-bottom:1px solid var(--borde)}
+.item{display:flex;justify-content:space-between;gap:8px;align-items:baseline;
+      padding:8px 16px;cursor:pointer;font-size:14px;border-bottom:1px solid #f0f1f3}
+.item:hover{background:#eef5fc}
+.item.activo{background:var(--azul);color:#fff}
+.item .u{font-size:11px;color:#9ca3af}
+.item.activo .u{color:#cfe3f7}
+
+/* ---------- ficha ---------- */
+#panel{flex:1;padding:22px 26px 40px;min-width:0}
+.cabecera{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+.cabecera .titulo{font-size:26px;font-weight:700;margin:0}
+.cabecera .meta{font-size:13px;color:#5b6472}
+.botones{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+button.acc{border:1px solid var(--borde);background:#fff;border-radius:8px;
+      padding:8px 13px;font-size:13px;cursor:pointer;font-family:inherit;color:var(--texto)}
+button.acc:hover{background:#f3f6f9}
+button.acc:disabled{opacity:.4;cursor:default}
+
+.ficha{display:grid;gap:10px;
+       grid-template-columns:1fr 1fr 1.05fr;
+       grid-template-areas:"fon fon esc" "def def dib" "sin ant fra"}
+.b-fon{grid-area:fon}.b-esc{grid-area:esc}.b-def{grid-area:def}
+.b-dib{grid-area:dib}.b-sin{grid-area:sin}.b-ant{grid-area:ant}.b-fra{grid-area:fra}
+
+.bloque{background:#fff;border:1px solid var(--borde);border-radius:10px;overflow:hidden;
+        display:flex;flex-direction:column;min-width:0;
+        box-shadow:0 1px 2px rgba(16,24,40,.05)}
+.bloque > h2{margin:0;font-size:14px;font-weight:700;letter-spacing:.02em;color:#fff;
+             padding:8px 12px;text-align:center}
+.b-fon>h2{background:var(--azul)}.b-esc>h2{background:var(--cian)}
+.b-def>h2{background:var(--verde)}.b-dib>h2{background:var(--verdeclaro)}
+.b-sin>h2{background:var(--rojo)}.b-ant>h2{background:var(--rojoosc)}
+.b-fra>h2{background:var(--ambar)}
+
+.cuerpo{position:relative;flex:1;min-height:132px;display:flex;align-items:center;
+        justify-content:center;padding:14px;background:var(--gris)}
+.contenido{width:100%;display:flex;align-items:center;justify-content:center;
+           flex-direction:column;gap:10px}
+.tapa{position:absolute;inset:0;background:var(--gris);display:flex;align-items:center;
+      justify-content:center;gap:9px;cursor:pointer;color:#7b8494;font-size:14px;
+      font-weight:600;user-select:none;transition:background .15s}
+.tapa:hover{background:#e6e9ee;color:#4b5563}
+.tapa svg{width:19px;height:19px;flex:0 0 19px}
+.bloque.abierto .tapa{display:none}
+.bloque.abierto .cuerpo{cursor:pointer}
+
+/* contenidos concretos */
+.fonemas{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.fonemas img{height:78px;width:auto;border-radius:5px}
+.silabas{display:flex;gap:7px;flex-wrap:wrap;justify-content:center;margin-top:2px}
+.silabas span{background:#fff;border:1px solid var(--borde);border-radius:7px;
+              padding:4px 11px;font-size:15px;font-weight:600}
+.palabra{font-size:34px;font-weight:700;letter-spacing:.01em;text-align:center;
+         line-height:1.15;word-break:break-word}
+.definicion{font-size:19px;line-height:1.45;text-align:center;max-width:64ch}
+.frase{font-size:18px;line-height:1.45;text-align:center}
+.ilustra{max-width:100%;max-height:210px;border-radius:8px;display:block}
+.b-fra .ilustra{max-height:150px}
+.lista-sa{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;width:100%}
+.sa{display:flex;flex-direction:column;align-items:center;gap:5px;width:92px}
+.sa img{width:74px;height:74px;object-fit:contain;background:#fff;border-radius:7px;
+        border:1px solid var(--borde)}
+.sa span{font-size:13px;font-weight:700;text-align:center;line-height:1.15;
+         word-break:break-word}
+.altavoz{border:none;background:transparent;cursor:pointer;font-size:20px;padding:2px 6px;
+         line-height:1;opacity:.55}
+.altavoz:hover{opacity:1}
+.vacio{color:#9aa2ad;font-size:14px;font-style:italic}
+.creditos{margin-top:18px;font-size:12px;color:#79828f;line-height:1.5;max-width:80ch}
+.creditos a{color:#5b6472}
+
+@media (max-width:1100px){
+  .ficha{grid-template-columns:1fr 1fr;
+         grid-template-areas:"fon fon" "esc dib" "def def" "sin ant" "fra fra"}
+}
+@media (max-width:760px){
+  body{flex-direction:column}
+  #indice{width:100%;flex:none;height:auto;position:static;border-right:none;
+          border-bottom:1px solid var(--borde)}
+  #lista{max-height:230px}
+  .ficha{grid-template-columns:1fr;
+         grid-template-areas:"fon" "esc" "def" "dib" "sin" "ant" "fra"}
+  #panel{padding:16px}
+  .cabecera .titulo{font-size:22px}
+  .botones{margin-left:0;width:100%}
+  .botones button.acc{flex:1 1 auto}
+  .palabra{font-size:28px}
+  .definicion{font-size:17px}
+}
+</style>
+</head>
+<body>
+<aside id="indice">
+  <h1>Repaso de vocabulario<small>Primaria · 30 palabras</small></h1>
+  <input id="buscar" type="search" placeholder="Buscar palabra o unidad…" autocomplete="off">
+  <div id="lista"></div>
+</aside>
+
+<main id="panel">
+  <div class="cabecera">
+    <h2 class="titulo" id="titulo"></h2>
+    <span class="meta" id="meta"></span>
+    <div class="botones">
+      <button class="acc" id="prev">← Anterior</button>
+      <button class="acc" id="next">Siguiente →</button>
+      <button class="acc" id="abrir">Destapar todo</button>
+      <button class="acc" id="cerrar">Tapar todo</button>
+    </div>
+  </div>
+  <div class="ficha" id="ficha"></div>
+  <p class="creditos">
+    Pictogramas de <strong>ARASAAC</strong> — autor Sergio Palao, propiedad del
+    Gobierno de Aragón, licencia
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="noopener">CC BY-NC-SA</a>.
+    Articulemas y contenidos didácticos: material propio del centro.
+  </p>
+</main>
+
+<script>const FICHAS=[{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U1","palabra":"INFERIOR","fonemas":[{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"F","src":"assets/articulemas/_F_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["IN","FE","RIOR"],"definicion":"INFERIOR 👇 SIGNIFICA QUE ALGO ESTÁ EN LA PARTE DE ABAJO.","dibujo":"assets/img/1EP/1EP_U1_INFERIOR_dibujo.webp","frase":"LA CAJA INFERIOR GUARDA ROPA 👕","fraseImg":"assets/img/1EP/1EP_U1_INFERIOR_frase.webp","sinonimos":[{"texto":"BAJO","src":"assets/img/1EP/1EP_U1_INFERIOR_sin1.webp"},{"texto":"ABAJO","src":"assets/img/1EP/1EP_U1_INFERIOR_sin2.webp"},{"texto":"DEBAJO","src":"assets/img/1EP/1EP_U1_INFERIOR_sin3.webp"}],"antonimos":[{"texto":"ALTO","src":"assets/img/1EP/1EP_U1_INFERIOR_ant1.webp"},{"texto":"ARRIBA","src":"assets/img/1EP/1EP_U1_INFERIOR_ant2.webp"},{"texto":"ENCIMA","src":"assets/img/1EP/1EP_U1_INFERIOR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U1","palabra":"PRÓXIMO","fonemas":[{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"X","src":"assets/articulemas/_X_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["PRO","XI","MO"],"definicion":"PRÓXIMO 👇 SIGNIFICA QUE ALGO ESTÁ MUY CERCA DE OTRA COSA.","dibujo":"assets/img/1EP/1EP_U1_PROXIMO_dibujo.webp","frase":"EL AUTOBÚS ESTÁ PRÓXIMO 🚌","fraseImg":"assets/img/1EP/1EP_U1_PROXIMO_frase.webp","sinonimos":[{"texto":"CERCANO","src":"assets/img/1EP/1EP_U1_PROXIMO_sin1.webp"},{"texto":"CERCA","src":"assets/img/1EP/1EP_U1_PROXIMO_sin2.webp"},{"texto":"VECINO","src":"assets/img/1EP/1EP_U1_PROXIMO_sin3.webp"}],"antonimos":[{"texto":"LEJANO","src":"assets/img/1EP/1EP_U1_PROXIMO_ant1.webp"},{"texto":"LEJOS","src":"assets/img/1EP/1EP_U1_PROXIMO_ant2.webp"},{"texto":"DISTANTE","src":"assets/img/1EP/1EP_U1_PROXIMO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U1","palabra":"SUPERIOR","fonemas":[{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["SU","PE","RIOR"],"definicion":"SUPERIOR 👇 SIGNIFICA QUE ALGO ESTÁ EN LA PARTE DE ARRIBA.","dibujo":"assets/img/1EP/1EP_U1_SUPERIOR_dibujo.webp","frase":"LA ANTENA SUPERIOR CAPTA LA SEÑAL 📡","fraseImg":"assets/img/1EP/1EP_U1_SUPERIOR_frase.webp","sinonimos":[{"texto":"ALTO","src":"assets/img/1EP/1EP_U1_SUPERIOR_sin1.webp"},{"texto":"ARRIBA","src":"assets/img/1EP/1EP_U1_SUPERIOR_sin2.webp"},{"texto":"ENCIMA","src":"assets/img/1EP/1EP_U1_SUPERIOR_sin3.webp"}],"antonimos":[{"texto":"BAJO","src":"assets/img/1EP/1EP_U1_SUPERIOR_ant1.webp"},{"texto":"ABAJO","src":"assets/img/1EP/1EP_U1_SUPERIOR_ant2.webp"},{"texto":"DEBAJO","src":"assets/img/1EP/1EP_U1_SUPERIOR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U2","palabra":"FUTURO","fonemas":[{"letra":"F","src":"assets/articulemas/_F_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["FU","TU","RO"],"definicion":"FUTURO 👇 SIGNIFICA UN TIEMPO QUE TODAVÍA NO HA LLEGADO.","dibujo":"assets/img/1EP/1EP_U2_FUTURO_dibujo.webp","frase":"LA ESCUELA DEL FUTURO TIENE ROBOTS 🏫.","fraseImg":"assets/img/1EP/1EP_U2_FUTURO_frase.webp","sinonimos":[{"texto":"MAÑANA","src":"assets/img/1EP/1EP_U2_FUTURO_sin1.webp"},{"texto":"DESPUÉS","src":"assets/img/1EP/1EP_U2_FUTURO_sin2.webp"},{"texto":"SIGUIENTE","src":"assets/img/1EP/1EP_U2_FUTURO_sin3.webp"}],"antonimos":[{"texto":"PASADO","src":"assets/img/1EP/1EP_U2_FUTURO_ant1.webp"},{"texto":"PRESENTE","src":"assets/img/1EP/1EP_U2_FUTURO_ant2.webp"},{"texto":"AYER","src":"assets/img/1EP/1EP_U2_FUTURO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U2","palabra":"PASADO","fonemas":[{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["PA","SA","DO"],"definicion":"PASADO 👇 SIGNIFICA UN TIEMPO QUE YA PASÓ Y TERMINÓ.","dibujo":"assets/img/1EP/1EP_U2_PASADO_dibujo.webp","frase":"EL MUSEO GUARDA EL PASADO 🏛.","fraseImg":"assets/img/1EP/1EP_U2_PASADO_frase.webp","sinonimos":[{"texto":"ANTES","src":"assets/img/1EP/1EP_U2_PASADO_sin1.webp"},{"texto":"ANTIGUO","src":"assets/img/1EP/1EP_U2_PASADO_sin2.webp"},{"texto":"AYER","src":"assets/img/1EP/1EP_U2_PASADO_sin3.webp"}],"antonimos":[{"texto":"PRESENTE","src":"assets/img/1EP/1EP_U2_PASADO_ant1.webp"},{"texto":"FUTURO","src":"assets/img/1EP/1EP_U2_PASADO_ant2.webp"},{"texto":"MAÑANA","src":"assets/img/1EP/1EP_U2_PASADO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U2","palabra":"PRESENTE","fonemas":[{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"}],"silabas":["PRE","SEN","TE"],"definicion":"PRESENTE 👇 SIGNIFICA EL MOMENTO QUE VIVES AHORA MISMO.","dibujo":"assets/img/1EP/1EP_U2_PRESENTE_dibujo.webp","frase":"LA SEMANA PRESENTE TIENE CINCO CLASES 🏫.","fraseImg":"assets/img/1EP/1EP_U2_PRESENTE_frase.webp","sinonimos":[{"texto":"AHORA","src":"assets/img/1EP/1EP_U2_PRESENTE_sin1.webp"},{"texto":"MOMENTO","src":"assets/img/1EP/1EP_U2_PRESENTE_sin2.webp"},{"texto":"HOY","src":"assets/img/1EP/1EP_U2_PRESENTE_sin3.webp"}],"antonimos":[{"texto":"PASADO","src":"assets/img/1EP/1EP_U2_PRESENTE_ant1.webp"},{"texto":"FUTURO","src":"assets/img/1EP/1EP_U2_PRESENTE_ant2.webp"},{"texto":"AYER","src":"assets/img/1EP/1EP_U2_PRESENTE_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U3","palabra":"AÑADIR","fonemas":[{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"Ñ","src":""},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["A","ÑA","DIR"],"definicion":"AÑADIR ➕ SIGNIFICA PONER ALGO MÁS A LO QUE YA HAY.","dibujo":"assets/img/1EP/1EP_U3_ANADIR_dibujo.webp","frase":"EL JARDINERO AÑADE AGUA A LAS PLANTAS 💧.","fraseImg":"assets/img/1EP/1EP_U3_ANADIR_frase.webp","sinonimos":[{"texto":"SUMAR","src":"assets/img/1EP/1EP_U3_ANADIR_sin1.webp"},{"texto":"PONER","src":"assets/img/1EP/1EP_U3_ANADIR_sin2.webp"},{"texto":"AGREGAR","src":"assets/img/1EP/1EP_U3_ANADIR_sin3.webp"}],"antonimos":[{"texto":"QUITAR","src":"assets/img/1EP/1EP_U3_ANADIR_ant1.webp"},{"texto":"RESTAR","src":"assets/img/1EP/1EP_U3_ANADIR_ant2.webp"},{"texto":"SACAR","src":"assets/img/1EP/1EP_U3_ANADIR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U3","palabra":"DEMASIADO","fonemas":[{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["DE","MA","SIA","DO"],"definicion":"DEMASIADO ⚠ SIGNIFICA MÁS DE LO QUE HACE FALTA O SE PUEDE.","dibujo":"assets/img/1EP/1EP_U3_DEMASIADO_dibujo.webp","frase":"EL ARMARIO TIENE DEMASIADA ROPA 👕.","fraseImg":"assets/img/1EP/1EP_U3_DEMASIADO_frase.webp","sinonimos":[{"texto":"EXCESIVO","src":"assets/img/1EP/1EP_U3_DEMASIADO_sin1.webp"},{"texto":"MUCHÍSIMO","src":"assets/img/1EP/1EP_U3_DEMASIADO_sin2.webp"},{"texto":"MUCHO","src":"assets/img/1EP/1EP_U3_DEMASIADO_sin3.webp"}],"antonimos":[{"texto":"POCO","src":"assets/img/1EP/1EP_U3_DEMASIADO_ant1.webp"},{"texto":"NADA","src":"assets/img/1EP/1EP_U3_DEMASIADO_ant2.webp"},{"texto":"VACÍO","src":"assets/img/1EP/1EP_U3_DEMASIADO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U3","palabra":"QUITAR","fonemas":[{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["QUI","TAR"],"definicion":"QUITAR ➖ SIGNIFICA SACAR ALGO DE UN LUGAR O UNA COSA.","dibujo":"assets/img/1EP/1EP_U3_QUITAR_dibujo.webp","frase":"EL MAGO QUITA SU SOMBRERO PARA SALUDAR 🎩.","fraseImg":"assets/img/1EP/1EP_U3_QUITAR_frase.webp","sinonimos":[{"texto":"SACAR","src":"assets/img/1EP/1EP_U3_QUITAR_sin1.webp"},{"texto":"EXTRAER","src":"assets/img/1EP/1EP_U3_QUITAR_sin2.webp"},{"texto":"SEPARAR","src":"assets/img/1EP/1EP_U3_QUITAR_sin3.webp"}],"antonimos":[{"texto":"AÑADIR","src":"assets/img/1EP/1EP_U3_QUITAR_ant1.webp"},{"texto":"PONER","src":"assets/img/1EP/1EP_U3_QUITAR_ant2.webp"},{"texto":"METER","src":"assets/img/1EP/1EP_U3_QUITAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U4","palabra":"EXPRESAR","fonemas":[{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"X","src":"assets/articulemas/_X_.webp"},{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["EX","PRE","SAR"],"definicion":"EXPRESAR 👉 SIGNIFICA DECIR O MOSTRAR LO QUE PIENSAS O SIENTES.","dibujo":"assets/img/1EP/1EP_U4_EXPRESAR_dibujo.webp","frase":"EL PINTOR EXPRESA SUS EMOCIONES EN EL CUADRO 🎨.","fraseImg":"assets/img/1EP/1EP_U4_EXPRESAR_frase.webp","sinonimos":[{"texto":"MOSTRAR","src":"assets/img/1EP/1EP_U4_EXPRESAR_sin1.webp"},{"texto":"COMUNICAR","src":"assets/img/1EP/1EP_U4_EXPRESAR_sin2.webp"},{"texto":"EXPONER","src":"assets/img/1EP/1EP_U4_EXPRESAR_sin3.webp"}],"antonimos":[{"texto":"CALLAR","src":"assets/img/1EP/1EP_U4_EXPRESAR_ant1.webp"},{"texto":"TAPAR","src":"assets/img/1EP/1EP_U4_EXPRESAR_ant2.webp"},{"texto":"ESCONDER","src":"assets/img/1EP/1EP_U4_EXPRESAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U4","palabra":"NEGAR","fonemas":[{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"GU","src":"assets/articulemas/_GU_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["NE","GAR"],"definicion":"NEGAR 👉 SIGNIFICA DECIR QUE NO A ALGO QUE TE PIDEN.","dibujo":"assets/img/1EP/1EP_U4_NEGAR_dibujo.webp","frase":"EL REY NIEGA EL PERMISO PARA CONSTRUIR EL PUENTE 👑.","fraseImg":"assets/img/1EP/1EP_U4_NEGAR_frase.webp","sinonimos":[{"texto":"RECHAZAR","src":"assets/img/1EP/1EP_U4_NEGAR_sin1.webp"},{"texto":"DENEGAR","src":"assets/img/1EP/1EP_U4_NEGAR_sin2.webp"},{"texto":"PROHIBIR","src":"assets/img/1EP/1EP_U4_NEGAR_sin3.webp"}],"antonimos":[{"texto":"ACEPTAR","src":"assets/img/1EP/1EP_U4_NEGAR_ant1.webp"},{"texto":"CONCEDER","src":"assets/img/1EP/1EP_U4_NEGAR_ant2.webp"},{"texto":"AFIRMAR","src":"assets/img/1EP/1EP_U4_NEGAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U4","palabra":"OPINAR","fonemas":[{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["O","PI","NAR"],"definicion":"OPINAR 👉 SIGNIFICA DECIR LO QUE PIENSAS SOBRE ALGO.","dibujo":"assets/img/1EP/1EP_U4_OPINAR_dibujo.webp","frase":"EL PERIODISTA OPINA SOBRE LAS NOTICIAS 📰.","fraseImg":"assets/img/1EP/1EP_U4_OPINAR_frase.webp","sinonimos":[{"texto":"PENSAR","src":"assets/img/1EP/1EP_U4_OPINAR_sin1.webp"},{"texto":"CONSIDERAR","src":"assets/img/1EP/1EP_U4_OPINAR_sin2.webp"},{"texto":"DECIR","src":"assets/img/1EP/1EP_U4_OPINAR_sin3.webp"}],"antonimos":[{"texto":"CALLAR","src":"assets/img/1EP/1EP_U4_OPINAR_ant1.webp"},{"texto":"DUDAR","src":"assets/img/1EP/1EP_U4_OPINAR_ant2.webp"},{"texto":"IGNORAR","src":"assets/img/1EP/1EP_U4_OPINAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U5","palabra":"NOMBRAR","fonemas":[{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"BV","src":"assets/articulemas/_BV_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["NOM","BRAR"],"definicion":"NOMBRAR 👉 SIGNIFICA DECIR EL NOMBRE DE UNA PERSONA O COSA.","dibujo":"assets/img/1EP/1EP_U5_NOMBRAR_dibujo.webp","frase":"EL JUEZ NOMBRA AL GANADOR DEL TROFEO 🏆.","fraseImg":"assets/img/1EP/1EP_U5_NOMBRAR_frase.webp","sinonimos":[{"texto":"LLAMAR","src":"assets/img/1EP/1EP_U5_NOMBRAR_sin1.webp"},{"texto":"ETIQUETAR","src":"assets/img/1EP/1EP_U5_NOMBRAR_sin2.webp"},{"texto":"APUNTAR","src":"assets/img/1EP/1EP_U5_NOMBRAR_sin3.webp"}],"antonimos":[{"texto":"OLVIDAR","src":"assets/img/1EP/1EP_U5_NOMBRAR_ant1.webp"},{"texto":"OMITIR","src":"assets/img/1EP/1EP_U5_NOMBRAR_ant2.webp"},{"texto":"CALLAR","src":"assets/img/1EP/1EP_U5_NOMBRAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U5","palabra":"RELACIONAR","fonemas":[{"letra":"RR","src":"assets/articulemas/_RR_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"CZ","src":"assets/articulemas/_CZ_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["RE","LA","CIO","NAR"],"definicion":"RELACIONAR 👉 SIGNIFICA ENCONTRAR LA UNIÓN ENTRE DOS COSAS O IDEAS.","dibujo":"assets/img/1EP/1EP_U5_RELACIONAR_dibujo.webp","frase":"EL PROFESOR RELACIONA LOS DIBUJOS CON SUS NOMBRES 🖍.","fraseImg":"assets/img/1EP/1EP_U5_RELACIONAR_frase.webp","sinonimos":[{"texto":"UNIR","src":"assets/img/1EP/1EP_U5_RELACIONAR_sin1.webp"},{"texto":"ASOCIAR","src":"assets/img/1EP/1EP_U5_RELACIONAR_sin2.webp"},{"texto":"JUNTAR","src":"assets/img/1EP/1EP_U5_RELACIONAR_sin3.webp"}],"antonimos":[{"texto":"SEPARAR","src":"assets/img/1EP/1EP_U5_RELACIONAR_ant1.webp"},{"texto":"DESCONECTAR","src":"assets/img/1EP/1EP_U5_RELACIONAR_ant2.webp"},{"texto":"AISLAR","src":"assets/img/1EP/1EP_U5_RELACIONAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U5","palabra":"SEÑALAR","fonemas":[{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"Ñ","src":""},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["SE","ÑA","LAR"],"definicion":"SEÑALAR 👉 SIGNIFICA INDICAR CON EL DEDO DÓNDE ESTÁ ALGO.","dibujo":"assets/img/1EP/1EP_U5_SENALAR_dibujo.webp","frase":"EL GUÍA SEÑALA EL CAMINO EN LA MONTAÑA ⛰.","fraseImg":"assets/img/1EP/1EP_U5_SENALAR_frase.webp","sinonimos":[{"texto":"INDICAR","src":"assets/img/1EP/1EP_U5_SENALAR_sin1.webp"},{"texto":"MARCAR","src":"assets/img/1EP/1EP_U5_SENALAR_sin2.webp"},{"texto":"APUNTAR","src":"assets/img/1EP/1EP_U5_SENALAR_sin3.webp"}],"antonimos":[{"texto":"ESCONDER","src":"assets/img/1EP/1EP_U5_SENALAR_ant1.webp"},{"texto":"IGNORAR","src":"assets/img/1EP/1EP_U5_SENALAR_ant2.webp"},{"texto":"TAPAR","src":"assets/img/1EP/1EP_U5_SENALAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U6","palabra":"DIMINUTO","fonemas":[{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["DI","MI","NU","TO"],"definicion":"DIMINUTO 👉 SIGNIFICA MUY MUY PEQUEÑO, CASI NO SE PUEDE VER.","dibujo":"assets/img/1EP/1EP_U6_DIMINUTO_dibujo.webp","frase":"EL MOSQUITO ES DIMINUTO PERO MUY RÁPIDO 💨.","fraseImg":"assets/img/1EP/1EP_U6_DIMINUTO_frase.webp","sinonimos":[{"texto":"PEQUEÑO","src":"assets/img/1EP/1EP_U6_DIMINUTO_sin1.webp"},{"texto":"MINÚSCULO","src":"assets/img/1EP/1EP_U6_DIMINUTO_sin2.webp"},{"texto":"MENOR","src":"assets/img/1EP/1EP_U6_DIMINUTO_sin3.webp"}],"antonimos":[{"texto":"GRANDE","src":"assets/img/1EP/1EP_U6_DIMINUTO_ant1.webp"},{"texto":"GIGANTE","src":"assets/img/1EP/1EP_U6_DIMINUTO_ant2.webp"},{"texto":"MAYOR","src":"assets/img/1EP/1EP_U6_DIMINUTO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U6","palabra":"GIGANTESCO","fonemas":[{"letra":"GJ","src":"assets/articulemas/_GJ_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"GU","src":"assets/articulemas/_GU_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["GI","GAN","TES","CO"],"definicion":"GIGANTESCO 👉 SIGNIFICA MUY MUY GRANDE, MUCHO MÁS GRANDE DE LO NORMAL.","dibujo":"assets/img/1EP/1EP_U6_GIGANTESCO_dibujo.webp","frase":"EL DINOSAURIO ES GIGANTESCO Y CAMINA DESPACIO 🦕.","fraseImg":"assets/img/1EP/1EP_U6_GIGANTESCO_frase.webp","sinonimos":[{"texto":"GRANDE","src":"assets/img/1EP/1EP_U6_GIGANTESCO_sin1.webp"},{"texto":"ENORME","src":"assets/img/1EP/1EP_U6_GIGANTESCO_sin2.webp"},{"texto":"GIGANTE","src":"assets/img/1EP/1EP_U6_GIGANTESCO_sin3.webp"}],"antonimos":[{"texto":"DIMINUTO","src":"assets/img/1EP/1EP_U6_GIGANTESCO_ant1.webp"},{"texto":"PEQUEÑO","src":"assets/img/1EP/1EP_U6_GIGANTESCO_ant2.webp"},{"texto":"MINÚSCULO","src":"assets/img/1EP/1EP_U6_GIGANTESCO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U6","palabra":"LIGERO","fonemas":[{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"GJ","src":"assets/articulemas/_GJ_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["LI","GE","RO"],"definicion":"LIGERO 👉 SIGNIFICA QUE PESA MUY POCO, FÁCIL DE LEVANTAR.","dibujo":"assets/img/1EP/1EP_U6_LIGERO_dibujo.webp","frase":"LA HOJA ES LIGERA Y CAE DESPACIO DEL ÁRBOL 🍂.","fraseImg":"assets/img/1EP/1EP_U6_LIGERO_frase.webp","sinonimos":[{"texto":"LIVIANO","src":"assets/img/1EP/1EP_U6_LIGERO_sin1.webp"},{"texto":"LEVE","src":"assets/img/1EP/1EP_U6_LIGERO_sin2.webp"},{"texto":"SUAVE","src":"assets/img/1EP/1EP_U6_LIGERO_sin3.webp"}],"antonimos":[{"texto":"PESADO","src":"assets/img/1EP/1EP_U6_LIGERO_ant1.webp"},{"texto":"GRANDE","src":"assets/img/1EP/1EP_U6_LIGERO_ant2.webp"},{"texto":"FUERTE","src":"assets/img/1EP/1EP_U6_LIGERO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U7","palabra":"ILUSIÓN","fonemas":[{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"}],"silabas":["I","LU","SIÓN"],"definicion":"ILUSIÓN 👉 SIGNIFICA TENER MUCHAS GANAS DE QUE ALGO BONITO PASE.","dibujo":"assets/img/1EP/1EP_U7_ILUSION_dibujo.webp","frase":"LA FAMILIA SIENTE ILUSIÓN POR EL VIAJE DE VERANO ✈.","fraseImg":"assets/img/1EP/1EP_U7_ILUSION_frase.webp","sinonimos":[{"texto":"ESPERANZA","src":"assets/img/1EP/1EP_U7_ILUSION_sin1.webp"},{"texto":"DESEO","src":"assets/img/1EP/1EP_U7_ILUSION_sin2.webp"},{"texto":"ANHELO","src":"assets/img/1EP/1EP_U7_ILUSION_sin3.webp"}],"antonimos":[{"texto":"TRISTEZA","src":"assets/img/1EP/1EP_U7_ILUSION_ant1.webp"},{"texto":"ABURRIMIENTO","src":"assets/img/1EP/1EP_U7_ILUSION_ant2.webp"},{"texto":"MIEDO","src":"assets/img/1EP/1EP_U7_ILUSION_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U7","palabra":"INQUIETO","fonemas":[{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"}],"silabas":["IN","QUIE","TO"],"definicion":"INQUIETO 👉 SIGNIFICA QUE NO PUEDE ESTAR QUIETO NI TRANQUILO.","dibujo":"assets/img/1EP/1EP_U7_INQUIETO_dibujo.webp","frase":"EL PERRO ESTÁ INQUIETO CUANDO OYE LA TORMENTA 🌩.","fraseImg":"assets/img/1EP/1EP_U7_INQUIETO_frase.webp","sinonimos":[{"texto":"NERVIOSO","src":"assets/img/1EP/1EP_U7_INQUIETO_sin1.webp"},{"texto":"AGITADO","src":"assets/img/1EP/1EP_U7_INQUIETO_sin2.webp"},{"texto":"MIEDOSO","src":"assets/img/1EP/1EP_U7_INQUIETO_sin3.webp"}],"antonimos":[{"texto":"TRANQUILO","src":"assets/img/1EP/1EP_U7_INQUIETO_ant1.webp"},{"texto":"SERENO","src":"assets/img/1EP/1EP_U7_INQUIETO_ant2.webp"},{"texto":"CONTENTO","src":"assets/img/1EP/1EP_U7_INQUIETO_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U7","palabra":"TEMOR","fonemas":[{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["TE","MOR"],"definicion":"TEMOR 👉 SIGNIFICA SENTIR MIEDO DE ALGO QUE PUEDE PASAR.","dibujo":"assets/img/1EP/1EP_U7_TEMOR_dibujo.webp","frase":"EL GATO TIENE TEMOR AL PERRO GRANDE 🐈.","fraseImg":"assets/img/1EP/1EP_U7_TEMOR_frase.webp","sinonimos":[{"texto":"MIEDO","src":"assets/img/1EP/1EP_U7_TEMOR_sin1.webp"},{"texto":"SUSTO","src":"assets/img/1EP/1EP_U7_TEMOR_sin2.webp"},{"texto":"PAVOR","src":"assets/img/1EP/1EP_U7_TEMOR_sin3.webp"}],"antonimos":[{"texto":"VALIENTE","src":"assets/img/1EP/1EP_U7_TEMOR_ant1.webp"},{"texto":"TRANQUILO","src":"assets/img/1EP/1EP_U7_TEMOR_ant2.webp"},{"texto":"CONTENTO","src":"assets/img/1EP/1EP_U7_TEMOR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U8","palabra":"DISEÑAR","fonemas":[{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"Ñ","src":""},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["DI","SE","ÑAR"],"definicion":"DISEÑAR 👉 SIGNIFICA CREAR ALGO NUEVO CON UN DIBUJO O UN PLAN.","dibujo":"assets/img/1EP/1EP_U8_DISENAR_dibujo.webp","frase":"EL ARQUITECTO DISEÑA UNA CASA MUY MODERNA 🏠.","fraseImg":"assets/img/1EP/1EP_U8_DISENAR_frase.webp","sinonimos":[{"texto":"CREAR","src":"assets/img/1EP/1EP_U8_DISENAR_sin1.webp"},{"texto":"INVENTAR","src":"assets/img/1EP/1EP_U8_DISENAR_sin2.webp"},{"texto":"DIBUJAR","src":"assets/img/1EP/1EP_U8_DISENAR_sin3.webp"}],"antonimos":[{"texto":"COPIAR","src":"assets/img/1EP/1EP_U8_DISENAR_ant1.webp"},{"texto":"BORRAR","src":"assets/img/1EP/1EP_U8_DISENAR_ant2.webp"},{"texto":"IGNORAR","src":"assets/img/1EP/1EP_U8_DISENAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U8","palabra":"EMOCIONAR","fonemas":[{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"M","src":"assets/articulemas/_M_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"CZ","src":"assets/articulemas/_CZ_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["E","MO","CIO","NAR"],"definicion":"EMOCIONAR 👉 SIGNIFICA HACER SENTIR ALEGRÍA O TERNURA A ALGUIEN.","dibujo":"assets/img/1EP/1EP_U8_EMOCIONAR_dibujo.webp","frase":"LA CARTA EMOCIONA A LA ABUELA CUANDO LA LEE 💌.","fraseImg":"assets/img/1EP/1EP_U8_EMOCIONAR_frase.webp","sinonimos":[{"texto":"IMPRESIONAR","src":"assets/img/1EP/1EP_U8_EMOCIONAR_sin1.webp"},{"texto":"ILUSIONAR","src":"assets/img/1EP/1EP_U8_EMOCIONAR_sin2.webp"},{"texto":"CONMOVER","src":"assets/img/1EP/1EP_U8_EMOCIONAR_sin3.webp"}],"antonimos":[{"texto":"ABURRIR","src":"assets/img/1EP/1EP_U8_EMOCIONAR_ant1.webp"},{"texto":"IGNORAR","src":"assets/img/1EP/1EP_U8_EMOCIONAR_ant2.webp"},{"texto":"CALLAR","src":"assets/img/1EP/1EP_U8_EMOCIONAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U8","palabra":"REDACTAR","fonemas":[{"letra":"RR","src":"assets/articulemas/_RR_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["RE","DAC","TAR"],"definicion":"REDACTAR 👉 SIGNIFICA ESCRIBIR UN TEXTO CON ORDEN Y SENTIDO.","dibujo":"assets/img/1EP/1EP_U8_REDACTAR_dibujo.webp","frase":"EL ESCRITOR REDACTA UN CUENTO MUY BONITO 📖.","fraseImg":"assets/img/1EP/1EP_U8_REDACTAR_frase.webp","sinonimos":[{"texto":"ESCRIBIR","src":"assets/img/1EP/1EP_U8_REDACTAR_sin1.webp"},{"texto":"COMPONER","src":"assets/img/1EP/1EP_U8_REDACTAR_sin2.webp"},{"texto":"APUNTAR","src":"assets/img/1EP/1EP_U8_REDACTAR_sin3.webp"}],"antonimos":[{"texto":"BORRAR","src":"assets/img/1EP/1EP_U8_REDACTAR_ant1.webp"},{"texto":"COPIAR","src":"assets/img/1EP/1EP_U8_REDACTAR_ant2.webp"},{"texto":"CALLAR","src":"assets/img/1EP/1EP_U8_REDACTAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U9","palabra":"ARRANCAR","fonemas":[{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"RR","src":"assets/articulemas/_RR_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["A","RRAN","CAR"],"definicion":"ARRANCAR 👉 SIGNIFICA SACAR ALGO DE RAÍZ TIRANDO CON FUERZA.","dibujo":"assets/img/1EP/1EP_U9_ARRANCAR_dibujo.webp","frase":"EL DENTISTA ARRANCA UNA MUELA AL PACIENTE 🦷.","fraseImg":"assets/img/1EP/1EP_U9_ARRANCAR_frase.webp","sinonimos":[{"texto":"SACAR","src":"assets/img/1EP/1EP_U9_ARRANCAR_sin1.webp"},{"texto":"QUITAR","src":"assets/img/1EP/1EP_U9_ARRANCAR_sin2.webp"},{"texto":"EXTRAER","src":"assets/img/1EP/1EP_U9_ARRANCAR_sin3.webp"}],"antonimos":[{"texto":"PLANTAR","src":"assets/img/1EP/1EP_U9_ARRANCAR_ant1.webp"},{"texto":"SEMBRAR","src":"assets/img/1EP/1EP_U9_ARRANCAR_ant2.webp"},{"texto":"COLOCAR","src":"assets/img/1EP/1EP_U9_ARRANCAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U9","palabra":"ARROJAR","fonemas":[{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"RR","src":"assets/articulemas/_RR_.webp"},{"letra":"O","src":"assets/articulemas/_O_.webp"},{"letra":"GJ","src":"assets/articulemas/_GJ_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["A","RRO","JAR"],"definicion":"ARROJAR 👉 SIGNIFICA LANZAR ALGO CON FUERZA HACIA UN LUGAR.","dibujo":"assets/img/1EP/1EP_U9_ARROJAR_dibujo.webp","frase":"EL PESCADOR ARROJA LA RED AL MAR 🌊.","fraseImg":"assets/img/1EP/1EP_U9_ARROJAR_frase.webp","sinonimos":[{"texto":"LANZAR","src":"assets/img/1EP/1EP_U9_ARROJAR_sin1.webp"},{"texto":"TIRAR","src":"assets/img/1EP/1EP_U9_ARROJAR_sin2.webp"},{"texto":"ECHAR","src":"assets/img/1EP/1EP_U9_ARROJAR_sin3.webp"}],"antonimos":[{"texto":"ATRAPAR","src":"assets/img/1EP/1EP_U9_ARROJAR_ant1.webp"},{"texto":"COGER","src":"assets/img/1EP/1EP_U9_ARROJAR_ant2.webp"},{"texto":"RECOGER","src":"assets/img/1EP/1EP_U9_ARROJAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U9","palabra":"DESPLAZAR","fonemas":[{"letra":"D","src":"assets/articulemas/_D_.webp"},{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"P","src":"assets/articulemas/_P_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"CZ","src":"assets/articulemas/_CZ_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["DES","PLA","ZAR"],"definicion":"DESPLAZAR 👉 SIGNIFICA MOVER ALGO DE UN SITIO A OTRO.","dibujo":"assets/img/1EP/1EP_U9_DESPLAZAR_dibujo.webp","frase":"LA GRÚA DESPLAZA EL COCHE AVERIADO 🚗.","fraseImg":"assets/img/1EP/1EP_U9_DESPLAZAR_frase.webp","sinonimos":[{"texto":"MOVER","src":"assets/img/1EP/1EP_U9_DESPLAZAR_sin1.webp"},{"texto":"TRASLADAR","src":"assets/img/1EP/1EP_U9_DESPLAZAR_sin2.webp"},{"texto":"CAMBIAR","src":"assets/img/1EP/1EP_U9_DESPLAZAR_sin3.webp"}],"antonimos":[{"texto":"PARAR","src":"assets/img/1EP/1EP_U9_DESPLAZAR_ant1.webp"},{"texto":"DETENER","src":"assets/img/1EP/1EP_U9_DESPLAZAR_ant2.webp"},{"texto":"DEJAR","src":"assets/img/1EP/1EP_U9_DESPLAZAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U10","palabra":"ALQUILAR","fonemas":[{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"K","src":"assets/articulemas/_K_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"L","src":"assets/articulemas/_L_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["AL","QUI","LAR"],"definicion":"ALQUILAR 👉 SIGNIFICA USAR ALGO PAGANDO POR UN TIEMPO.","dibujo":"assets/img/1EP/1EP_U10_ALQUILAR_dibujo.webp","frase":"EL TURISTA ALQUILA UN COCHE PARA EL VIAJE 🚗.","fraseImg":"assets/img/1EP/1EP_U10_ALQUILAR_frase.webp","sinonimos":[{"texto":"ARRENDAR","src":"assets/img/1EP/1EP_U10_ALQUILAR_sin1.webp"},{"texto":"PAGAR","src":"assets/img/1EP/1EP_U10_ALQUILAR_sin2.webp"},{"texto":"USAR","src":"assets/img/1EP/1EP_U10_ALQUILAR_sin3.webp"}],"antonimos":[{"texto":"COMPRAR","src":"assets/img/1EP/1EP_U10_ALQUILAR_ant1.webp"},{"texto":"VENDER","src":"assets/img/1EP/1EP_U10_ALQUILAR_ant2.webp"},{"texto":"REGALAR","src":"assets/img/1EP/1EP_U10_ALQUILAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U10","palabra":"ENVIAR","fonemas":[{"letra":"E","src":"assets/articulemas/_E_.webp"},{"letra":"N","src":"assets/articulemas/_N_.webp"},{"letra":"BV","src":"assets/articulemas/_BV_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"A","src":"assets/articulemas/_A_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["EN","VIAR"],"definicion":"ENVIAR 👉 SIGNIFICA MANDAR ALGO A OTRA PERSONA O LUGAR.","dibujo":"assets/img/1EP/1EP_U10_ENVIAR_dibujo.webp","frase":"LA ABUELA ENVÍA UNA CARTA LLENA DE CARIÑO 💌.","fraseImg":"assets/img/1EP/1EP_U10_ENVIAR_frase.webp","sinonimos":[{"texto":"MANDAR","src":"assets/img/1EP/1EP_U10_ENVIAR_sin1.webp"},{"texto":"REPARTIR","src":"assets/img/1EP/1EP_U10_ENVIAR_sin2.webp"},{"texto":"ENTREGAR","src":"assets/img/1EP/1EP_U10_ENVIAR_sin3.webp"}],"antonimos":[{"texto":"RECIBIR","src":"assets/img/1EP/1EP_U10_ENVIAR_ant1.webp"},{"texto":"GUARDAR","src":"assets/img/1EP/1EP_U10_ENVIAR_ant2.webp"},{"texto":"QUEDAR","src":"assets/img/1EP/1EP_U10_ENVIAR_ant3.webp"}]},{"curso":"1EP","cursoNombre":"1º Primaria","unidad":"U10","palabra":"SUSTITUIR","fonemas":[{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"S","src":"assets/articulemas/_S_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"T","src":"assets/articulemas/_T_.webp"},{"letra":"U","src":"assets/articulemas/_U_.webp"},{"letra":"I","src":"assets/articulemas/_I_.webp"},{"letra":"R","src":"assets/articulemas/_R_.webp"}],"silabas":["SUS","TI","TU","IR"],"definicion":"SUSTITUIR 👉 SIGNIFICA PONER UNA COSA EN EL LUGAR DE OTRA.","dibujo":"assets/img/1EP/1EP_U10_SUSTITUIR_dibujo.webp","frase":"EL JUGADOR SUSTITUYE A SU COMPAÑERO EN EL PARTIDO ⚽.","fraseImg":"assets/img/1EP/1EP_U10_SUSTITUIR_frase.webp","sinonimos":[{"texto":"CAMBIAR","src":"assets/img/1EP/1EP_U10_SUSTITUIR_sin1.webp"},{"texto":"CANJEAR","src":"assets/img/1EP/1EP_U10_SUSTITUIR_sin2.webp"},{"texto":"REPONER","src":"assets/img/1EP/1EP_U10_SUSTITUIR_sin3.webp"}],"antonimos":[{"texto":"MANTENER","src":"assets/img/1EP/1EP_U10_SUSTITUIR_ant1.webp"},{"texto":"GUARDAR","src":"assets/img/1EP/1EP_U10_SUSTITUIR_ant2.webp"},{"texto":"QUEDAR","src":"assets/img/1EP/1EP_U10_SUSTITUIR_ant3.webp"}]}];</script>
+<script>
+const $ = (s, r=document) => r.querySelector(s);
+let actual = 0;
+let abrirPorDefecto = false;
+
+/* La URL admite  #PALABRA  ,  #abrir  o  #PALABRA,abrir  */
+function leerHash(){
+  const partes = decodeURIComponent(location.hash.replace(/^#/, ""))
+                 .split(",").map(s => s.trim()).filter(Boolean);
+  abrirPorDefecto = partes.some(p => p.toLowerCase() === "abrir");
+  const pal = partes.find(p => p.toLowerCase() !== "abrir");
+  if (!pal) return 0;
+  const i = FICHAS.findIndex(f => f.palabra.toLowerCase() === pal.toLowerCase());
+  return i >= 0 ? i : 0;
+}
+
+function claveGrupo(f){ return f.cursoNombre + " · " + f.unidad; }
+
+function pintarIndice(filtro=""){
+  const lista = $("#lista"); lista.innerHTML = "";
+  const f = filtro.trim().toLowerCase();
+  let grupo = null;
+  FICHAS.forEach((ficha, i) => {
+    if (f && !ficha.palabra.toLowerCase().includes(f)
+          && !ficha.cursoNombre.toLowerCase().includes(f)
+          && !ficha.unidad.toLowerCase().includes(f)) return;
+    const g = claveGrupo(ficha);
+    if (g !== grupo){
+      grupo = g;
+      const h = document.createElement("div");
+      h.className = "grupo"; h.textContent = g;
+      lista.appendChild(h);
+    }
+    const el = document.createElement("div");
+    el.className = "item" + (i === actual ? " activo" : "");
+    el.innerHTML = `<span>${ficha.palabra}</span><span class="u">${ficha.unidad}</span>`;
+    el.onclick = () => mostrar(i);
+    lista.appendChild(el);
+  });
+  if (!lista.children.length){
+    lista.innerHTML = '<div class="grupo">Sin resultados</div>';
+  }
+}
+
+const OJO = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+  stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7
+  -3.6 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>`;
+
+function bloque(clase, titulo, htmlContenido){
+  return `<section class="bloque ${clase}">
+    <h2>${titulo}</h2>
+    <div class="cuerpo">
+      <div class="contenido">${htmlContenido}</div>
+      <div class="tapa">${OJO}<span>Pulsa para ver</span></div>
+    </div>
+  </section>`;
+}
+
+function listaSA(items){
+  if (!items.length) return '<span class="vacio">Sin datos</span>';
+  return '<div class="lista-sa">' + items.map(x =>
+    `<div class="sa">${x.src ? `<img src="${x.src}" alt="">` : ""}<span>${x.texto}</span></div>`
+  ).join("") + "</div>";
+}
+
+function mostrar(i){
+  actual = i;
+  const f = FICHAS[i];
+
+  $("#titulo").textContent = f.palabra;
+  $("#meta").textContent = `${f.cursoNombre} · Unidad ${f.unidad.replace("U","")}`;
+
+  const fon = `<div class="fonemas">${f.fonemas.map(x =>
+      x.src ? `<img src="${x.src}" alt="${x.letra}">` : `<span>${x.letra}</span>`).join("")}</div>`
+    + (f.silabas.length
+        ? `<div class="silabas">${f.silabas.map(s => `<span>👏 ${s}</span>`).join("")}</div>`
+        : "");
+
+  const esc = `<div class="palabra">${f.palabra}</div>
+    <button class="altavoz" title="Escuchar la palabra"
+      onclick="event.stopPropagation();decir('${f.palabra.replace(/'/g,"\\'")}')">🔊</button>`;
+
+  $("#ficha").innerHTML =
+      bloque("b-fon", "Conciencia fonémica", fon)
+    + bloque("b-esc", "Escritura", esc)
+    + bloque("b-def", "Definición", `<div class="definicion">${f.definicion || ""}</div>`)
+    + bloque("b-dib", "Dibujo", f.dibujo
+        ? `<img class="ilustra" src="${f.dibujo}" alt="">`
+        : '<span class="vacio">Sin imagen</span>')
+    + bloque("b-sin", "Sinónimos", listaSA(f.sinonimos))
+    + bloque("b-ant", "Antónimos", listaSA(f.antonimos))
+    + bloque("b-fra", "Frase", `<div class="frase">${f.frase || ""}</div>`
+        + (f.fraseImg ? `<img class="ilustra" src="${f.fraseImg}" alt="">` : ""));
+
+  document.querySelectorAll(".bloque").forEach(b => {
+    b.querySelector(".cuerpo").onclick = () => b.classList.toggle("abierto");
+  });
+
+  // #abrir en la URL -> la ficha sale destapada (para proyectar o imprimir)
+  if (abrirPorDefecto) todos(true);
+
+  const h = "#" + encodeURIComponent(f.palabra) + (abrirPorDefecto ? ",abrir" : "");
+  history.replaceState(null, "", h);
+
+  $("#prev").disabled = i === 0;
+  $("#next").disabled = i === FICHAS.length - 1;
+  pintarIndice($("#buscar").value);
+  document.querySelector(".item.activo")?.scrollIntoView({block:"nearest"});
+}
+
+function decir(texto){
+  if (!window.speechSynthesis) return;
+  const u = new SpeechSynthesisUtterance(texto);
+  u.lang = "es-ES"; u.rate = .85;
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+
+function todos(abrir){
+  document.querySelectorAll(".bloque").forEach(b => b.classList.toggle("abierto", abrir));
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  $("#buscar").addEventListener("input", e => pintarIndice(e.target.value));
+  $("#prev").onclick = () => mostrar(Math.max(0, actual - 1));
+  $("#next").onclick = () => mostrar(Math.min(FICHAS.length - 1, actual + 1));
+  $("#abrir").onclick = () => todos(true);
+  $("#cerrar").onclick = () => { abrirPorDefecto = false; todos(false); };
+  document.addEventListener("keydown", e => {
+    if (e.target.tagName === "INPUT") return;
+    if (e.key === "ArrowLeft" && actual > 0) mostrar(actual - 1);
+    if (e.key === "ArrowRight" && actual < FICHAS.length - 1) mostrar(actual + 1);
+  });
+  mostrar(leerHash());
+});
+</script>
+</body>
+</html>

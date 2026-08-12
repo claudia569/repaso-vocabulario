@@ -1,0 +1,1656 @@
+[
+ {
+  "curso": "INF4",
+  "unidad": "U1",
+  "archivo": "U1_DESCANSAR_INFANTIL4.pptx",
+  "palabra": "DESCANSAR",
+  "img_dibujo": "INF4_U1_DESCANSAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "S",
+   "K",
+   "A",
+   "N",
+   "S",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "DES",
+   "CAN",
+   "SAR"
+  ],
+  "definicion": "DESCANSAR 😴 SIGNIFICA PARAR PARA RECUPERAR FUERZAS.",
+  "sinonimos": [
+   {
+    "texto": "REPOSAR",
+    "img": "INF4_U1_DESCANSAR_sin1.webp"
+   },
+   {
+    "texto": "RELAJARSE",
+    "img": "INF4_U1_DESCANSAR_sin2.webp"
+   },
+   {
+    "texto": "DORMITAR",
+    "img": "INF4_U1_DESCANSAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRABAJAR",
+    "img": "INF4_U1_DESCANSAR_ant1.webp"
+   },
+   {
+    "texto": "CORRER",
+    "img": "INF4_U1_DESCANSAR_ant2.webp"
+   },
+   {
+    "texto": "JUGAR",
+    "img": "INF4_U1_DESCANSAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PATO DESCANSA EN EL LAGO 🦆",
+  "img_frase": "INF4_U1_DESCANSAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U1",
+  "archivo": "U1_ENSUCIAR_INFANTIL4.pptx",
+  "palabra": "ENSUCIAR",
+  "img_dibujo": "INF4_U1_ENSUCIAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "N",
+   "S",
+   "U",
+   "CZ",
+   "I",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "EN",
+   "SU",
+   "CIAR"
+  ],
+  "definicion": "ENSUCIAR 🟤 SIGNIFICA MANCHAR ALGO O PONERLO SUCIO.",
+  "sinonimos": [
+   {
+    "texto": "MANCHAR",
+    "img": "INF4_U1_ENSUCIAR_sin1.webp"
+   },
+   {
+    "texto": "EMBARRAR",
+    "img": "INF4_U1_ENSUCIAR_sin2.webp"
+   },
+   {
+    "texto": "SALPICAR",
+    "img": "INF4_U1_ENSUCIAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LIMPIAR",
+    "img": "INF4_U1_ENSUCIAR_ant1.webp"
+   },
+   {
+    "texto": "LAVAR",
+    "img": "INF4_U1_ENSUCIAR_ant2.webp"
+   },
+   {
+    "texto": "FREGAR",
+    "img": "INF4_U1_ENSUCIAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PAYASO SE ENSUCIA LA NARIZ 👃",
+  "img_frase": "INF4_U1_ENSUCIAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U1",
+  "archivo": "U1_LIMPIAR_INFANTIL4.pptx",
+  "palabra": "LIMPIAR",
+  "img_dibujo": "INF4_U1_LIMPIAR_dibujo.webp",
+  "fonemas": [
+   "L",
+   "I",
+   "M",
+   "P",
+   "I",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "LIM",
+   "PIAR"
+  ],
+  "definicion": "LIMPIAR 🧽 SIGNIFICA QUITAR LA SUCIEDAD DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "FREGAR",
+    "img": "INF4_U1_LIMPIAR_sin1.webp"
+   },
+   {
+    "texto": "LAVAR",
+    "img": "INF4_U1_LIMPIAR_sin2.webp"
+   },
+   {
+    "texto": "BARRER",
+    "img": "INF4_U1_LIMPIAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ENSUCIAR",
+    "img": "INF4_U1_LIMPIAR_ant1.webp"
+   },
+   {
+    "texto": "MANCHAR",
+    "img": "INF4_U1_LIMPIAR_ant2.webp"
+   },
+   {
+    "texto": "DESORDENAR",
+    "img": "INF4_U1_LIMPIAR_ant3.webp"
+   }
+  ],
+  "frase": "EL COCINERO LIMPIA LOS CUBIERTOS 🍴",
+  "img_frase": "INF4_U1_LIMPIAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U2",
+  "archivo": "U2_AGACHARSE_INFANTIL4.pptx",
+  "palabra": "AGACHARSE",
+  "img_dibujo": "INF4_U2_AGACHARSE_dibujo.webp",
+  "fonemas": [
+   "A",
+   "GU",
+   "A",
+   "CH",
+   "A",
+   "R",
+   "S",
+   "E"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "GA",
+   "CHAR",
+   "SE"
+  ],
+  "definicion": "AGACHARSE 🙇 SIGNIFICA DOBLAR EL CUERPO HACIA ABAJO.",
+  "sinonimos": [
+   {
+    "texto": "INCLINARSE",
+    "img": "INF4_U2_AGACHARSE_sin1.webp"
+   },
+   {
+    "texto": "ENCOGERSE",
+    "img": "INF4_U2_AGACHARSE_sin2.webp"
+   },
+   {
+    "texto": "DOBLARSE",
+    "img": "INF4_U2_AGACHARSE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LEVANTARSE",
+    "img": "INF4_U2_AGACHARSE_ant1.webp"
+   },
+   {
+    "texto": "ESTIRARSE",
+    "img": "INF4_U2_AGACHARSE_ant2.webp"
+   },
+   {
+    "texto": "INCORPORARSE",
+    "img": "INF4_U2_AGACHARSE_ant3.webp"
+   }
+  ],
+  "frase": "EL OSO SE AGACHA LENTAMENTE",
+  "img_frase": "INF4_U2_AGACHARSE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U2",
+  "archivo": "U2_CORRER_INFANTIL4.pptx",
+  "palabra": "CORRER",
+  "img_dibujo": "INF4_U2_CORRER_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "RR",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "CO",
+   "RRER"
+  ],
+  "definicion": "CORRER 🏃 SIGNIFICA MOVERSE MUY DEPRISA CON LAS PIERNAS.",
+  "sinonimos": [
+   {
+    "texto": "GALOPAR",
+    "img": "INF4_U2_CORRER_sin1.webp"
+   },
+   {
+    "texto": "TROTAR",
+    "img": "INF4_U2_CORRER_sin2.webp"
+   },
+   {
+    "texto": "CORRETEAR",
+    "img": "INF4_U2_CORRER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CAMINAR",
+    "img": "INF4_U2_CORRER_ant1.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF4_U2_CORRER_ant2.webp"
+   },
+   {
+    "texto": "ESPERAR",
+    "img": "INF4_U2_CORRER_ant3.webp"
+   }
+  ],
+  "frase": "EL ATLETA CORRE EN LA PISTA",
+  "img_frase": "INF4_U2_CORRER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U2",
+  "archivo": "U2_SALTAR_INFANTIL4.pptx",
+  "palabra": "SALTAR",
+  "img_dibujo": "INF4_U2_SALTAR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "A",
+   "L",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "SAL",
+   "TAR"
+  ],
+  "definicion": "SALTAR 🤸 SIGNIFICA IMPULSARSE Y ELEVARSE EN EL AIRE.",
+  "sinonimos": [
+   {
+    "texto": "BOTAR",
+    "img": "INF4_U2_SALTAR_sin1.webp"
+   },
+   {
+    "texto": "BRINCAR",
+    "img": "INF4_U2_SALTAR_sin2.webp"
+   },
+   {
+    "texto": "REBOTAR",
+    "img": "INF4_U2_SALTAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CAMINAR",
+    "img": "INF4_U2_SALTAR_ant1.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF4_U2_SALTAR_ant2.webp"
+   },
+   {
+    "texto": "GATEAR",
+    "img": "INF4_U2_SALTAR_ant3.webp"
+   }
+  ],
+  "frase": "LA CABRA SALTA SOBRE LA ROCA",
+  "img_frase": "INF4_U2_SALTAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U3",
+  "archivo": "U3_ABRAZAR_INFANTIL4.pptx",
+  "palabra": "ABRAZAR",
+  "img_dibujo": "INF4_U3_ABRAZAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "BV",
+   "R",
+   "A",
+   "CZ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "BRA",
+   "ZAR"
+  ],
+  "definicion": "ABRAZAR 🤗 SIGNIFICA RODEAR CON LOS BRAZOS A ALGUIEN CON CARIÑO.",
+  "sinonimos": [
+   {
+    "texto": "ACHUCHAR",
+    "img": "INF4_U3_ABRAZAR_sin1.webp"
+   },
+   {
+    "texto": "ESTRECHAR",
+    "img": "INF4_U3_ABRAZAR_sin2.webp"
+   },
+   {
+    "texto": "ENVOLVER",
+    "img": "INF4_U3_ABRAZAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "RECHAZAR",
+    "img": "INF4_U3_ABRAZAR_ant1.webp"
+   },
+   {
+    "texto": "APARTAR",
+    "img": "INF4_U3_ABRAZAR_ant2.webp"
+   },
+   {
+    "texto": "EMPUJAR",
+    "img": "INF4_U3_ABRAZAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PINGÜINO ABRAZA A LA FOCA",
+  "img_frase": "INF4_U3_ABRAZAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U3",
+  "archivo": "U3_AYUDAR_INFANTIL4.pptx",
+  "palabra": "AYUDAR",
+  "img_dibujo": "INF4_U3_AYUDAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "LLY",
+   "U",
+   "D",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "YU",
+   "DAR"
+  ],
+  "definicion": "AYUDAR 🤝 SIGNIFICA ECHAR UNA MANO A QUIEN LO NECESITA.",
+  "sinonimos": [
+   {
+    "texto": "COLABORAR",
+    "img": "INF4_U3_AYUDAR_sin1.webp"
+   },
+   {
+    "texto": "ASISTIR",
+    "img": "INF4_U3_AYUDAR_sin2.webp"
+   },
+   {
+    "texto": "SOCORRER",
+    "img": "INF4_U3_AYUDAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ESTORBAR",
+    "img": "INF4_U3_AYUDAR_ant1.webp"
+   },
+   {
+    "texto": "ABANDONAR",
+    "img": "INF4_U3_AYUDAR_ant2.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "INF4_U3_AYUDAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PATO AYUDA A SUS PATITOS",
+  "img_frase": "INF4_U3_AYUDAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U3",
+  "archivo": "U3_SONREÍR_INFANTIL4.pptx",
+  "palabra": "SONREÍR",
+  "img_dibujo": "INF4_U3_SONREIR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "O",
+   "N",
+   "RR",
+   "E",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "SON",
+   "RE",
+   "ÍR"
+  ],
+  "definicion": "SONREÍR 😊 SIGNIFICA MOVER LA BOCA PARA MOSTRAR ALEGRÍA.",
+  "sinonimos": [
+   {
+    "texto": "REÍR",
+    "img": "INF4_U3_SONREIR_sin1.webp"
+   },
+   {
+    "texto": "DIVERTIRSE",
+    "img": "INF4_U3_SONREIR_sin2.webp"
+   },
+   {
+    "texto": "DISFRUTAR",
+    "img": "INF4_U3_SONREIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LLORAR",
+    "img": "INF4_U3_SONREIR_ant1.webp"
+   },
+   {
+    "texto": "ENFADARSE",
+    "img": "INF4_U3_SONREIR_ant2.webp"
+   },
+   {
+    "texto": "ENTRISTECERSE",
+    "img": "INF4_U3_SONREIR_ant3.webp"
+   }
+  ],
+  "frase": "EL DELFÍN SONRÍE EN EL MAR",
+  "img_frase": "INF4_U3_SONREIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U4",
+  "archivo": "U4_CONDUCIR_INFANTIL4.pptx",
+  "palabra": "CONDUCIR",
+  "img_dibujo": "INF4_U4_CONDUCIR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "N",
+   "D",
+   "U",
+   "CZ",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "CON",
+   "DU",
+   "CIR"
+  ],
+  "definicion": "CONDUCIR 🚗 SIGNIFICA MANEJAR UN VEHÍCULO PARA MOVERLO.",
+  "sinonimos": [
+   {
+    "texto": "MANEJAR",
+    "img": "INF4_U4_CONDUCIR_sin1.webp"
+   },
+   {
+    "texto": "GUIAR",
+    "img": "INF4_U4_CONDUCIR_sin2.webp"
+   },
+   {
+    "texto": "PILOTAR",
+    "img": "INF4_U4_CONDUCIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PARAR",
+    "img": "INF4_U4_CONDUCIR_ant1.webp"
+   },
+   {
+    "texto": "APARCAR",
+    "img": "INF4_U4_CONDUCIR_ant2.webp"
+   },
+   {
+    "texto": "FRENAR",
+    "img": "INF4_U4_CONDUCIR_ant3.webp"
+   }
+  ],
+  "frase": "EL BOMBERO CONDUCE EL CAMIÓN DE BOMBEROS 🚒",
+  "img_frase": "INF4_U4_CONDUCIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U4",
+  "archivo": "U4_CURAR_INFANTIL4.pptx",
+  "palabra": "CURAR",
+  "img_dibujo": "INF4_U4_CURAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "U",
+   "R",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "CU",
+   "RAR"
+  ],
+  "definicion": "CURAR 🩹 SIGNIFICA HACER QUE ALGUIEN SE PONGA BIEN.",
+  "sinonimos": [
+   {
+    "texto": "CUIDAR",
+    "img": "INF4_U4_CURAR_sin1.webp"
+   },
+   {
+    "texto": "SANAR",
+    "img": "INF4_U4_CURAR_sin2.webp"
+   },
+   {
+    "texto": "ALIVIAR",
+    "img": "INF4_U4_CURAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ENFERMAR",
+    "img": "INF4_U4_CURAR_ant1.webp"
+   },
+   {
+    "texto": "DAÑAR",
+    "img": "INF4_U4_CURAR_ant2.webp"
+   },
+   {
+    "texto": "LASTIMAR",
+    "img": "INF4_U4_CURAR_ant3.webp"
+   }
+  ],
+  "frase": "LA DENTISTA CURA EL DIENTE 🦷",
+  "img_frase": "INF4_U4_CURAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U4",
+  "archivo": "U4_DETENER_INFANTIL4.pptx",
+  "palabra": "DETENER",
+  "img_dibujo": "INF4_U4_DETENER_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "T",
+   "E",
+   "N",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "TE",
+   "NER"
+  ],
+  "definicion": "DETENER 🛑 SIGNIFICA HACER QUE ALGO O ALGUIEN PARE.",
+  "sinonimos": [
+   {
+    "texto": "PARAR",
+    "img": "INF4_U4_DETENER_sin1.webp"
+   },
+   {
+    "texto": "FRENAR",
+    "img": "INF4_U4_DETENER_sin2.webp"
+   },
+   {
+    "texto": "SUJETAR",
+    "img": "INF4_U4_DETENER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CAMINAR",
+    "img": "INF4_U4_DETENER_ant1.webp"
+   },
+   {
+    "texto": "CONTINUAR",
+    "img": "INF4_U4_DETENER_ant2.webp"
+   },
+   {
+    "texto": "AVANZAR",
+    "img": "INF4_U4_DETENER_ant3.webp"
+   }
+  ],
+  "frase": "EL ÁRBITRO DETIENE EL PARTIDO 🏁",
+  "img_frase": "INF4_U4_DETENER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U5",
+  "archivo": "U5_ASAR_INFANTIL4.pptx",
+  "palabra": "ASAR",
+  "img_dibujo": "INF4_U5_ASAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "S",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 4,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "SAR"
+  ],
+  "definicion": "ASAR 🔥 SIGNIFICA COCINAR LA COMIDA CON FUEGO O EN EL HORNO.",
+  "sinonimos": [
+   {
+    "texto": "TOSTAR",
+    "img": "INF4_U5_ASAR_sin1.webp"
+   },
+   {
+    "texto": "COCINAR",
+    "img": "INF4_U5_ASAR_sin2.webp"
+   },
+   {
+    "texto": "HORNEAR",
+    "img": "INF4_U5_ASAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CONGELAR",
+    "img": "INF4_U5_ASAR_ant1.webp"
+   },
+   {
+    "texto": "ENFRIAR",
+    "img": "INF4_U5_ASAR_ant2.webp"
+   },
+   {
+    "texto": "APAGAR",
+    "img": "INF4_U5_ASAR_ant3.webp"
+   }
+  ],
+  "frase": "EL GRANJERO ASA LAS PATATAS 🥔",
+  "img_frase": "INF4_U5_ASAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U5",
+  "archivo": "U5_FREÍR_INFANTIL4.pptx",
+  "palabra": "FREÍR",
+  "img_dibujo": "INF4_U5_FREIR_dibujo.webp",
+  "fonemas": [
+   "F",
+   "R",
+   "E",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "FRE",
+   "ÍR"
+  ],
+  "definicion": "FREÍR 🍳 SIGNIFICA COCINAR ALGO EN ACEITE CALIENTE.",
+  "sinonimos": [
+   {
+    "texto": "SOFREÍR",
+    "img": "INF4_U5_FREIR_sin1.webp"
+   },
+   {
+    "texto": "COCINAR",
+    "img": "INF4_U5_FREIR_sin2.webp"
+   },
+   {
+    "texto": "TOSTAR",
+    "img": "INF4_U5_FREIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "HERVIR",
+    "img": "INF4_U5_FREIR_ant1.webp"
+   },
+   {
+    "texto": "CONGELAR",
+    "img": "INF4_U5_FREIR_ant2.webp"
+   },
+   {
+    "texto": "ENFRIAR",
+    "img": "INF4_U5_FREIR_ant3.webp"
+   }
+  ],
+  "frase": "EL PESCADOR FRÍE EL PEZ 🐟",
+  "img_frase": "INF4_U5_FREIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U5",
+  "archivo": "U5_PELAR_INFANTIL4.pptx",
+  "palabra": "PELAR",
+  "img_dibujo": "INF4_U5_PELAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "E",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "PE",
+   "LAR"
+  ],
+  "definicion": "PELAR 🥔 SIGNIFICA QUITAR LA PIEL DE UNA FRUTA O VERDURA.",
+  "sinonimos": [
+   {
+    "texto": "MONDAR",
+    "img": "INF4_U5_PELAR_sin1.webp"
+   },
+   {
+    "texto": "DESCASCARAR",
+    "img": "INF4_U5_PELAR_sin2.webp"
+   },
+   {
+    "texto": "RASPAR",
+    "img": "INF4_U5_PELAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CUBRIR",
+    "img": "INF4_U5_PELAR_ant1.webp"
+   },
+   {
+    "texto": "TAPAR",
+    "img": "INF4_U5_PELAR_ant2.webp"
+   },
+   {
+    "texto": "ENVOLVER",
+    "img": "INF4_U5_PELAR_ant3.webp"
+   }
+  ],
+  "frase": "EL COCINERO PELA LA CEBOLLA 🧅",
+  "img_frase": "INF4_U5_PELAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U6",
+  "archivo": "U6_CERCANO_INFANTIL4.pptx",
+  "palabra": "CERCANO",
+  "img_dibujo": "INF4_U6_CERCANO_dibujo.webp",
+  "fonemas": [
+   "CZ",
+   "E",
+   "R",
+   "K",
+   "A",
+   "N",
+   "O"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "CER",
+   "CA",
+   "NO"
+  ],
+  "definicion": "CERCANO 📍 SIGNIFICA QUE ESTÁ MUY CERCA.",
+  "sinonimos": [
+   {
+    "texto": "CERCA",
+    "img": "INF4_U6_CERCANO_sin1.webp"
+   },
+   {
+    "texto": "VECINO",
+    "img": "INF4_U6_CERCANO_sin2.webp"
+   },
+   {
+    "texto": "JUNTO",
+    "img": "INF4_U6_CERCANO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LEJANO",
+    "img": "INF4_U6_CERCANO_ant1.webp"
+   },
+   {
+    "texto": "LEJOS",
+    "img": "INF4_U6_CERCANO_ant2.webp"
+   },
+   {
+    "texto": "APARTADO",
+    "img": "INF4_U6_CERCANO_ant3.webp"
+   }
+  ],
+  "frase": "EL PÁJARO VUELA CERCANO A SU NIDO.",
+  "img_frase": "INF4_U6_CERCANO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U6",
+  "archivo": "U6_DELANTE_INFANTIL4.pptx",
+  "palabra": "DELANTE",
+  "img_dibujo": "INF4_U6_DELANTE_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "L",
+   "A",
+   "N",
+   "T",
+   "E"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "LAN",
+   "TE"
+  ],
+  "definicion": "DELANTE 👉 SIGNIFICA ESTAR EN LA PARTE DE ADELANTE.",
+  "sinonimos": [
+   {
+    "texto": "PRIMERO",
+    "img": "INF4_U6_DELANTE_sin1.webp"
+   },
+   {
+    "texto": "ANTERIOR",
+    "img": "INF4_U6_DELANTE_sin2.webp"
+   },
+   {
+    "texto": "ENFRENTE",
+    "img": "INF4_U6_DELANTE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DETRÁS",
+    "img": "INF4_U6_DELANTE_ant1.webp"
+   },
+   {
+    "texto": "ÚLTIMO",
+    "img": "INF4_U6_DELANTE_ant2.webp"
+   },
+   {
+    "texto": "POSTERIOR",
+    "img": "INF4_U6_DELANTE_ant3.webp"
+   }
+  ],
+  "frase": "EL PATO NADA DELANTE DEL BARCO.",
+  "img_frase": "INF4_U6_DELANTE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U6",
+  "archivo": "U6_DETRÁS_INFANTIL4.pptx",
+  "palabra": "DETRÁS",
+  "img_dibujo": "INF4_U6_DETRAS_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "T",
+   "R",
+   "A",
+   "S"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "TRÁS"
+  ],
+  "definicion": "DETRÁS 👇 SIGNIFICA ESTAR EN LA PARTE DE ATRÁS.",
+  "sinonimos": [
+   {
+    "texto": "ATRÁS",
+    "img": "INF4_U6_DETRAS_sin1.webp"
+   },
+   {
+    "texto": "ÚLTIMO",
+    "img": "INF4_U6_DETRAS_sin2.webp"
+   },
+   {
+    "texto": "POSTERIOR",
+    "img": "INF4_U6_DETRAS_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DELANTE",
+    "img": "INF4_U6_DETRAS_ant1.webp"
+   },
+   {
+    "texto": "PRIMERO",
+    "img": "INF4_U6_DETRAS_ant2.webp"
+   },
+   {
+    "texto": "ANTERIOR",
+    "img": "INF4_U6_DETRAS_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO LADRA DETRÁS DE LA VALLA.",
+  "img_frase": "INF4_U6_DETRAS_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U7",
+  "archivo": "U7_PRONTO_INFANTIL4.pptx",
+  "palabra": "PRONTO",
+  "img_dibujo": "INF4_U7_PRONTO_dibujo.webp",
+  "fonemas": [
+   "P",
+   "R",
+   "O",
+   "N",
+   "T",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PRON",
+   "TO"
+  ],
+  "definicion": "PRONTO ⏳ SIGNIFICA DENTRO DE POCO TIEMPO.",
+  "sinonimos": [
+   {
+    "texto": "RÁPIDO",
+    "img": "INF4_U7_PRONTO_sin1.webp"
+   },
+   {
+    "texto": "YA",
+    "img": "INF4_U7_PRONTO_sin2.webp"
+   },
+   {
+    "texto": "ENSEGUIDA",
+    "img": "INF4_U7_PRONTO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TARDE",
+    "img": "INF4_U7_PRONTO_ant1.webp"
+   },
+   {
+    "texto": "LENTO",
+    "img": "INF4_U7_PRONTO_ant2.webp"
+   },
+   {
+    "texto": "DESPUÉS",
+    "img": "INF4_U7_PRONTO_ant3.webp"
+   }
+  ],
+  "frase": "EL COHETE DESPEGA PRONTO 🚀",
+  "img_frase": "INF4_U7_PRONTO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U7",
+  "archivo": "U7_TARDE_INFANTIL4.pptx",
+  "palabra": "TARDE",
+  "img_dibujo": "INF4_U7_TARDE_dibujo.webp",
+  "fonemas": [
+   "T",
+   "A",
+   "R",
+   "D",
+   "E"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "TAR",
+   "DE"
+  ],
+  "definicion": "TARDE ⏰ SIGNIFICA DESPUÉS DE LA HORA HABITUAL.",
+  "sinonimos": [
+   {
+    "texto": "DESPUÉS",
+    "img": "INF4_U7_TARDE_sin1.webp"
+   },
+   {
+    "texto": "ÚLTIMO",
+    "img": "INF4_U7_TARDE_sin2.webp"
+   },
+   {
+    "texto": "ESPERAR",
+    "img": "INF4_U7_TARDE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TEMPRANO",
+    "img": "INF4_U7_TARDE_ant1.webp"
+   },
+   {
+    "texto": "PRONTO",
+    "img": "INF4_U7_TARDE_ant2.webp"
+   },
+   {
+    "texto": "PRIMERO",
+    "img": "INF4_U7_TARDE_ant3.webp"
+   }
+  ],
+  "frase": "LA LIEBRE LLEGA TARDE 🐇",
+  "img_frase": "INF4_U7_TARDE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U7",
+  "archivo": "U7_TEMPRANO_INFANTIL4.pptx",
+  "palabra": "TEMPRANO",
+  "img_dibujo": "INF4_U7_TEMPRANO_dibujo.webp",
+  "fonemas": [
+   "T",
+   "E",
+   "M",
+   "P",
+   "R",
+   "A",
+   "N",
+   "O"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "TEM",
+   "PRA",
+   "NO"
+  ],
+  "definicion": "TEMPRANO ⏰ SIGNIFICA ANTES DE LA HORA HABITUAL.",
+  "sinonimos": [
+   {
+    "texto": "PRONTO",
+    "img": "INF4_U7_TEMPRANO_sin1.webp"
+   },
+   {
+    "texto": "ANTES",
+    "img": "INF4_U7_TEMPRANO_sin2.webp"
+   },
+   {
+    "texto": "PRIMERO",
+    "img": "INF4_U7_TEMPRANO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TARDE",
+    "img": "INF4_U7_TEMPRANO_ant1.webp"
+   },
+   {
+    "texto": "ÚLTIMO",
+    "img": "INF4_U7_TEMPRANO_ant2.webp"
+   },
+   {
+    "texto": "DESPUÉS",
+    "img": "INF4_U7_TEMPRANO_ant3.webp"
+   }
+  ],
+  "frase": "LA TORTUGA LLEGA TEMPRANO 🐢",
+  "img_frase": "INF4_U7_TEMPRANO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U8",
+  "archivo": "U8_IGUAL_INFANTIL4.pptx",
+  "palabra": "IGUAL",
+  "img_dibujo": "INF4_U8_IGUAL_dibujo.webp",
+  "fonemas": [
+   "I",
+   "GU",
+   "U",
+   "A",
+   "L"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "I",
+   "GUAL"
+  ],
+  "definicion": "IGUAL SIGNIFICA QUE DOS COSAS TIENEN EL MISMO TAMAÑO O LA MISMA CANTIDAD.",
+  "sinonimos": [
+   {
+    "texto": "MISMO",
+    "img": "INF4_U8_IGUAL_sin1.webp"
+   },
+   {
+    "texto": "IDÉNTICO",
+    "img": "INF4_U8_IGUAL_sin2.webp"
+   },
+   {
+    "texto": "PARECIDO",
+    "img": "INF4_U8_IGUAL_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESIGUAL",
+    "img": "INF4_U8_IGUAL_ant1.webp"
+   },
+   {
+    "texto": "DIFERENTE",
+    "img": "INF4_U8_IGUAL_ant2.webp"
+   },
+   {
+    "texto": "DISTINTO",
+    "img": "INF4_U8_IGUAL_ant3.webp"
+   }
+  ],
+  "frase": "LOS GEMELOS SON IGUALES 👬",
+  "img_frase": "INF4_U8_IGUAL_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U8",
+  "archivo": "U8_MAYOR_INFANTIL4.pptx",
+  "palabra": "MAYOR",
+  "img_dibujo": "INF4_U8_MAYOR_dibujo.webp",
+  "fonemas": [
+   "M",
+   "A",
+   "LLY",
+   "O",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "MA",
+   "YOR"
+  ],
+  "definicion": "MAYOR SIGNIFICA QUE ALGO ES MÁS GRANDE QUE OTRA COSA.",
+  "sinonimos": [
+   {
+    "texto": "GRANDE",
+    "img": "INF4_U8_MAYOR_sin1.webp"
+   },
+   {
+    "texto": "GIGANTE",
+    "img": "INF4_U8_MAYOR_sin2.webp"
+   },
+   {
+    "texto": "ALTO",
+    "img": "INF4_U8_MAYOR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MENOR",
+    "img": "INF4_U8_MAYOR_ant1.webp"
+   },
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF4_U8_MAYOR_ant2.webp"
+   },
+   {
+    "texto": "BAJO",
+    "img": "INF4_U8_MAYOR_ant3.webp"
+   }
+  ],
+  "frase": "EL OSO PAPÁ ES MAYOR QUE EL OSITO 🐻",
+  "img_frase": "INF4_U8_MAYOR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U8",
+  "archivo": "U8_MENOR_INFANTIL4.pptx",
+  "palabra": "MENOR",
+  "img_dibujo": "INF4_U8_MENOR_dibujo.webp",
+  "fonemas": [
+   "M",
+   "E",
+   "N",
+   "O",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "ME",
+   "NOR"
+  ],
+  "definicion": "MENOR SIGNIFICA QUE ALGO ES MÁS PEQUEÑO QUE OTRA COSA.",
+  "sinonimos": [
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF4_U8_MENOR_sin1.webp"
+   },
+   {
+    "texto": "BAJO",
+    "img": "INF4_U8_MENOR_sin2.webp"
+   },
+   {
+    "texto": "CORTO",
+    "img": "INF4_U8_MENOR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MAYOR",
+    "img": "INF4_U8_MENOR_ant1.webp"
+   },
+   {
+    "texto": "GRANDE",
+    "img": "INF4_U8_MENOR_ant2.webp"
+   },
+   {
+    "texto": "ALTO",
+    "img": "INF4_U8_MENOR_ant3.webp"
+   }
+  ],
+  "frase": "EL POLLITO ES MENOR QUE LA GALLINA 🐥",
+  "img_frase": "INF4_U8_MENOR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U9",
+  "archivo": "U9_DESEAR_INFANTIL4.pptx",
+  "palabra": "DESEAR",
+  "img_dibujo": "INF4_U9_DESEAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "S",
+   "E",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "SE",
+   "AR"
+  ],
+  "definicion": "DESEAR 👇 SIGNIFICA QUERER ALGO CON MUCHAS GANAS.",
+  "sinonimos": [
+   {
+    "texto": "QUERER",
+    "img": "INF4_U9_DESEAR_sin1.webp"
+   },
+   {
+    "texto": "PEDIR",
+    "img": "INF4_U9_DESEAR_sin2.webp"
+   },
+   {
+    "texto": "GUSTAR",
+    "img": "INF4_U9_DESEAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "RECHAZAR",
+    "img": "INF4_U9_DESEAR_ant1.webp"
+   },
+   {
+    "texto": "ODIAR",
+    "img": "INF4_U9_DESEAR_ant2.webp"
+   },
+   {
+    "texto": "NO QUERER",
+    "img": "INF4_U9_DESEAR_ant3.webp"
+   }
+  ],
+  "frase": "EL HADA DESEA UNA FLOR MÁGICA 🌸",
+  "img_frase": "INF4_U9_DESEAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U9",
+  "archivo": "U9_IMAGINAR_INFANTIL4.pptx",
+  "palabra": "IMAGINAR",
+  "img_dibujo": "INF4_U9_IMAGINAR_dibujo.webp",
+  "fonemas": [
+   "I",
+   "M",
+   "A",
+   "GJ",
+   "I",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "I",
+   "MA",
+   "GI",
+   "NAR"
+  ],
+  "definicion": "IMAGINAR 👇 SIGNIFICA PENSAR EN COSAS QUE NO SON REALES.",
+  "sinonimos": [
+   {
+    "texto": "SOÑAR",
+    "img": "INF4_U9_IMAGINAR_sin1.webp"
+   },
+   {
+    "texto": "INVENTAR",
+    "img": "INF4_U9_IMAGINAR_sin2.webp"
+   },
+   {
+    "texto": "FANTASEAR",
+    "img": "INF4_U9_IMAGINAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "OBSERVAR",
+    "img": "INF4_U9_IMAGINAR_ant1.webp"
+   },
+   {
+    "texto": "COPIAR",
+    "img": "INF4_U9_IMAGINAR_ant2.webp"
+   },
+   {
+    "texto": "REPETIR",
+    "img": "INF4_U9_IMAGINAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ASTRONAUTA IMAGINA UN PLANETA 🚀",
+  "img_frase": "INF4_U9_IMAGINAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U9",
+  "archivo": "U9_RECORDAR_INFANTIL4.pptx",
+  "palabra": "RECORDAR",
+  "img_dibujo": "INF4_U9_RECORDAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "K",
+   "O",
+   "R",
+   "D",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "COR",
+   "DAR"
+  ],
+  "definicion": "RECORDAR 👇 SIGNIFICA VOLVER A PENSAR EN ALGO QUE PASÓ.",
+  "sinonimos": [
+   {
+    "texto": "ACORDARSE",
+    "img": "INF4_U9_RECORDAR_sin1.webp"
+   },
+   {
+    "texto": "PENSAR",
+    "img": "INF4_U9_RECORDAR_sin2.webp"
+   },
+   {
+    "texto": "APRENDER",
+    "img": "INF4_U9_RECORDAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "OLVIDAR",
+    "img": "INF4_U9_RECORDAR_ant1.webp"
+   },
+   {
+    "texto": "DESPISTARSE",
+    "img": "INF4_U9_RECORDAR_ant2.webp"
+   },
+   {
+    "texto": "CONFUNDIR",
+    "img": "INF4_U9_RECORDAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ELEFANTE RECUERDA EL RÍO 🐘",
+  "img_frase": "INF4_U9_RECORDAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U10",
+  "archivo": "U10_COLOREAR_INFANTIL4.pptx",
+  "palabra": "COLOREAR",
+  "img_dibujo": "INF4_U10_COLOREAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "L",
+   "O",
+   "R",
+   "E",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "CO",
+   "LO",
+   "RE",
+   "AR"
+  ],
+  "definicion": "COLOREAR 👇 SIGNIFICA PINTAR UN DIBUJO CON COLORES.",
+  "sinonimos": [
+   {
+    "texto": "PINTAR",
+    "img": "INF4_U10_COLOREAR_sin1.webp"
+   },
+   {
+    "texto": "DIBUJAR",
+    "img": "INF4_U10_COLOREAR_sin2.webp"
+   },
+   {
+    "texto": "DECORAR",
+    "img": "INF4_U10_COLOREAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "BORRAR",
+    "img": "INF4_U10_COLOREAR_ant1.webp"
+   },
+   {
+    "texto": "TACHAR",
+    "img": "INF4_U10_COLOREAR_ant2.webp"
+   },
+   {
+    "texto": "DESTEÑIR",
+    "img": "INF4_U10_COLOREAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PINTOR COLOREA UNA PARED 🎨",
+  "img_frase": "INF4_U10_COLOREAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U10",
+  "archivo": "U10_GRAPAR_INFANTIL4.pptx",
+  "palabra": "GRAPAR",
+  "img_dibujo": "INF4_U10_GRAPAR_dibujo.webp",
+  "fonemas": [
+   "GU",
+   "R",
+   "A",
+   "P",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "GRA",
+   "PAR"
+  ],
+  "definicion": "GRAPAR 👇 SIGNIFICA UNIR HOJAS CON UNA GRAPADORA.",
+  "sinonimos": [
+   {
+    "texto": "UNIR",
+    "img": "INF4_U10_GRAPAR_sin1.webp"
+   },
+   {
+    "texto": "SUJETAR",
+    "img": "INF4_U10_GRAPAR_sin2.webp"
+   },
+   {
+    "texto": "ABROCHAR",
+    "img": "INF4_U10_GRAPAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "SEPARAR",
+    "img": "INF4_U10_GRAPAR_ant1.webp"
+   },
+   {
+    "texto": "QUITAR",
+    "img": "INF4_U10_GRAPAR_ant2.webp"
+   },
+   {
+    "texto": "SOLTAR",
+    "img": "INF4_U10_GRAPAR_ant3.webp"
+   }
+  ],
+  "frase": "LA REPARTIDORA GRAPA LA FACTURA 📦",
+  "img_frase": "INF4_U10_GRAPAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ },
+ {
+  "curso": "INF4",
+  "unidad": "U10",
+  "archivo": "U10_RECORTAR_INFANTIL4.pptx",
+  "palabra": "RECORTAR",
+  "img_dibujo": "INF4_U10_RECORTAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "K",
+   "O",
+   "R",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "COR",
+   "TAR"
+  ],
+  "definicion": "RECORTAR 👇 SIGNIFICA CORTAR ALGO CON UNAS TIJERAS.",
+  "sinonimos": [
+   {
+    "texto": "CORTAR",
+    "img": "INF4_U10_RECORTAR_sin1.webp"
+   },
+   {
+    "texto": "PODAR",
+    "img": "INF4_U10_RECORTAR_sin2.webp"
+   },
+   {
+    "texto": "TROCEAR",
+    "img": "INF4_U10_RECORTAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PEGAR",
+    "img": "INF4_U10_RECORTAR_ant1.webp"
+   },
+   {
+    "texto": "UNIR",
+    "img": "INF4_U10_RECORTAR_ant2.webp"
+   },
+   {
+    "texto": "JUNTAR",
+    "img": "INF4_U10_RECORTAR_ant3.webp"
+   }
+  ],
+  "frase": "EL FOTÓGRAFO RECORTA UNA FOTO 📷",
+  "img_frase": "INF4_U10_RECORTAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 4 años"
+ }
+]

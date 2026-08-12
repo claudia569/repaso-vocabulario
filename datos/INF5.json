@@ -1,0 +1,1693 @@
+[
+ {
+  "curso": "INF5",
+  "unidad": "U1",
+  "archivo": "U1_CORTO_INFANTIL_5.pptx",
+  "palabra": "CORTO",
+  "img_dibujo": "INF5_U1_CORTO_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "R",
+   "T",
+   "O"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "COR",
+   "TO"
+  ],
+  "definicion": "CORTO 📏 SIGNIFICA QUE ALGO NO ES LARGO, ES PEQUEÑO EN MEDIDA.",
+  "sinonimos": [
+   {
+    "texto": "BREVE",
+    "img": "INF5_U1_CORTO_sin1.webp"
+   },
+   {
+    "texto": "REDUCIDO",
+    "img": "INF5_U1_CORTO_sin2.webp"
+   },
+   {
+    "texto": "ESCASO",
+    "img": "INF5_U1_CORTO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LARGO",
+    "img": "INF5_U1_CORTO_ant1.webp"
+   },
+   {
+    "texto": "EXTENSO",
+    "img": "INF5_U1_CORTO_ant2.webp"
+   },
+   {
+    "texto": "AMPLIO",
+    "img": "INF5_U1_CORTO_ant3.webp"
+   }
+  ],
+  "frase": "EL CAMINO ES CORTO",
+  "img_frase": "INF5_U1_CORTO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U1",
+  "archivo": "U1_ENORME_INFANTIL_5.pptx",
+  "palabra": "ENORME",
+  "img_dibujo": "INF5_U1_ENORME_dibujo.webp",
+  "fonemas": [
+   "E",
+   "N",
+   "O",
+   "R",
+   "M",
+   "E"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "E",
+   "NOR",
+   "ME"
+  ],
+  "definicion": "ENORME ⭐ SIGNIFICA QUE ALGO ES MUY, MUY GRANDE, MUCHÍSIMO MÁS GRANDE DE LO NORMAL.",
+  "sinonimos": [
+   {
+    "texto": "GIGANTE",
+    "img": "INF5_U1_ENORME_sin1.webp"
+   },
+   {
+    "texto": "INMENSO",
+    "img": "INF5_U1_ENORME_sin2.webp"
+   },
+   {
+    "texto": "GRANDÍSIMO",
+    "img": "INF5_U1_ENORME_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF5_U1_ENORME_ant1.webp"
+   },
+   {
+    "texto": "DIMINUTO",
+    "img": "INF5_U1_ENORME_ant2.webp"
+   },
+   {
+    "texto": "MINÚSCULO",
+    "img": "INF5_U1_ENORME_ant3.webp"
+   }
+  ],
+  "frase": "EL HIPOPÓTAMO ES ENORME",
+  "img_frase": "INF5_U1_ENORME_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U1",
+  "archivo": "U1_LARGO_INFANTIL_5.pptx",
+  "palabra": "LARGO",
+  "img_dibujo": "INF5_U1_LARGO_dibujo.webp",
+  "fonemas": [
+   "L",
+   "A",
+   "R",
+   "GU",
+   "O"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "LAR",
+   "GO"
+  ],
+  "definicion": "LARGO 📏 SIGNIFICA QUE ALGO OCUPA MUCHO ESPACIO, ES GRANDE EN MEDIDA.",
+  "sinonimos": [
+   {
+    "texto": "EXTENSO",
+    "img": "INF5_U1_LARGO_sin1.webp"
+   },
+   {
+    "texto": "PROLONGADO",
+    "img": "INF5_U1_LARGO_sin2.webp"
+   },
+   {
+    "texto": "AMPLIO",
+    "img": "INF5_U1_LARGO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CORTO",
+    "img": "INF5_U1_LARGO_ant1.webp"
+   },
+   {
+    "texto": "BREVE",
+    "img": "INF5_U1_LARGO_ant2.webp"
+   },
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF5_U1_LARGO_ant3.webp"
+   }
+  ],
+  "frase": "EL CAMINO A CASA ES LARGO",
+  "img_frase": "INF5_U1_LARGO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U2",
+  "archivo": "U2_CALMA_INF5.pptx",
+  "palabra": "CALMA",
+  "img_dibujo": "INF5_U2_CALMA_dibujo.webp",
+  "fonemas": [
+   "K",
+   "A",
+   "L",
+   "M",
+   "A"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "CAL",
+   "MA"
+  ],
+  "definicion": "CALMA 🌈 SIGNIFICA ESTAR TRANQUILO, SIN NERVIOS NI MIEDO.",
+  "sinonimos": [
+   {
+    "texto": "SERENIDAD",
+    "img": "INF5_U2_CALMA_sin1.webp"
+   },
+   {
+    "texto": "TRANQUILIDAD",
+    "img": "INF5_U2_CALMA_sin2.webp"
+   },
+   {
+    "texto": "SOSIEGO",
+    "img": "INF5_U2_CALMA_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "NERVIOSISMO",
+    "img": "INF5_U2_CALMA_ant1.webp"
+   },
+   {
+    "texto": "AGITACIÓN",
+    "img": "INF5_U2_CALMA_ant2.webp"
+   },
+   {
+    "texto": "INQUIETUD",
+    "img": "INF5_U2_CALMA_ant3.webp"
+   }
+  ],
+  "frase": "EL JARDÍN ESTÁ EN CALMA",
+  "img_frase": "INF5_U2_CALMA_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U2",
+  "archivo": "U2_PREOCUPAR_INFANTIL5.pptx",
+  "palabra": "PREOCUPAR",
+  "img_dibujo": "INF5_U2_PREOCUPAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "R",
+   "E",
+   "O",
+   "K",
+   "U",
+   "P",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "PRE",
+   "O",
+   "CU",
+   "PAR"
+  ],
+  "definicion": "PREOCUPAR ❤ SIGNIFICA SENTIR MIEDO O NERVIOS POR ALGO QUE PUEDE PASAR.",
+  "sinonimos": [
+   {
+    "texto": "INQUIETO",
+    "img": "INF5_U2_PREOCUPAR_sin1.webp"
+   },
+   {
+    "texto": "NERVIOSO",
+    "img": "INF5_U2_PREOCUPAR_sin2.webp"
+   },
+   {
+    "texto": "ANGUSTIADO",
+    "img": "INF5_U2_PREOCUPAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRANQUILO",
+    "img": "INF5_U2_PREOCUPAR_ant1.webp"
+   },
+   {
+    "texto": "CALMADO",
+    "img": "INF5_U2_PREOCUPAR_ant2.webp"
+   },
+   {
+    "texto": "SERENO",
+    "img": "INF5_U2_PREOCUPAR_ant3.webp"
+   }
+  ],
+  "frase": "EL CONEJO ESTÁ PREOCUPADO",
+  "img_frase": "INF5_U2_PREOCUPAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U2",
+  "archivo": "U2_TRANQUILIDAD_INFANTIL5.pptx",
+  "palabra": "TRANQUILIDAD",
+  "img_dibujo": "INF5_U2_TRANQUILIDAD_dibujo.webp",
+  "fonemas": [
+   "T",
+   "R",
+   "A",
+   "N",
+   "K",
+   "I",
+   "L",
+   "I",
+   "D",
+   "A",
+   "D"
+  ],
+  "fonemas_pptx": 11,
+  "fonemas_ok": true,
+  "silabas": [
+   "TRAN",
+   "QUI",
+   "LI",
+   "DAD"
+  ],
+  "definicion": "TRANQUILIDAD 💤 SIGNIFICA QUE ALGO O ALGUIEN ESTÁ EN CALMA, SIN RUIDO NI AGITACIÓN.",
+  "sinonimos": [
+   {
+    "texto": "CALMA",
+    "img": "INF5_U2_TRANQUILIDAD_sin1.webp"
+   },
+   {
+    "texto": "SERENIDAD",
+    "img": "INF5_U2_TRANQUILIDAD_sin2.webp"
+   },
+   {
+    "texto": "SOSIEGO",
+    "img": "INF5_U2_TRANQUILIDAD_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "NERVIOS",
+    "img": "INF5_U2_TRANQUILIDAD_ant1.webp"
+   },
+   {
+    "texto": "ALBOROTO",
+    "img": "INF5_U2_TRANQUILIDAD_ant2.webp"
+   },
+   {
+    "texto": "INQUIETUD",
+    "img": "INF5_U2_TRANQUILIDAD_ant3.webp"
+   }
+  ],
+  "frase": "MIRAR AL CIELO ESTRELLADO ME HACE SENTIR TRANQUILIDAD",
+  "img_frase": "INF5_U2_TRANQUILIDAD_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U3",
+  "archivo": "U3_ACTUAR_INFANTIL5.pptx",
+  "palabra": "ACTUAR",
+  "img_dibujo": "INF5_U3_ACTUAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "K",
+   "T",
+   "U",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "AC",
+   "TUAR"
+  ],
+  "definicion": "ACTUAR 🎭 SIGNIFICA INTERPRETAR UN PAPEL, REPRESENTAR ALGO DELANTE DEL PÚBLICO.",
+  "sinonimos": [
+   {
+    "texto": "REPRESENTAR",
+    "img": "INF5_U3_ACTUAR_sin1.webp"
+   },
+   {
+    "texto": "INTERPRETAR",
+    "img": "INF5_U3_ACTUAR_sin2.webp"
+   },
+   {
+    "texto": "ESCENIFICAR",
+    "img": "INF5_U3_ACTUAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PARAR",
+    "img": "INF5_U3_ACTUAR_ant1.webp"
+   },
+   {
+    "texto": "CALLARSE",
+    "img": "INF5_U3_ACTUAR_ant2.webp"
+   },
+   {
+    "texto": "RETIRARSE",
+    "img": "INF5_U3_ACTUAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ACTOR ACTÚA EN EL ESCENARIO",
+  "img_frase": "INF5_U3_ACTUAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U3",
+  "archivo": "U3_COMPONER_INFANTIL5.pptx",
+  "palabra": "COMPONER",
+  "img_dibujo": "INF5_U3_COMPONER_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "M",
+   "P",
+   "O",
+   "N",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "COM",
+   "PO",
+   "NER"
+  ],
+  "definicion": "COMPONER 🎶 SIGNIFICA CREAR O HACER ALGO NUEVO, COMO UNA CANCIÓN, UN POEMA O UN DIBUJO.",
+  "sinonimos": [
+   {
+    "texto": "CREAR",
+    "img": "INF5_U3_COMPONER_sin1.webp"
+   },
+   {
+    "texto": "ELABORAR",
+    "img": "INF5_U3_COMPONER_sin2.webp"
+   },
+   {
+    "texto": "FORMAR",
+    "img": "INF5_U3_COMPONER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESTRUIR",
+    "img": "INF5_U3_COMPONER_ant1.webp"
+   },
+   {
+    "texto": "ROMPER",
+    "img": "INF5_U3_COMPONER_ant2.webp"
+   },
+   {
+    "texto": "DESHACER",
+    "img": "INF5_U3_COMPONER_ant3.webp"
+   }
+  ],
+  "frase": "EL MÚSICO COMPONE UNA CANCIÓN",
+  "img_frase": "INF5_U3_COMPONER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U3",
+  "archivo": "U3_ESCULPIR_INFANTIL5.pptx",
+  "palabra": "ESCULPIR",
+  "img_dibujo": "INF5_U3_ESCULPIR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "S",
+   "K",
+   "U",
+   "L",
+   "P",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "ES",
+   "CUL",
+   "PIR"
+  ],
+  "definicion": "ESCULPIR 🔨 SIGNIFICA DAR FORMA A LA PIEDRA, LA MADERA O LA ARCILLA CON HERRAMIENTAS.",
+  "sinonimos": [
+   {
+    "texto": "TALLAR",
+    "img": "INF5_U3_ESCULPIR_sin1.webp"
+   },
+   {
+    "texto": "MOLDEAR",
+    "img": "INF5_U3_ESCULPIR_sin2.webp"
+   },
+   {
+    "texto": "CINCELAR",
+    "img": "INF5_U3_ESCULPIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESTRUIR",
+    "img": "INF5_U3_ESCULPIR_ant1.webp"
+   },
+   {
+    "texto": "BORRAR",
+    "img": "INF5_U3_ESCULPIR_ant2.webp"
+   },
+   {
+    "texto": "ENSUCIAR",
+    "img": "INF5_U3_ESCULPIR_ant3.webp"
+   }
+  ],
+  "frase": "EL ARTISTA ESCULPE UN LEÓN",
+  "img_frase": "INF5_U3_ESCULPIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U4",
+  "archivo": "U4_PRESIONAR_INFANTIL5.pptx",
+  "palabra": "PRESIONAR",
+  "img_dibujo": "INF5_U4_PRESIONAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "R",
+   "E",
+   "S",
+   "I",
+   "O",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "PRE",
+   "SIO",
+   "NAR"
+  ],
+  "definicion": "PRESIONAR 👇 SIGNIFICA HACER FUERZA SOBRE ALGO CON LAS MANOS O LOS DEDOS.",
+  "sinonimos": [
+   {
+    "texto": "APRETAR",
+    "img": "INF5_U4_PRESIONAR_sin1.webp"
+   },
+   {
+    "texto": "EMPUJAR",
+    "img": "INF5_U4_PRESIONAR_sin2.webp"
+   },
+   {
+    "texto": "OPRIMIR",
+    "img": "INF5_U4_PRESIONAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "SOLTAR",
+    "img": "INF5_U4_PRESIONAR_ant1.webp"
+   },
+   {
+    "texto": "LIBERAR",
+    "img": "INF5_U4_PRESIONAR_ant2.webp"
+   },
+   {
+    "texto": "AFLOJAR",
+    "img": "INF5_U4_PRESIONAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ARTISTA PRESIONA LA ARCILLA",
+  "img_frase": "INF5_U4_PRESIONAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U4",
+  "archivo": "U4_PULSAR_INFANTIL5.pptx",
+  "palabra": "PULSAR",
+  "img_dibujo": "INF5_U4_PULSAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "U",
+   "L",
+   "S",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PUL",
+   "SAR"
+  ],
+  "definicion": "PULSAR 👇 SIGNIFICA APRETAR UN BOTÓN O UNA TECLA CON EL DEDO.",
+  "sinonimos": [
+   {
+    "texto": "APRETAR",
+    "img": "INF5_U4_PULSAR_sin1.webp"
+   },
+   {
+    "texto": "TOCAR",
+    "img": "INF5_U4_PULSAR_sin2.webp"
+   },
+   {
+    "texto": "ENCENDER",
+    "img": "INF5_U4_PULSAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "APAGAR",
+    "img": "INF5_U4_PULSAR_ant1.webp"
+   },
+   {
+    "texto": "SOLTAR",
+    "img": "INF5_U4_PULSAR_ant2.webp"
+   },
+   {
+    "texto": "DESENCHUFAR",
+    "img": "INF5_U4_PULSAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PAPÁ PULSA EL TIMBRE",
+  "img_frase": "INF5_U4_PULSAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U4",
+  "archivo": "U4_RASGAR_INFANTIL5.pptx",
+  "palabra": "RASGAR",
+  "img_dibujo": "INF5_U4_RASGAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "A",
+   "S",
+   "GU",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "RAS",
+   "GAR"
+  ],
+  "definicion": "RASGAR 📄 SIGNIFICA ROMPER ALGO CON LAS MANOS, SIN USAR TIJERAS.",
+  "sinonimos": [
+   {
+    "texto": "ROMPER",
+    "img": "INF5_U4_RASGAR_sin1.webp"
+   },
+   {
+    "texto": "TROCEAR",
+    "img": "INF5_U4_RASGAR_sin2.webp"
+   },
+   {
+    "texto": "DESMENUZAR",
+    "img": "INF5_U4_RASGAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PEGAR",
+    "img": "INF5_U4_RASGAR_ant1.webp"
+   },
+   {
+    "texto": "UNIR",
+    "img": "INF5_U4_RASGAR_ant2.webp"
+   },
+   {
+    "texto": "REPARAR",
+    "img": "INF5_U4_RASGAR_ant3.webp"
+   }
+  ],
+  "frase": "EL CARTERO RASGA EL SOBRE",
+  "img_frase": "INF5_U4_RASGAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U5",
+  "archivo": "U5_ATENDER_INFANTIL5.pptx",
+  "palabra": "ATENDER",
+  "img_dibujo": "INF5_U5_ATENDER_dibujo.webp",
+  "fonemas": [
+   "A",
+   "T",
+   "E",
+   "N",
+   "D",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "TEN",
+   "DER"
+  ],
+  "definicion": "ATENDER 👇 SIGNIFICA PRESTAR ATENCIÓN A ALGUIEN O ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ESCUCHAR",
+    "img": "INF5_U5_ATENDER_sin1.webp"
+   },
+   {
+    "texto": "CUIDAR",
+    "img": "INF5_U5_ATENDER_sin2.webp"
+   },
+   {
+    "texto": "VIGILAR",
+    "img": "INF5_U5_ATENDER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U5_ATENDER_ant1.webp"
+   },
+   {
+    "texto": "OLVIDAR",
+    "img": "INF5_U5_ATENDER_ant2.webp"
+   },
+   {
+    "texto": "ABANDONAR",
+    "img": "INF5_U5_ATENDER_ant3.webp"
+   }
+  ],
+  "frase": "LA RECEPCIONISTA ATIENDE A LOS VISITANTES",
+  "img_frase": "INF5_U5_ATENDER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U5",
+  "archivo": "U5_COMPRENDER_INFANTIL5.pptx",
+  "palabra": "COMPRENDER",
+  "img_dibujo": "INF5_U5_COMPRENDER_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "M",
+   "P",
+   "R",
+   "E",
+   "N",
+   "D",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 10,
+  "fonemas_ok": true,
+  "silabas": [
+   "COM",
+   "PREN",
+   "DER"
+  ],
+  "definicion": "COMPRENDER 👇 SIGNIFICA ENTENDER EL SIGNIFICADO DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ENTENDER",
+    "img": "INF5_U5_COMPRENDER_sin1.webp"
+   },
+   {
+    "texto": "APRENDER",
+    "img": "INF5_U5_COMPRENDER_sin2.webp"
+   },
+   {
+    "texto": "SABER",
+    "img": "INF5_U5_COMPRENDER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CONFUNDIR",
+    "img": "INF5_U5_COMPRENDER_ant1.webp"
+   },
+   {
+    "texto": "DUDAR",
+    "img": "INF5_U5_COMPRENDER_ant2.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U5_COMPRENDER_ant3.webp"
+   }
+  ],
+  "frase": "EL NIÑO PEQUEÑO COMPRENDE LA HISTORIA",
+  "img_frase": "INF5_U5_COMPRENDER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U5",
+  "archivo": "U5_RECIBIR_INFANTIL5.pptx",
+  "palabra": "RECIBIR",
+  "img_dibujo": "INF5_U5_RECIBIR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "CZ",
+   "I",
+   "BV",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "CI",
+   "BIR"
+  ],
+  "definicion": "RECIBIR 👇 SIGNIFICA TOMAR ALGO QUE ALGUIEN TE DA.",
+  "sinonimos": [
+   {
+    "texto": "OBTENER",
+    "img": "INF5_U5_RECIBIR_sin1.webp"
+   },
+   {
+    "texto": "TOMAR",
+    "img": "INF5_U5_RECIBIR_sin2.webp"
+   },
+   {
+    "texto": "ACEPTAR",
+    "img": "INF5_U5_RECIBIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DAR",
+    "img": "INF5_U5_RECIBIR_ant1.webp"
+   },
+   {
+    "texto": "ENVIAR",
+    "img": "INF5_U5_RECIBIR_ant2.webp"
+   },
+   {
+    "texto": "DEVOLVER",
+    "img": "INF5_U5_RECIBIR_ant3.webp"
+   }
+  ],
+  "frase": "EL EMPLEADO RECIBE UNA CARTA",
+  "img_frase": "INF5_U5_RECIBIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U6",
+  "archivo": "U6_AMUEBLAR_INFANTIL5.pptx",
+  "palabra": "AMUEBLAR",
+  "img_dibujo": "INF5_U6_AMUEBLAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "M",
+   "U",
+   "E",
+   "BV",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "MUE",
+   "BLAR"
+  ],
+  "definicion": "AMUEBLAR 👇 SIGNIFICA PONER MUEBLES EN UN LUGAR.",
+  "sinonimos": [
+   {
+    "texto": "DECORAR",
+    "img": "INF5_U6_AMUEBLAR_sin1.webp"
+   },
+   {
+    "texto": "COLOCAR",
+    "img": "INF5_U6_AMUEBLAR_sin2.webp"
+   },
+   {
+    "texto": "LLENAR",
+    "img": "INF5_U6_AMUEBLAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "VACIAR",
+    "img": "INF5_U6_AMUEBLAR_ant1.webp"
+   },
+   {
+    "texto": "DESMONTAR",
+    "img": "INF5_U6_AMUEBLAR_ant2.webp"
+   },
+   {
+    "texto": "QUITAR",
+    "img": "INF5_U6_AMUEBLAR_ant3.webp"
+   }
+  ],
+  "frase": "EL TÍO AMUEBLA LA TERRAZA",
+  "img_frase": "INF5_U6_AMUEBLAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U6",
+  "archivo": "U6_ILUMINAR_INFANTIL5.pptx",
+  "palabra": "ILUMINAR",
+  "img_dibujo": "INF5_U6_ILUMINAR_dibujo.webp",
+  "fonemas": [
+   "I",
+   "L",
+   "U",
+   "M",
+   "I",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "I",
+   "LU",
+   "MI",
+   "NAR"
+  ],
+  "definicion": "ILUMINAR 👇 SIGNIFICA DAR LUZ A UN LUGAR.",
+  "sinonimos": [
+   {
+    "texto": "ALUMBRAR",
+    "img": "INF5_U6_ILUMINAR_sin1.webp"
+   },
+   {
+    "texto": "ENCENDER",
+    "img": "INF5_U6_ILUMINAR_sin2.webp"
+   },
+   {
+    "texto": "BRILLAR",
+    "img": "INF5_U6_ILUMINAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "APAGAR",
+    "img": "INF5_U6_ILUMINAR_ant1.webp"
+   },
+   {
+    "texto": "TAPAR",
+    "img": "INF5_U6_ILUMINAR_ant2.webp"
+   },
+   {
+    "texto": "NUBLAR",
+    "img": "INF5_U6_ILUMINAR_ant3.webp"
+   }
+  ],
+  "frase": "LA LUNA ILUMINA EL BOSQUE",
+  "img_frase": "INF5_U6_ILUMINAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U6",
+  "archivo": "U6_ORDENAR_INFANTIL5.pptx",
+  "palabra": "ORDENAR",
+  "img_dibujo": "INF5_U6_ORDENAR_dibujo.webp",
+  "fonemas": [
+   "O",
+   "R",
+   "D",
+   "E",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "OR",
+   "DE",
+   "NAR"
+  ],
+  "definicion": "ORDENAR 👇 SIGNIFICA PONER CADA COSA EN SU SITIO.",
+  "sinonimos": [
+   {
+    "texto": "GUARDAR",
+    "img": "INF5_U6_ORDENAR_sin1.webp"
+   },
+   {
+    "texto": "CLASIFICAR",
+    "img": "INF5_U6_ORDENAR_sin2.webp"
+   },
+   {
+    "texto": "COLOCAR",
+    "img": "INF5_U6_ORDENAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESORDENAR",
+    "img": "INF5_U6_ORDENAR_ant1.webp"
+   },
+   {
+    "texto": "ENSUCIAR",
+    "img": "INF5_U6_ORDENAR_ant2.webp"
+   },
+   {
+    "texto": "TIRAR",
+    "img": "INF5_U6_ORDENAR_ant3.webp"
+   }
+  ],
+  "frase": "LA ABUELA ORDENA EL SALÓN",
+  "img_frase": "INF5_U6_ORDENAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U7",
+  "archivo": "U7_DESLIZARSE_INFANTIL5.pptx",
+  "palabra": "DESLIZARSE",
+  "img_dibujo": "INF5_U7_DESLIZARSE_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "S",
+   "L",
+   "I",
+   "CZ",
+   "A",
+   "R",
+   "S",
+   "E"
+  ],
+  "fonemas_pptx": 10,
+  "fonemas_ok": true,
+  "silabas": [
+   "DES",
+   "LI",
+   "ZAR",
+   "SE"
+  ],
+  "definicion": "DESLIZARSE 👇 SIGNIFICA MOVERSE SUAVE SOBRE UNA SUPERFICIE LISA.",
+  "sinonimos": [
+   {
+    "texto": "RESBALAR",
+    "img": "INF5_U7_DESLIZARSE_sin1.webp"
+   },
+   {
+    "texto": "PATINAR",
+    "img": "INF5_U7_DESLIZARSE_sin2.webp"
+   },
+   {
+    "texto": "ESCURRIR",
+    "img": "INF5_U7_DESLIZARSE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "FRENAR",
+    "img": "INF5_U7_DESLIZARSE_ant1.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF5_U7_DESLIZARSE_ant2.webp"
+   },
+   {
+    "texto": "TROPEZAR",
+    "img": "INF5_U7_DESLIZARSE_ant3.webp"
+   }
+  ],
+  "frase": "EL CARACOL SE DESLIZA POR LA RAMA",
+  "img_frase": "INF5_U7_DESLIZARSE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U7",
+  "archivo": "U7_ESCALAR_INFANTIL5.pptx",
+  "palabra": "ESCALAR",
+  "img_dibujo": "INF5_U7_ESCALAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "S",
+   "K",
+   "A",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "ES",
+   "CA",
+   "LAR"
+  ],
+  "definicion": "ESCALAR 👇 SIGNIFICA SUBIR POR ALGO USANDO MANOS Y PIES.",
+  "sinonimos": [
+   {
+    "texto": "TREPAR",
+    "img": "INF5_U7_ESCALAR_sin1.webp"
+   },
+   {
+    "texto": "SUBIR",
+    "img": "INF5_U7_ESCALAR_sin2.webp"
+   },
+   {
+    "texto": "ASCENDER",
+    "img": "INF5_U7_ESCALAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "BAJAR",
+    "img": "INF5_U7_ESCALAR_ant1.webp"
+   },
+   {
+    "texto": "DESCENDER",
+    "img": "INF5_U7_ESCALAR_ant2.webp"
+   },
+   {
+    "texto": "CAER",
+    "img": "INF5_U7_ESCALAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO ESCALA LA COLINA",
+  "img_frase": "INF5_U7_ESCALAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U7",
+  "archivo": "U7_GATEAR_INFANTIL5.pptx",
+  "palabra": "GATEAR",
+  "img_dibujo": "INF5_U7_GATEAR_dibujo.webp",
+  "fonemas": [
+   "GU",
+   "A",
+   "T",
+   "E",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "GA",
+   "TE",
+   "AR"
+  ],
+  "definicion": "GATEAR 👇 SIGNIFICA MOVERSE APOYANDO LAS MANOS Y LAS RODILLAS.",
+  "sinonimos": [
+   {
+    "texto": "REPTAR",
+    "img": "INF5_U7_GATEAR_sin1.webp"
+   },
+   {
+    "texto": "DESPLAZARSE",
+    "img": "INF5_U7_GATEAR_sin2.webp"
+   },
+   {
+    "texto": "AVANZAR",
+    "img": "INF5_U7_GATEAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CAMINAR",
+    "img": "INF5_U7_GATEAR_ant1.webp"
+   },
+   {
+    "texto": "CORRER",
+    "img": "INF5_U7_GATEAR_ant2.webp"
+   },
+   {
+    "texto": "SALTAR",
+    "img": "INF5_U7_GATEAR_ant3.webp"
+   }
+  ],
+  "frase": "EL TIGRE GATEA POR LA SELVA",
+  "img_frase": "INF5_U7_GATEAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U8",
+  "archivo": "U8_ACOMPAÑAR_INFANTIL5.pptx",
+  "palabra": "ACOMPAÑAR",
+  "img_dibujo": "INF5_U8_ACOMPANAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "K",
+   "O",
+   "M",
+   "P",
+   "A",
+   "Ñ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "COM",
+   "PA",
+   "ÑAR"
+  ],
+  "definicion": "ACOMPAÑAR 👇 SIGNIFICA IR CON ALGUIEN A ALGÚN LUGAR.",
+  "sinonimos": [
+   {
+    "texto": "LLEVAR",
+    "img": "INF5_U8_ACOMPANAR_sin1.webp"
+   },
+   {
+    "texto": "GUIAR",
+    "img": "INF5_U8_ACOMPANAR_sin2.webp"
+   },
+   {
+    "texto": "SEGUIR",
+    "img": "INF5_U8_ACOMPANAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DEJAR",
+    "img": "INF5_U8_ACOMPANAR_ant1.webp"
+   },
+   {
+    "texto": "SOLO",
+    "img": "INF5_U8_ACOMPANAR_ant2.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U8_ACOMPANAR_ant3.webp"
+   }
+  ],
+  "frase": "EL MAESTRO ACOMPAÑA A LOS NIÑOS",
+  "img_frase": "INF5_U8_ACOMPANAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U8",
+  "archivo": "U8_AGRADECER_INFANTIL5.pptx",
+  "palabra": "AGRADECER",
+  "img_dibujo": "INF5_U8_AGRADECER_dibujo.webp",
+  "fonemas": [
+   "A",
+   "GU",
+   "R",
+   "A",
+   "D",
+   "E",
+   "CZ",
+   "E",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "GRA",
+   "DE",
+   "CER"
+  ],
+  "definicion": "AGRADECER 👇 SIGNIFICA DAR LAS GRACIAS POR ALGO BUENO.",
+  "sinonimos": [
+   {
+    "texto": "GRACIAS",
+    "img": "INF5_U8_AGRADECER_sin1.webp"
+   },
+   {
+    "texto": "CELEBRAR",
+    "img": "INF5_U8_AGRADECER_sin2.webp"
+   },
+   {
+    "texto": "ABRAZAR",
+    "img": "INF5_U8_AGRADECER_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U8_AGRADECER_ant1.webp"
+   },
+   {
+    "texto": "RECHAZAR",
+    "img": "INF5_U8_AGRADECER_ant2.webp"
+   },
+   {
+    "texto": "OLVIDAR",
+    "img": "INF5_U8_AGRADECER_ant3.webp"
+   }
+  ],
+  "frase": "LA FAMILIA AGRADECE EL CARIÑO",
+  "img_frase": "INF5_U8_AGRADECER_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U8",
+  "archivo": "U8_COOPERAR_INFANTIL5.pptx",
+  "palabra": "COOPERAR",
+  "img_dibujo": "INF5_U8_COOPERAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "O",
+   "P",
+   "E",
+   "R",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "CO",
+   "O",
+   "PE",
+   "RAR"
+  ],
+  "definicion": "COOPERAR 👇 SIGNIFICA TRABAJAR JUNTOS PARA UN MISMO OBJETIVO.",
+  "sinonimos": [
+   {
+    "texto": "AYUDAR",
+    "img": "INF5_U8_COOPERAR_sin1.webp"
+   },
+   {
+    "texto": "COMPARTIR",
+    "img": "INF5_U8_COOPERAR_sin2.webp"
+   },
+   {
+    "texto": "PARTICIPAR",
+    "img": "INF5_U8_COOPERAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MOLESTAR",
+    "img": "INF5_U8_COOPERAR_ant1.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U8_COOPERAR_ant2.webp"
+   },
+   {
+    "texto": "DEJAR",
+    "img": "INF5_U8_COOPERAR_ant3.webp"
+   }
+  ],
+  "frase": "LAS NIÑAS COOPERAN EN EL RECREO",
+  "img_frase": "INF5_U8_COOPERAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U9",
+  "archivo": "U9_CONSTRUIR_INFANTIL5.pptx",
+  "palabra": "CONSTRUIR",
+  "img_dibujo": "INF5_U9_CONSTRUIR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "O",
+   "N",
+   "S",
+   "T",
+   "R",
+   "U",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "CONS",
+   "TRUIR"
+  ],
+  "definicion": "CONSTRUIR 👇 SIGNIFICA HACER ALGO UNIENDO PIEZAS.",
+  "sinonimos": [
+   {
+    "texto": "FABRICAR",
+    "img": "INF5_U9_CONSTRUIR_sin1.webp"
+   },
+   {
+    "texto": "LEVANTAR",
+    "img": "INF5_U9_CONSTRUIR_sin2.webp"
+   },
+   {
+    "texto": "HACER",
+    "img": "INF5_U9_CONSTRUIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ROMPER",
+    "img": "INF5_U9_CONSTRUIR_ant1.webp"
+   },
+   {
+    "texto": "DERRIBAR",
+    "img": "INF5_U9_CONSTRUIR_ant2.webp"
+   },
+   {
+    "texto": "APLASTAR",
+    "img": "INF5_U9_CONSTRUIR_ant3.webp"
+   }
+  ],
+  "frase": "LOS ALBAÑILES CONSTRUYEN EL MURO 🧱",
+  "img_frase": "INF5_U9_CONSTRUIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U9",
+  "archivo": "U9_DIRIGIR_INFANTIL5.pptx",
+  "palabra": "DIRIGIR",
+  "img_dibujo": "INF5_U9_DIRIGIR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "I",
+   "R",
+   "I",
+   "GJ",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "DI",
+   "RI",
+   "GIR"
+  ],
+  "definicion": "DIRIGIR 👇 SIGNIFICA GUIAR A UN GRUPO HACIA UN OBJETIVO.",
+  "sinonimos": [
+   {
+    "texto": "GUIAR",
+    "img": "INF5_U9_DIRIGIR_sin1.webp"
+   },
+   {
+    "texto": "CONDUCIR",
+    "img": "INF5_U9_DIRIGIR_sin2.webp"
+   },
+   {
+    "texto": "COORDINAR",
+    "img": "INF5_U9_DIRIGIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "OBEDECER",
+    "img": "INF5_U9_DIRIGIR_ant1.webp"
+   },
+   {
+    "texto": "SEGUIR",
+    "img": "INF5_U9_DIRIGIR_ant2.webp"
+   },
+   {
+    "texto": "ACOMPAÑAR",
+    "img": "INF5_U9_DIRIGIR_ant3.webp"
+   }
+  ],
+  "frase": "EL GUÍA DIRIGE LA EXCURSIÓN 🥾",
+  "img_frase": "INF5_U9_DIRIGIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U9",
+  "archivo": "U9_EXPLORAR_INFANTIL5.pptx",
+  "palabra": "EXPLORAR",
+  "img_dibujo": "INF5_U9_EXPLORAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "X",
+   "P",
+   "L",
+   "O",
+   "R",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "EX",
+   "PLO",
+   "RAR"
+  ],
+  "definicion": "EXPLORAR 👇 SIGNIFICA DESCUBRIR LUGARES NUEVOS.",
+  "sinonimos": [
+   {
+    "texto": "DESCUBRIR",
+    "img": "INF5_U9_EXPLORAR_sin1.webp"
+   },
+   {
+    "texto": "INVESTIGAR",
+    "img": "INF5_U9_EXPLORAR_sin2.webp"
+   },
+   {
+    "texto": "RECORRER",
+    "img": "INF5_U9_EXPLORAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "IGNORAR",
+    "img": "INF5_U9_EXPLORAR_ant1.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF5_U9_EXPLORAR_ant2.webp"
+   },
+   {
+    "texto": "DESCANSAR",
+    "img": "INF5_U9_EXPLORAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PIRATA EXPLORA LA ISLA 🦜",
+  "img_frase": "INF5_U9_EXPLORAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U10",
+  "archivo": "U10_FILETEAR_INFANTIL5.pptx",
+  "palabra": "FILETEAR",
+  "img_dibujo": "INF5_U10_FILETEAR_dibujo.webp",
+  "fonemas": [
+   "F",
+   "I",
+   "L",
+   "E",
+   "T",
+   "E",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "FI",
+   "LE",
+   "TE",
+   "AR"
+  ],
+  "definicion": "FILETEAR 👇 SIGNIFICA CORTAR UN ALIMENTO EN LÁMINAS.",
+  "sinonimos": [
+   {
+    "texto": "CORTAR",
+    "img": "INF5_U10_FILETEAR_sin1.webp"
+   },
+   {
+    "texto": "TROCEAR",
+    "img": "INF5_U10_FILETEAR_sin2.webp"
+   },
+   {
+    "texto": "DIVIDIR",
+    "img": "INF5_U10_FILETEAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "UNIR",
+    "img": "INF5_U10_FILETEAR_ant1.webp"
+   },
+   {
+    "texto": "JUNTAR",
+    "img": "INF5_U10_FILETEAR_ant2.webp"
+   },
+   {
+    "texto": "COMPLETO",
+    "img": "INF5_U10_FILETEAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PESCADERO FILETEA LA LUBINA",
+  "img_frase": "INF5_U10_FILETEAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U10",
+  "archivo": "U10_PICAR_INFANTIL5.pptx",
+  "palabra": "PICAR",
+  "img_dibujo": "INF5_U10_PICAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "I",
+   "K",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "PI",
+   "CAR"
+  ],
+  "definicion": "PICAR 🔪 SIGNIFICA CORTAR UN ALIMENTO EN TROZOS MUY PEQUEÑOS.",
+  "sinonimos": [
+   {
+    "texto": "TROCEAR",
+    "img": "INF5_U10_PICAR_sin1.webp"
+   },
+   {
+    "texto": "CORTAR",
+    "img": "INF5_U10_PICAR_sin2.webp"
+   },
+   {
+    "texto": "SEPARAR",
+    "img": "INF5_U10_PICAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "JUNTAR",
+    "img": "INF5_U10_PICAR_ant1.webp"
+   },
+   {
+    "texto": "PEGAR",
+    "img": "INF5_U10_PICAR_ant2.webp"
+   },
+   {
+    "texto": "MEZCLAR",
+    "img": "INF5_U10_PICAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PAPÁ PICA EL PLÁTANO 🍌",
+  "img_frase": "INF5_U10_PICAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ },
+ {
+  "curso": "INF5",
+  "unidad": "U10",
+  "archivo": "U10_RALLAR_INFANTIL5.pptx",
+  "palabra": "RALLAR",
+  "img_dibujo": "INF5_U10_RALLAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "A",
+   "LLY",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "RA",
+   "LLAR"
+  ],
+  "definicion": "RALLAR 🧀 SIGNIFICA DESHACER UN ALIMENTO, CONVERTIRLO EN TROCITOS PEQUEÑOS.",
+  "sinonimos": [
+   {
+    "texto": "TRITURAR",
+    "img": "INF5_U10_RALLAR_sin1.webp"
+   },
+   {
+    "texto": "DESMENUZAR",
+    "img": "INF5_U10_RALLAR_sin2.webp"
+   },
+   {
+    "texto": "TROCEAR",
+    "img": "INF5_U10_RALLAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "JUNTAR",
+    "img": "INF5_U10_RALLAR_ant1.webp"
+   },
+   {
+    "texto": "PEGAR",
+    "img": "INF5_U10_RALLAR_ant2.webp"
+   },
+   {
+    "texto": "CONSTRUIR",
+    "img": "INF5_U10_RALLAR_ant3.webp"
+   }
+  ],
+  "frase": "EL OSO RALLA LA MANZANA",
+  "img_frase": "INF5_U10_RALLAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 5 años"
+ }
+]

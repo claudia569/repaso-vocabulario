@@ -1,0 +1,1628 @@
+[
+ {
+  "curso": "INF3",
+  "unidad": "U1",
+  "archivo": "U1_DEBAJO_INF3.pptx",
+  "palabra": "DEBAJO",
+  "img_dibujo": "INF3_U1_DEBAJO_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "BV",
+   "A",
+   "GJ",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "BA",
+   "JO"
+  ],
+  "definicion": "DEBAJO 🔽 SIGNIFICA ESTAR EN LA PARTE DE ABAJO DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ABAJO",
+    "img": "INF3_U1_DEBAJO_sin1.webp"
+   },
+   {
+    "texto": "BAJO",
+    "img": "INF3_U1_DEBAJO_sin2.webp"
+   },
+   {
+    "texto": "SUELO",
+    "img": "INF3_U1_DEBAJO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ENCIMA",
+    "img": "INF3_U1_DEBAJO_ant1.webp"
+   },
+   {
+    "texto": "ARRIBA",
+    "img": "INF3_U1_DEBAJO_ant2.webp"
+   },
+   {
+    "texto": "CIMA",
+    "img": "INF3_U1_DEBAJO_ant3.webp"
+   }
+  ],
+  "frase": "EL RATÓN SE ESCONDE DEBAJO DE LA SILLA.",
+  "img_frase": "INF3_U1_DEBAJO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U1",
+  "archivo": "U1_DENTRO_INF3.pptx",
+  "palabra": "DENTRO",
+  "img_dibujo": "INF3_U1_DENTRO_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "N",
+   "T",
+   "R",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "DEN",
+   "TRO"
+  ],
+  "definicion": "DENTRO 🔽 SIGNIFICA ESTAR EN LA PARTE DE ADENTRO DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ADENTRO",
+    "img": "INF3_U1_DENTRO_sin1.webp"
+   },
+   {
+    "texto": "INTERIOR",
+    "img": "INF3_U1_DENTRO_sin2.webp"
+   },
+   {
+    "texto": "GUARDADO",
+    "img": "INF3_U1_DENTRO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "FUERA",
+    "img": "INF3_U1_DENTRO_ant1.webp"
+   },
+   {
+    "texto": "LIBRE",
+    "img": "INF3_U1_DENTRO_ant2.webp"
+   },
+   {
+    "texto": "ABIERTO",
+    "img": "INF3_U1_DENTRO_ant3.webp"
+   }
+  ],
+  "frase": "EL PEZ NADA DENTRO DE LA PECERA.",
+  "img_frase": "INF3_U1_DENTRO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U1",
+  "archivo": "U1_ENCIMA_INF3.pptx",
+  "palabra": "ENCIMA",
+  "img_dibujo": "INF3_U1_ENCIMA_dibujo.webp",
+  "fonemas": [
+   "E",
+   "N",
+   "CZ",
+   "I",
+   "M",
+   "A"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "EN",
+   "CI",
+   "MA"
+  ],
+  "definicion": "ENCIMA 🔼 SIGNIFICA ESTAR EN LA PARTE DE ARRIBA DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ARRIBA",
+    "img": "INF3_U1_ENCIMA_sin1.webp"
+   },
+   {
+    "texto": "SOBRE",
+    "img": "INF3_U1_ENCIMA_sin2.webp"
+   },
+   {
+    "texto": "CIMA",
+    "img": "INF3_U1_ENCIMA_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DEBAJO",
+    "img": "INF3_U1_ENCIMA_ant1.webp"
+   },
+   {
+    "texto": "ABAJO",
+    "img": "INF3_U1_ENCIMA_ant2.webp"
+   },
+   {
+    "texto": "BAJO",
+    "img": "INF3_U1_ENCIMA_ant3.webp"
+   }
+  ],
+  "frase": "EL PÁJARO VUELA ENCIMA DEL TEJADO.",
+  "img_frase": "INF3_U1_ENCIMA_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U2",
+  "archivo": "U2_AHORA_INF3.pptx",
+  "palabra": "AHORA",
+  "img_dibujo": "INF3_U2_AHORA_dibujo.webp",
+  "fonemas": [
+   "A",
+   "H",
+   "O",
+   "R",
+   "A"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "HO",
+   "RA"
+  ],
+  "definicion": "AHORA ⏰ SIGNIFICA EN ESTE MOMENTO, JUSTO EN EL PRESENTE.",
+  "sinonimos": [
+   {
+    "texto": "YA",
+    "img": "INF3_U2_AHORA_sin1.webp"
+   },
+   {
+    "texto": "PRESENTE",
+    "img": "INF3_U2_AHORA_sin2.webp"
+   },
+   {
+    "texto": "HOY",
+    "img": "INF3_U2_AHORA_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ANTES",
+    "img": "INF3_U2_AHORA_ant1.webp"
+   },
+   {
+    "texto": "DESPUÉS",
+    "img": "INF3_U2_AHORA_ant2.webp"
+   },
+   {
+    "texto": "LUEGO",
+    "img": "INF3_U2_AHORA_ant3.webp"
+   }
+  ],
+  "frase": "LA MAESTRA EXPLICA AHORA LA LECCIÓN 📚",
+  "img_frase": "INF3_U2_AHORA_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U2",
+  "archivo": "U2_ANTES_INF3.pptx",
+  "palabra": "ANTES",
+  "img_dibujo": "INF3_U2_ANTES_dibujo.webp",
+  "fonemas": [
+   "A",
+   "N",
+   "T",
+   "E",
+   "S"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "AN",
+   "TES"
+  ],
+  "definicion": "ANTES ⏪ SIGNIFICA QUE ALGO PASA PRIMERO QUE OTRA COSA.",
+  "sinonimos": [
+   {
+    "texto": "PRIMERO",
+    "img": "INF3_U2_ANTES_sin1.webp"
+   },
+   {
+    "texto": "TEMPRANO",
+    "img": "INF3_U2_ANTES_sin2.webp"
+   },
+   {
+    "texto": "YA",
+    "img": "INF3_U2_ANTES_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESPUÉS",
+    "img": "INF3_U2_ANTES_ant1.webp"
+   },
+   {
+    "texto": "LUEGO",
+    "img": "INF3_U2_ANTES_ant2.webp"
+   },
+   {
+    "texto": "TARDE",
+    "img": "INF3_U2_ANTES_ant3.webp"
+   }
+  ],
+  "frase": "EL SOL SALE ANTES QUE LA LUNA 🌞",
+  "img_frase": "INF3_U2_ANTES_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U2",
+  "archivo": "U2_DESPUÉS_INF3.pptx",
+  "palabra": "DESPUÉS",
+  "img_dibujo": "INF3_U2_DESPUES_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "S",
+   "P",
+   "U",
+   "E",
+   "S"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "DES",
+   "PUÉS"
+  ],
+  "definicion": "DESPUÉS ⏩ SIGNIFICA QUE ALGO PASA MÁS TARDE QUE OTRA COSA.",
+  "sinonimos": [
+   {
+    "texto": "LUEGO",
+    "img": "INF3_U2_DESPUES_sin1.webp"
+   },
+   {
+    "texto": "TARDE",
+    "img": "INF3_U2_DESPUES_sin2.webp"
+   },
+   {
+    "texto": "ENTONCES",
+    "img": "INF3_U2_DESPUES_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ANTES",
+    "img": "INF3_U2_DESPUES_ant1.webp"
+   },
+   {
+    "texto": "PRIMERO",
+    "img": "INF3_U2_DESPUES_ant2.webp"
+   },
+   {
+    "texto": "YA",
+    "img": "INF3_U2_DESPUES_ant3.webp"
+   }
+  ],
+  "frase": "LA ESTRELLA BRILLA DESPUÉS DE ANOCHECER 🌌",
+  "img_frase": "INF3_U2_DESPUES_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U3",
+  "archivo": "U3_MUCHO_INF3.pptx",
+  "palabra": "MUCHO",
+  "img_dibujo": "INF3_U3_MUCHO_dibujo.webp",
+  "fonemas": [
+   "M",
+   "U",
+   "CH",
+   "O"
+  ],
+  "fonemas_pptx": 4,
+  "fonemas_ok": true,
+  "silabas": [
+   "MU",
+   "CHO"
+  ],
+  "definicion": "MUCHO 📦 SIGNIFICA UNA CANTIDAD GRANDE DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "VARIOS",
+    "img": "INF3_U3_MUCHO_sin1.webp"
+   },
+   {
+    "texto": "TODO",
+    "img": "INF3_U3_MUCHO_sin2.webp"
+   },
+   {
+    "texto": "LLENO",
+    "img": "INF3_U3_MUCHO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "POCO",
+    "img": "INF3_U3_MUCHO_ant1.webp"
+   },
+   {
+    "texto": "NADA",
+    "img": "INF3_U3_MUCHO_ant2.webp"
+   },
+   {
+    "texto": "VACÍO",
+    "img": "INF3_U3_MUCHO_ant3.webp"
+   }
+  ],
+  "frase": "EL ÁRBOL TIENE MUCHAS HOJAS 🍃",
+  "img_frase": "INF3_U3_MUCHO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U3",
+  "archivo": "U3_NADA_INF3.pptx",
+  "palabra": "NADA",
+  "img_dibujo": "INF3_U3_NADA_dibujo.webp",
+  "fonemas": [
+   "N",
+   "A",
+   "D",
+   "A"
+  ],
+  "fonemas_pptx": 4,
+  "fonemas_ok": true,
+  "silabas": [
+   "NA",
+   "DA"
+  ],
+  "definicion": "NADA 🚫 SIGNIFICA NINGUNA CANTIDAD, CERO DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "VACÍO",
+    "img": "INF3_U3_NADA_sin1.webp"
+   },
+   {
+    "texto": "CERO",
+    "img": "INF3_U3_NADA_sin2.webp"
+   },
+   {
+    "texto": "NINGUNO",
+    "img": "INF3_U3_NADA_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MUCHO",
+    "img": "INF3_U3_NADA_ant1.webp"
+   },
+   {
+    "texto": "TODO",
+    "img": "INF3_U3_NADA_ant2.webp"
+   },
+   {
+    "texto": "ALGO",
+    "img": "INF3_U3_NADA_ant3.webp"
+   }
+  ],
+  "frase": "EL FRASCO DE GALLETAS NO TIENE NADA 🍪",
+  "img_frase": "INF3_U3_NADA_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U3",
+  "archivo": "U3_POCO_INF3.pptx",
+  "palabra": "POCO",
+  "img_dibujo": "INF3_U3_POCO_dibujo.webp",
+  "fonemas": [
+   "P",
+   "O",
+   "K",
+   "O"
+  ],
+  "fonemas_pptx": 4,
+  "fonemas_ok": true,
+  "silabas": [
+   "PO",
+   "CO"
+  ],
+  "definicion": "POCO 📩 SIGNIFICA UNA CANTIDAD PEQUEÑA DE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "PIZCA",
+    "img": "INF3_U3_POCO_sin1.webp"
+   },
+   {
+    "texto": "ESCASO",
+    "img": "INF3_U3_POCO_sin2.webp"
+   },
+   {
+    "texto": "ALGO",
+    "img": "INF3_U3_POCO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MUCHO",
+    "img": "INF3_U3_POCO_ant1.webp"
+   },
+   {
+    "texto": "TODO",
+    "img": "INF3_U3_POCO_ant2.webp"
+   },
+   {
+    "texto": "LLENO",
+    "img": "INF3_U3_POCO_ant3.webp"
+   }
+  ],
+  "frase": "LA MOCHILA TIENE POCOS LIBROS 📚",
+  "img_frase": "INF3_U3_POCO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U4",
+  "archivo": "U4_DECIR_INF3.pptx",
+  "palabra": "DECIR",
+  "img_dibujo": "INF3_U4_DECIR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "CZ",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "CIR"
+  ],
+  "definicion": "DECIR 🗣 SIGNIFICA EXPRESAR ALGO CON PALABRAS.",
+  "sinonimos": [
+   {
+    "texto": "HABLAR",
+    "img": "INF3_U4_DECIR_sin1.webp"
+   },
+   {
+    "texto": "CONTAR",
+    "img": "INF3_U4_DECIR_sin2.webp"
+   },
+   {
+    "texto": "EXPRESAR",
+    "img": "INF3_U4_DECIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CALLAR",
+    "img": "INF3_U4_DECIR_ant1.webp"
+   },
+   {
+    "texto": "ESCUCHAR",
+    "img": "INF3_U4_DECIR_ant2.webp"
+   },
+   {
+    "texto": "SILENCIAR",
+    "img": "INF3_U4_DECIR_ant3.webp"
+   }
+  ],
+  "frase": "EL LORO SABE DECIR PALABRAS BONITAS 🦜",
+  "img_frase": "INF3_U4_DECIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U4",
+  "archivo": "U4_PENSAR_INF3.pptx",
+  "palabra": "PENSAR",
+  "img_dibujo": "INF3_U4_PENSAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "E",
+   "N",
+   "S",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PEN",
+   "SAR"
+  ],
+  "definicion": "PENSAR 🤔 SIGNIFICA USAR LA MENTE PARA TENER IDEAS.",
+  "sinonimos": [
+   {
+    "texto": "RECORDAR",
+    "img": "INF3_U4_PENSAR_sin1.webp"
+   },
+   {
+    "texto": "IMAGINAR",
+    "img": "INF3_U4_PENSAR_sin2.webp"
+   },
+   {
+    "texto": "REFLEXIONAR",
+    "img": "INF3_U4_PENSAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "OLVIDAR",
+    "img": "INF3_U4_PENSAR_ant1.webp"
+   },
+   {
+    "texto": "DORMIR",
+    "img": "INF3_U4_PENSAR_ant2.webp"
+   },
+   {
+    "texto": "DISTRAERSE",
+    "img": "INF3_U4_PENSAR_ant3.webp"
+   }
+  ],
+  "frase": "EL SABIO SUELE PENSAR ANTES DE HABLAR 🦉",
+  "img_frase": "INF3_U4_PENSAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U4",
+  "archivo": "U4_SOÑAR_INF3.pptx",
+  "palabra": "SOÑAR",
+  "img_dibujo": "INF3_U4_SONAR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "O",
+   "Ñ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "SO",
+   "ÑAR"
+  ],
+  "definicion": "SOÑAR 💭 SIGNIFICA IMAGINAR COSAS BONITAS MIENTRAS DORMIMOS.",
+  "sinonimos": [
+   {
+    "texto": "IMAGINAR",
+    "img": "INF3_U4_SONAR_sin1.webp"
+   },
+   {
+    "texto": "FANTASEAR",
+    "img": "INF3_U4_SONAR_sin2.webp"
+   },
+   {
+    "texto": "DESEAR",
+    "img": "INF3_U4_SONAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESPERTAR",
+    "img": "INF3_U4_SONAR_ant1.webp"
+   },
+   {
+    "texto": "OLVIDAR",
+    "img": "INF3_U4_SONAR_ant2.webp"
+   },
+   {
+    "texto": "DUDAR",
+    "img": "INF3_U4_SONAR_ant3.webp"
+   }
+  ],
+  "frase": "EL FANTASMA SUELE SOÑAR CON VOLAR ALTO 👻",
+  "img_frase": "INF3_U4_SONAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U5",
+  "archivo": "U5_ESCUCHAR_INF3.pptx",
+  "palabra": "ESCUCHAR",
+  "img_dibujo": "INF3_U5_ESCUCHAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "S",
+   "K",
+   "U",
+   "CH",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "ES",
+   "CU",
+   "CHAR"
+  ],
+  "definicion": "ESCUCHAR 👂 SIGNIFICA PRESTAR ATENCIÓN A UN SONIDO.",
+  "sinonimos": [
+   {
+    "texto": "OÍR",
+    "img": "INF3_U5_ESCUCHAR_sin1.webp"
+   },
+   {
+    "texto": "ATENDER",
+    "img": "INF3_U5_ESCUCHAR_sin2.webp"
+   },
+   {
+    "texto": "CALLAR",
+    "img": "INF3_U5_ESCUCHAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "IGNORAR",
+    "img": "INF3_U5_ESCUCHAR_ant1.webp"
+   },
+   {
+    "texto": "HABLAR",
+    "img": "INF3_U5_ESCUCHAR_ant2.webp"
+   },
+   {
+    "texto": "DISTRAERSE",
+    "img": "INF3_U5_ESCUCHAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO SABE ESCUCHAR LA VOZ DE SU DUEÑO 🐕",
+  "img_frase": "INF3_U5_ESCUCHAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U5",
+  "archivo": "U5_ESPERAR_INF3.pptx",
+  "palabra": "ESPERAR",
+  "img_dibujo": "INF3_U5_ESPERAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "S",
+   "P",
+   "E",
+   "R",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "ES",
+   "PE",
+   "RAR"
+  ],
+  "definicion": "ESPERAR ⏳ SIGNIFICA QUEDARSE QUIETO HASTA QUE LLEGUE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "AGUARDAR",
+    "img": "INF3_U5_ESPERAR_sin1.webp"
+   },
+   {
+    "texto": "PACIENCIA",
+    "img": "INF3_U5_ESPERAR_sin2.webp"
+   },
+   {
+    "texto": "QUEDARSE",
+    "img": "INF3_U5_ESPERAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "APURARSE",
+    "img": "INF3_U5_ESPERAR_ant1.webp"
+   },
+   {
+    "texto": "CORRER",
+    "img": "INF3_U5_ESPERAR_ant2.webp"
+   },
+   {
+    "texto": "IMPACIENTARSE",
+    "img": "INF3_U5_ESPERAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO SABE ESPERAR SENTADO EN LA PUERTA 🐕",
+  "img_frase": "INF3_U5_ESPERAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U5",
+  "archivo": "U5_PINTAR_INF3.pptx",
+  "palabra": "PINTAR",
+  "img_dibujo": "INF3_U5_PINTAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "I",
+   "N",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PIN",
+   "TAR"
+  ],
+  "definicion": "PINTAR 🖌 SIGNIFICA CUBRIR ALGO CON COLOR.",
+  "sinonimos": [
+   {
+    "texto": "COLOREAR",
+    "img": "INF3_U5_PINTAR_sin1.webp"
+   },
+   {
+    "texto": "DIBUJAR",
+    "img": "INF3_U5_PINTAR_sin2.webp"
+   },
+   {
+    "texto": "DECORAR",
+    "img": "INF3_U5_PINTAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "BORRAR",
+    "img": "INF3_U5_PINTAR_ant1.webp"
+   },
+   {
+    "texto": "TACHAR",
+    "img": "INF3_U5_PINTAR_ant2.webp"
+   },
+   {
+    "texto": "DESTEÑIR",
+    "img": "INF3_U5_PINTAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ARTISTA SABE PINTAR CUADROS FAMOSOS 🖼",
+  "img_frase": "INF3_U5_PINTAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U6",
+  "archivo": "U6_GRANDE_INF3.pptx",
+  "palabra": "GRANDE",
+  "img_dibujo": "INF3_U6_GRANDE_dibujo.webp",
+  "fonemas": [
+   "GU",
+   "R",
+   "A",
+   "N",
+   "D",
+   "E"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "GRAN",
+   "DE"
+  ],
+  "definicion": "GRANDE 📏 SIGNIFICA QUE ALGO OCUPA MUCHO ESPACIO.",
+  "sinonimos": [
+   {
+    "texto": "GIGANTE",
+    "img": "INF3_U6_GRANDE_sin1.webp"
+   },
+   {
+    "texto": "INMENSO",
+    "img": "INF3_U6_GRANDE_sin2.webp"
+   },
+   {
+    "texto": "ENORME",
+    "img": "INF3_U6_GRANDE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF3_U6_GRANDE_ant1.webp"
+   },
+   {
+    "texto": "DIMINUTO",
+    "img": "INF3_U6_GRANDE_ant2.webp"
+   },
+   {
+    "texto": "MINÚSCULO",
+    "img": "INF3_U6_GRANDE_ant3.webp"
+   }
+  ],
+  "frase": "EL OSO ES GRANDE COMO UNA MONTAÑA 🏔",
+  "img_frase": "INF3_U6_GRANDE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U6",
+  "archivo": "U6_MEDIANO_INF3.pptx",
+  "palabra": "MEDIANO",
+  "img_dibujo": "INF3_U6_MEDIANO_dibujo.webp",
+  "fonemas": [
+   "M",
+   "E",
+   "D",
+   "I",
+   "A",
+   "N",
+   "O"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "ME",
+   "DIA",
+   "NO"
+  ],
+  "definicion": "MEDIANO ⚖ SIGNIFICA QUE ALGO NO ES NI GRANDE NI PEQUEÑO.",
+  "sinonimos": [
+   {
+    "texto": "REGULAR",
+    "img": "INF3_U6_MEDIANO_sin1.webp"
+   },
+   {
+    "texto": "NORMAL",
+    "img": "INF3_U6_MEDIANO_sin2.webp"
+   },
+   {
+    "texto": "INTERMEDIO",
+    "img": "INF3_U6_MEDIANO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "GRANDE",
+    "img": "INF3_U6_MEDIANO_ant1.webp"
+   },
+   {
+    "texto": "PEQUEÑO",
+    "img": "INF3_U6_MEDIANO_ant2.webp"
+   },
+   {
+    "texto": "EXTREMO",
+    "img": "INF3_U6_MEDIANO_ant3.webp"
+   }
+  ],
+  "frase": "EL PATO ES MEDIANO EN ESTA GRANJA 🦆",
+  "img_frase": "INF3_U6_MEDIANO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U6",
+  "archivo": "U6_PEQUEÑO_INF3.pptx",
+  "palabra": "PEQUEÑO",
+  "img_dibujo": "INF3_U6_PEQUENO_dibujo.webp",
+  "fonemas": [
+   "P",
+   "E",
+   "K",
+   "E",
+   "Ñ",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PE",
+   "QUE",
+   "ÑO"
+  ],
+  "definicion": "PEQUEÑO 🔍 SIGNIFICA QUE ALGO OCUPA POCO ESPACIO.",
+  "sinonimos": [
+   {
+    "texto": "DIMINUTO",
+    "img": "INF3_U6_PEQUENO_sin1.webp"
+   },
+   {
+    "texto": "MINÚSCULO",
+    "img": "INF3_U6_PEQUENO_sin2.webp"
+   },
+   {
+    "texto": "CHIQUITO",
+    "img": "INF3_U6_PEQUENO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "GRANDE",
+    "img": "INF3_U6_PEQUENO_ant1.webp"
+   },
+   {
+    "texto": "GIGANTE",
+    "img": "INF3_U6_PEQUENO_ant2.webp"
+   },
+   {
+    "texto": "ENORME",
+    "img": "INF3_U6_PEQUENO_ant3.webp"
+   }
+  ],
+  "frase": "EL PÁJARO ES PEQUEÑO COMO UN JUGUETE 🧸",
+  "img_frase": "INF3_U6_PEQUENO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U7",
+  "archivo": "U7_ASUSTADO_INF3.pptx",
+  "palabra": "ASUSTADO",
+  "img_dibujo": "INF3_U7_ASUSTADO_dibujo.webp",
+  "fonemas": [
+   "A",
+   "S",
+   "U",
+   "S",
+   "T",
+   "A",
+   "D",
+   "O"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "SUS",
+   "TA",
+   "DO"
+  ],
+  "definicion": "ASUSTADO 😨 SIGNIFICA SENTIR MUCHO MIEDO.",
+  "sinonimos": [
+   {
+    "texto": "MIEDOSO",
+    "img": "INF3_U7_ASUSTADO_sin1.webp"
+   },
+   {
+    "texto": "NERVIOSO",
+    "img": "INF3_U7_ASUSTADO_sin2.webp"
+   },
+   {
+    "texto": "PREOCUPADO",
+    "img": "INF3_U7_ASUSTADO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRANQUILO",
+    "img": "INF3_U7_ASUSTADO_ant1.webp"
+   },
+   {
+    "texto": "VALIENTE",
+    "img": "INF3_U7_ASUSTADO_ant2.webp"
+   },
+   {
+    "texto": "FUERTE",
+    "img": "INF3_U7_ASUSTADO_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO ESTÁ ASUSTADO POR LOS FUEGOS ARTIFICIALES 🎆",
+  "img_frase": "INF3_U7_ASUSTADO_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U7",
+  "archivo": "U7_FELIZ_INF3.pptx",
+  "palabra": "FELIZ",
+  "img_dibujo": "INF3_U7_FELIZ_dibujo.webp",
+  "fonemas": [
+   "F",
+   "E",
+   "L",
+   "I",
+   "CZ"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "FE",
+   "LIZ"
+  ],
+  "definicion": "FELIZ 😊 SIGNIFICA SENTIR MUCHA ALEGRÍA.",
+  "sinonimos": [
+   {
+    "texto": "ALEGRE",
+    "img": "INF3_U7_FELIZ_sin1.webp"
+   },
+   {
+    "texto": "CONTENTO",
+    "img": "INF3_U7_FELIZ_sin2.webp"
+   },
+   {
+    "texto": "ENCANTADO",
+    "img": "INF3_U7_FELIZ_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRISTE",
+    "img": "INF3_U7_FELIZ_ant1.webp"
+   },
+   {
+    "texto": "ENFADADO",
+    "img": "INF3_U7_FELIZ_ant2.webp"
+   },
+   {
+    "texto": "FURIOSO",
+    "img": "INF3_U7_FELIZ_ant3.webp"
+   }
+  ],
+  "frase": "LA ABUELA ESTÁ FELIZ AL VER A SUS NIETOS 👵",
+  "img_frase": "INF3_U7_FELIZ_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U7",
+  "archivo": "U7_TRISTE_INF3.pptx",
+  "palabra": "TRISTE",
+  "img_dibujo": "INF3_U7_TRISTE_dibujo.webp",
+  "fonemas": [
+   "T",
+   "R",
+   "I",
+   "S",
+   "T",
+   "E"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "TRIS",
+   "TE"
+  ],
+  "definicion": "TRISTE 😢 SIGNIFICA SENTIR PENA O GANAS DE LLORAR.",
+  "sinonimos": [
+   {
+    "texto": "DESANIMADO",
+    "img": "INF3_U7_TRISTE_sin1.webp"
+   },
+   {
+    "texto": "SOLITARIO",
+    "img": "INF3_U7_TRISTE_sin2.webp"
+   },
+   {
+    "texto": "APENADO",
+    "img": "INF3_U7_TRISTE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "FELIZ",
+    "img": "INF3_U7_TRISTE_ant1.webp"
+   },
+   {
+    "texto": "ALEGRE",
+    "img": "INF3_U7_TRISTE_ant2.webp"
+   },
+   {
+    "texto": "CONTENTO",
+    "img": "INF3_U7_TRISTE_ant3.webp"
+   }
+  ],
+  "frase": "LA NIÑA ESTÁ TRISTE PORQUE SE FUE SU MEJOR AMIGA 🥺",
+  "img_frase": "INF3_U7_TRISTE_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U8",
+  "archivo": "U8_APLAUDIR_INF3.pptx",
+  "palabra": "APLAUDIR",
+  "img_dibujo": "INF3_U8_APLAUDIR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "P",
+   "L",
+   "A",
+   "U",
+   "D",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "PLAU",
+   "DIR"
+  ],
+  "definicion": "APLAUDIR 👏 SIGNIFICA DAR PALMADAS PARA CELEBRAR ALGO.",
+  "sinonimos": [
+   {
+    "texto": "ACLAMAR",
+    "img": "INF3_U8_APLAUDIR_sin1.webp"
+   },
+   {
+    "texto": "PALMEAR",
+    "img": "INF3_U8_APLAUDIR_sin2.webp"
+   },
+   {
+    "texto": "OVACIONAR",
+    "img": "INF3_U8_APLAUDIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "INSULTAR",
+    "img": "INF3_U8_APLAUDIR_ant1.webp"
+   },
+   {
+    "texto": "SILBAR",
+    "img": "INF3_U8_APLAUDIR_ant2.webp"
+   },
+   {
+    "texto": "CALLAR",
+    "img": "INF3_U8_APLAUDIR_ant3.webp"
+   }
+  ],
+  "frase": "LA NIÑA QUIERE APLAUDIR EN EL CONCIERTO DE SU HERMANO 🎸",
+  "img_frase": "INF3_U8_APLAUDIR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U8",
+  "archivo": "U8_BAILAR_INF3.pptx",
+  "palabra": "BAILAR",
+  "img_dibujo": "INF3_U8_BAILAR_dibujo.webp",
+  "fonemas": [
+   "BV",
+   "A",
+   "I",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "BAI",
+   "LAR"
+  ],
+  "definicion": "BAILAR 💃 SIGNIFICA MOVER EL CUERPO AL RITMO DE LA MÚSICA.",
+  "sinonimos": [
+   {
+    "texto": "GIRAR",
+    "img": "INF3_U8_BAILAR_sin1.webp"
+   },
+   {
+    "texto": "SALTAR",
+    "img": "INF3_U8_BAILAR_sin2.webp"
+   },
+   {
+    "texto": "MOVERSE",
+    "img": "INF3_U8_BAILAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DESCANSAR",
+    "img": "INF3_U8_BAILAR_ant1.webp"
+   },
+   {
+    "texto": "DORMIR",
+    "img": "INF3_U8_BAILAR_ant2.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF3_U8_BAILAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PAYASO QUIERE BAILAR EN EL CIRCO PARA HACER REÍR A TODOS 🎪",
+  "img_frase": "INF3_U8_BAILAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U8",
+  "archivo": "U8_CANTAR_INF3.pptx",
+  "palabra": "CANTAR",
+  "img_dibujo": "INF3_U8_CANTAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "A",
+   "N",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "CAN",
+   "TAR"
+  ],
+  "definicion": "CANTAR 🎤 SIGNIFICA EMITIR SONIDOS MUSICALES CON LA VOZ.",
+  "sinonimos": [
+   {
+    "texto": "TRINAR",
+    "img": "INF3_U8_CANTAR_sin1.webp"
+   },
+   {
+    "texto": "ENTONAR",
+    "img": "INF3_U8_CANTAR_sin2.webp"
+   },
+   {
+    "texto": "VOCALIZAR",
+    "img": "INF3_U8_CANTAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CALLAR",
+    "img": "INF3_U8_CANTAR_ant1.webp"
+   },
+   {
+    "texto": "DORMIR",
+    "img": "INF3_U8_CANTAR_ant2.webp"
+   },
+   {
+    "texto": "PARAR",
+    "img": "INF3_U8_CANTAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ABUELO QUIERE CANTAR EN LA FIESTA DE CUMPLEAÑOS 🎂",
+  "img_frase": "INF3_U8_CANTAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U9",
+  "archivo": "U9_ARRUGAR_INF3.pptx",
+  "palabra": "ARRUGAR",
+  "img_dibujo": "INF3_U9_ARRUGAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "RR",
+   "U",
+   "GU",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "RRU",
+   "GAR"
+  ],
+  "definicion": "ARRUGAR 📃 SIGNIFICA HACER PLIEGUES EN ALGO SIN ORDEN.",
+  "sinonimos": [
+   {
+    "texto": "APLASTAR",
+    "img": "INF3_U9_ARRUGAR_sin1.webp"
+   },
+   {
+    "texto": "ESTRUJAR",
+    "img": "INF3_U9_ARRUGAR_sin2.webp"
+   },
+   {
+    "texto": "CHAFAR",
+    "img": "INF3_U9_ARRUGAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LISO",
+    "img": "INF3_U9_ARRUGAR_ant1.webp"
+   },
+   {
+    "texto": "PLANCHAR",
+    "img": "INF3_U9_ARRUGAR_ant2.webp"
+   },
+   {
+    "texto": "SUAVE",
+    "img": "INF3_U9_ARRUGAR_ant3.webp"
+   }
+  ],
+  "frase": "LA NIÑA QUIERE ARRUGAR EL PAPEL DE COLORES 🎨",
+  "img_frase": "INF3_U9_ARRUGAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U9",
+  "archivo": "U9_DOBLAR_INF3.pptx",
+  "palabra": "DOBLAR",
+  "img_dibujo": "INF3_U9_DOBLAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "O",
+   "BV",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "DO",
+   "BLAR"
+  ],
+  "definicion": "DOBLAR 📄 SIGNIFICA PLEGAR ALGO POR LA MITAD.",
+  "sinonimos": [
+   {
+    "texto": "PLEGAR",
+    "img": "INF3_U9_DOBLAR_sin1.webp"
+   },
+   {
+    "texto": "ENROLLAR",
+    "img": "INF3_U9_DOBLAR_sin2.webp"
+   },
+   {
+    "texto": "ENCOGER",
+    "img": "INF3_U9_DOBLAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ESTIRAR",
+    "img": "INF3_U9_DOBLAR_ant1.webp"
+   },
+   {
+    "texto": "PLANCHAR",
+    "img": "INF3_U9_DOBLAR_ant2.webp"
+   },
+   {
+    "texto": "ABRIR",
+    "img": "INF3_U9_DOBLAR_ant3.webp"
+   }
+  ],
+  "frase": "EL REPARTIDOR QUIERE DOBLAR LA CAJA DE CARTÓN 📦",
+  "img_frase": "INF3_U9_DOBLAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U9",
+  "archivo": "U9_PEGAR_INF3.pptx",
+  "palabra": "PEGAR",
+  "img_dibujo": "INF3_U9_PEGAR_dibujo.webp",
+  "fonemas": [
+   "P",
+   "E",
+   "GU",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "PE",
+   "GAR"
+  ],
+  "definicion": "PEGAR 🧴 SIGNIFICA UNIR DOS COSAS CON PEGAMENTO.",
+  "sinonimos": [
+   {
+    "texto": "UNIR",
+    "img": "INF3_U9_PEGAR_sin1.webp"
+   },
+   {
+    "texto": "JUNTAR",
+    "img": "INF3_U9_PEGAR_sin2.webp"
+   },
+   {
+    "texto": "ADHERIR",
+    "img": "INF3_U9_PEGAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "SEPARAR",
+    "img": "INF3_U9_PEGAR_ant1.webp"
+   },
+   {
+    "texto": "QUITAR",
+    "img": "INF3_U9_PEGAR_ant2.webp"
+   },
+   {
+    "texto": "ROMPER",
+    "img": "INF3_U9_PEGAR_ant3.webp"
+   }
+  ],
+  "frase": "LA NIÑA QUIERE PEGAR UNA ETIQUETA EN SU LIBRETA 📔",
+  "img_frase": "INF3_U9_PEGAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U10",
+  "archivo": "U10_CAMBIAR_INF3.pptx",
+  "palabra": "CAMBIAR",
+  "img_dibujo": "INF3_U10_CAMBIAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "A",
+   "M",
+   "BV",
+   "I",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "CAM",
+   "BIAR"
+  ],
+  "definicion": "CAMBIAR 🔄 SIGNIFICA DAR UNA COSA POR OTRA.",
+  "sinonimos": [
+   {
+    "texto": "INTERCAMBIAR",
+    "img": "INF3_U10_CAMBIAR_sin1.webp"
+   },
+   {
+    "texto": "TROCAR",
+    "img": "INF3_U10_CAMBIAR_sin2.webp"
+   },
+   {
+    "texto": "CANJEAR",
+    "img": "INF3_U10_CAMBIAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MISMO",
+    "img": "INF3_U10_CAMBIAR_ant1.webp"
+   },
+   {
+    "texto": "MANTENER",
+    "img": "INF3_U10_CAMBIAR_ant2.webp"
+   },
+   {
+    "texto": "GUARDAR",
+    "img": "INF3_U10_CAMBIAR_ant3.webp"
+   }
+  ],
+  "frase": "EL AMIGO QUIERE CAMBIAR DE SITIO EN LA MESA 🔄",
+  "img_frase": "INF3_U10_CAMBIAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U10",
+  "archivo": "U10_DAR_INF3.pptx",
+  "palabra": "DAR",
+  "img_dibujo": "INF3_U10_DAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 3,
+  "fonemas_ok": true,
+  "silabas": [
+   "DAR"
+  ],
+  "definicion": "DAR 🤝 SIGNIFICA ENTREGAR ALGO A OTRA PERSONA.",
+  "sinonimos": [
+   {
+    "texto": "OFRECER",
+    "img": "INF3_U10_DAR_sin1.webp"
+   },
+   {
+    "texto": "ENTREGAR",
+    "img": "INF3_U10_DAR_sin2.webp"
+   },
+   {
+    "texto": "COMPARTIR",
+    "img": "INF3_U10_DAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "QUITAR",
+    "img": "INF3_U10_DAR_ant1.webp"
+   },
+   {
+    "texto": "COGER",
+    "img": "INF3_U10_DAR_ant2.webp"
+   },
+   {
+    "texto": "GUARDAR",
+    "img": "INF3_U10_DAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PAYASO QUIERE DAR UN GLOBO 🎈",
+  "img_frase": "INF3_U10_DAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ },
+ {
+  "curso": "INF3",
+  "unidad": "U10",
+  "archivo": "U10_REGALAR_INF3.pptx",
+  "palabra": "REGALAR",
+  "img_dibujo": "INF3_U10_REGALAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "GU",
+   "A",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "GA",
+   "LAR"
+  ],
+  "definicion": "REGALAR 🎁 SIGNIFICA DAR ALGO A ALGUIEN CON CARIÑO.",
+  "sinonimos": [
+   {
+    "texto": "DAR",
+    "img": "INF3_U10_REGALAR_sin1.webp"
+   },
+   {
+    "texto": "OFRECER",
+    "img": "INF3_U10_REGALAR_sin2.webp"
+   },
+   {
+    "texto": "COMPARTIR",
+    "img": "INF3_U10_REGALAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "QUITAR",
+    "img": "INF3_U10_REGALAR_ant1.webp"
+   },
+   {
+    "texto": "GUARDAR",
+    "img": "INF3_U10_REGALAR_ant2.webp"
+   },
+   {
+    "texto": "COGER",
+    "img": "INF3_U10_REGALAR_ant3.webp"
+   }
+  ],
+  "frase": "LA NIÑA QUIERE REGALAR UN DIBUJO A SU AMIGA 🎁",
+  "img_frase": "INF3_U10_REGALAR_frase.webp",
+  "etapa": "infantil",
+  "curso_nombre": "Infantil 3 años"
+ }
+]

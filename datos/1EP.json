@@ -1,0 +1,1690 @@
+[
+ {
+  "curso": "1EP",
+  "unidad": "U1",
+  "archivo": "U1_INFERIOR_1EP.pptx",
+  "palabra": "INFERIOR",
+  "img_dibujo": "1EP_U1_INFERIOR_dibujo.webp",
+  "fonemas": [
+   "I",
+   "N",
+   "F",
+   "E",
+   "R",
+   "I",
+   "O",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "IN",
+   "FE",
+   "RIOR"
+  ],
+  "definicion": "INFERIOR 👇 SIGNIFICA QUE ALGO ESTÁ EN LA PARTE DE ABAJO.",
+  "sinonimos": [
+   {
+    "texto": "BAJO",
+    "img": "1EP_U1_INFERIOR_sin1.webp"
+   },
+   {
+    "texto": "ABAJO",
+    "img": "1EP_U1_INFERIOR_sin2.webp"
+   },
+   {
+    "texto": "DEBAJO",
+    "img": "1EP_U1_INFERIOR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ALTO",
+    "img": "1EP_U1_INFERIOR_ant1.webp"
+   },
+   {
+    "texto": "ARRIBA",
+    "img": "1EP_U1_INFERIOR_ant2.webp"
+   },
+   {
+    "texto": "ENCIMA",
+    "img": "1EP_U1_INFERIOR_ant3.webp"
+   }
+  ],
+  "frase": "LA CAJA INFERIOR GUARDA ROPA 👕",
+  "img_frase": "1EP_U1_INFERIOR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U1",
+  "archivo": "U1_PROXIMO_1EP.pptx",
+  "palabra": "PRÓXIMO",
+  "img_dibujo": "1EP_U1_PROXIMO_dibujo.webp",
+  "fonemas": [
+   "P",
+   "R",
+   "O",
+   "X",
+   "I",
+   "M",
+   "O"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "PRO",
+   "XI",
+   "MO"
+  ],
+  "definicion": "PRÓXIMO 👇 SIGNIFICA QUE ALGO ESTÁ MUY CERCA DE OTRA COSA.",
+  "sinonimos": [
+   {
+    "texto": "CERCANO",
+    "img": "1EP_U1_PROXIMO_sin1.webp"
+   },
+   {
+    "texto": "CERCA",
+    "img": "1EP_U1_PROXIMO_sin2.webp"
+   },
+   {
+    "texto": "VECINO",
+    "img": "1EP_U1_PROXIMO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "LEJANO",
+    "img": "1EP_U1_PROXIMO_ant1.webp"
+   },
+   {
+    "texto": "LEJOS",
+    "img": "1EP_U1_PROXIMO_ant2.webp"
+   },
+   {
+    "texto": "DISTANTE",
+    "img": "1EP_U1_PROXIMO_ant3.webp"
+   }
+  ],
+  "frase": "EL AUTOBÚS ESTÁ PRÓXIMO 🚌",
+  "img_frase": "1EP_U1_PROXIMO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U1",
+  "archivo": "U1_SUPERIOR_1EP.pptx",
+  "palabra": "SUPERIOR",
+  "img_dibujo": "1EP_U1_SUPERIOR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "U",
+   "P",
+   "E",
+   "R",
+   "I",
+   "O",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "SU",
+   "PE",
+   "RIOR"
+  ],
+  "definicion": "SUPERIOR 👇 SIGNIFICA QUE ALGO ESTÁ EN LA PARTE DE ARRIBA.",
+  "sinonimos": [
+   {
+    "texto": "ALTO",
+    "img": "1EP_U1_SUPERIOR_sin1.webp"
+   },
+   {
+    "texto": "ARRIBA",
+    "img": "1EP_U1_SUPERIOR_sin2.webp"
+   },
+   {
+    "texto": "ENCIMA",
+    "img": "1EP_U1_SUPERIOR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "BAJO",
+    "img": "1EP_U1_SUPERIOR_ant1.webp"
+   },
+   {
+    "texto": "ABAJO",
+    "img": "1EP_U1_SUPERIOR_ant2.webp"
+   },
+   {
+    "texto": "DEBAJO",
+    "img": "1EP_U1_SUPERIOR_ant3.webp"
+   }
+  ],
+  "frase": "LA ANTENA SUPERIOR CAPTA LA SEÑAL 📡",
+  "img_frase": "1EP_U1_SUPERIOR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U2",
+  "archivo": "U2_FUTURO_1EP.pptx",
+  "palabra": "FUTURO",
+  "img_dibujo": "1EP_U2_FUTURO_dibujo.webp",
+  "fonemas": [
+   "F",
+   "U",
+   "T",
+   "U",
+   "R",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "FU",
+   "TU",
+   "RO"
+  ],
+  "definicion": "FUTURO 👇 SIGNIFICA UN TIEMPO QUE TODAVÍA NO HA LLEGADO.",
+  "sinonimos": [
+   {
+    "texto": "MAÑANA",
+    "img": "1EP_U2_FUTURO_sin1.webp"
+   },
+   {
+    "texto": "DESPUÉS",
+    "img": "1EP_U2_FUTURO_sin2.webp"
+   },
+   {
+    "texto": "SIGUIENTE",
+    "img": "1EP_U2_FUTURO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PASADO",
+    "img": "1EP_U2_FUTURO_ant1.webp"
+   },
+   {
+    "texto": "PRESENTE",
+    "img": "1EP_U2_FUTURO_ant2.webp"
+   },
+   {
+    "texto": "AYER",
+    "img": "1EP_U2_FUTURO_ant3.webp"
+   }
+  ],
+  "frase": "LA ESCUELA DEL FUTURO TIENE ROBOTS 🏫.",
+  "img_frase": "1EP_U2_FUTURO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U2",
+  "archivo": "U2_PASADO_1EP.pptx",
+  "palabra": "PASADO",
+  "img_dibujo": "1EP_U2_PASADO_dibujo.webp",
+  "fonemas": [
+   "P",
+   "A",
+   "S",
+   "A",
+   "D",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "PA",
+   "SA",
+   "DO"
+  ],
+  "definicion": "PASADO 👇 SIGNIFICA UN TIEMPO QUE YA PASÓ Y TERMINÓ.",
+  "sinonimos": [
+   {
+    "texto": "ANTES",
+    "img": "1EP_U2_PASADO_sin1.webp"
+   },
+   {
+    "texto": "ANTIGUO",
+    "img": "1EP_U2_PASADO_sin2.webp"
+   },
+   {
+    "texto": "AYER",
+    "img": "1EP_U2_PASADO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PRESENTE",
+    "img": "1EP_U2_PASADO_ant1.webp"
+   },
+   {
+    "texto": "FUTURO",
+    "img": "1EP_U2_PASADO_ant2.webp"
+   },
+   {
+    "texto": "MAÑANA",
+    "img": "1EP_U2_PASADO_ant3.webp"
+   }
+  ],
+  "frase": "EL MUSEO GUARDA EL PASADO 🏛.",
+  "img_frase": "1EP_U2_PASADO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U2",
+  "archivo": "U2_PRESENTE_1EP.pptx",
+  "palabra": "PRESENTE",
+  "img_dibujo": "1EP_U2_PRESENTE_dibujo.webp",
+  "fonemas": [
+   "P",
+   "R",
+   "E",
+   "S",
+   "E",
+   "N",
+   "T",
+   "E"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "PRE",
+   "SEN",
+   "TE"
+  ],
+  "definicion": "PRESENTE 👇 SIGNIFICA EL MOMENTO QUE VIVES AHORA MISMO.",
+  "sinonimos": [
+   {
+    "texto": "AHORA",
+    "img": "1EP_U2_PRESENTE_sin1.webp"
+   },
+   {
+    "texto": "MOMENTO",
+    "img": "1EP_U2_PRESENTE_sin2.webp"
+   },
+   {
+    "texto": "HOY",
+    "img": "1EP_U2_PRESENTE_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PASADO",
+    "img": "1EP_U2_PRESENTE_ant1.webp"
+   },
+   {
+    "texto": "FUTURO",
+    "img": "1EP_U2_PRESENTE_ant2.webp"
+   },
+   {
+    "texto": "AYER",
+    "img": "1EP_U2_PRESENTE_ant3.webp"
+   }
+  ],
+  "frase": "LA SEMANA PRESENTE TIENE CINCO CLASES 🏫.",
+  "img_frase": "1EP_U2_PRESENTE_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U3",
+  "archivo": "U3_AÑADIR_1EP.pptx",
+  "palabra": "AÑADIR",
+  "img_dibujo": "1EP_U3_ANADIR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "Ñ",
+   "A",
+   "D",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "ÑA",
+   "DIR"
+  ],
+  "definicion": "AÑADIR ➕ SIGNIFICA PONER ALGO MÁS A LO QUE YA HAY.",
+  "sinonimos": [
+   {
+    "texto": "SUMAR",
+    "img": "1EP_U3_ANADIR_sin1.webp"
+   },
+   {
+    "texto": "PONER",
+    "img": "1EP_U3_ANADIR_sin2.webp"
+   },
+   {
+    "texto": "AGREGAR",
+    "img": "1EP_U3_ANADIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "QUITAR",
+    "img": "1EP_U3_ANADIR_ant1.webp"
+   },
+   {
+    "texto": "RESTAR",
+    "img": "1EP_U3_ANADIR_ant2.webp"
+   },
+   {
+    "texto": "SACAR",
+    "img": "1EP_U3_ANADIR_ant3.webp"
+   }
+  ],
+  "frase": "EL JARDINERO AÑADE AGUA A LAS PLANTAS 💧.",
+  "img_frase": "1EP_U3_ANADIR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U3",
+  "archivo": "U3_DEMASIADO_1EP.pptx",
+  "palabra": "DEMASIADO",
+  "img_dibujo": "1EP_U3_DEMASIADO_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "M",
+   "A",
+   "S",
+   "I",
+   "A",
+   "D",
+   "O"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "DE",
+   "MA",
+   "SIA",
+   "DO"
+  ],
+  "definicion": "DEMASIADO ⚠ SIGNIFICA MÁS DE LO QUE HACE FALTA O SE PUEDE.",
+  "sinonimos": [
+   {
+    "texto": "EXCESIVO",
+    "img": "1EP_U3_DEMASIADO_sin1.webp"
+   },
+   {
+    "texto": "MUCHÍSIMO",
+    "img": "1EP_U3_DEMASIADO_sin2.webp"
+   },
+   {
+    "texto": "MUCHO",
+    "img": "1EP_U3_DEMASIADO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "POCO",
+    "img": "1EP_U3_DEMASIADO_ant1.webp"
+   },
+   {
+    "texto": "NADA",
+    "img": "1EP_U3_DEMASIADO_ant2.webp"
+   },
+   {
+    "texto": "VACÍO",
+    "img": "1EP_U3_DEMASIADO_ant3.webp"
+   }
+  ],
+  "frase": "EL ARMARIO TIENE DEMASIADA ROPA 👕.",
+  "img_frase": "1EP_U3_DEMASIADO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U3",
+  "archivo": "U3_QUITAR_1EP.pptx",
+  "palabra": "QUITAR",
+  "img_dibujo": "1EP_U3_QUITAR_dibujo.webp",
+  "fonemas": [
+   "K",
+   "I",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "QUI",
+   "TAR"
+  ],
+  "definicion": "QUITAR ➖ SIGNIFICA SACAR ALGO DE UN LUGAR O UNA COSA.",
+  "sinonimos": [
+   {
+    "texto": "SACAR",
+    "img": "1EP_U3_QUITAR_sin1.webp"
+   },
+   {
+    "texto": "EXTRAER",
+    "img": "1EP_U3_QUITAR_sin2.webp"
+   },
+   {
+    "texto": "SEPARAR",
+    "img": "1EP_U3_QUITAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "AÑADIR",
+    "img": "1EP_U3_QUITAR_ant1.webp"
+   },
+   {
+    "texto": "PONER",
+    "img": "1EP_U3_QUITAR_ant2.webp"
+   },
+   {
+    "texto": "METER",
+    "img": "1EP_U3_QUITAR_ant3.webp"
+   }
+  ],
+  "frase": "EL MAGO QUITA SU SOMBRERO PARA SALUDAR 🎩.",
+  "img_frase": "1EP_U3_QUITAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U4",
+  "archivo": "U4_EXPRESAR_1EP.pptx",
+  "palabra": "EXPRESAR",
+  "img_dibujo": "1EP_U4_EXPRESAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "X",
+   "P",
+   "R",
+   "E",
+   "S",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "EX",
+   "PRE",
+   "SAR"
+  ],
+  "definicion": "EXPRESAR 👉 SIGNIFICA DECIR O MOSTRAR LO QUE PIENSAS O SIENTES.",
+  "sinonimos": [
+   {
+    "texto": "MOSTRAR",
+    "img": "1EP_U4_EXPRESAR_sin1.webp"
+   },
+   {
+    "texto": "COMUNICAR",
+    "img": "1EP_U4_EXPRESAR_sin2.webp"
+   },
+   {
+    "texto": "EXPONER",
+    "img": "1EP_U4_EXPRESAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CALLAR",
+    "img": "1EP_U4_EXPRESAR_ant1.webp"
+   },
+   {
+    "texto": "TAPAR",
+    "img": "1EP_U4_EXPRESAR_ant2.webp"
+   },
+   {
+    "texto": "ESCONDER",
+    "img": "1EP_U4_EXPRESAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PINTOR EXPRESA SUS EMOCIONES EN EL CUADRO 🎨.",
+  "img_frase": "1EP_U4_EXPRESAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U4",
+  "archivo": "U4_NEGAR_1EP.pptx",
+  "palabra": "NEGAR",
+  "img_dibujo": "1EP_U4_NEGAR_dibujo.webp",
+  "fonemas": [
+   "N",
+   "E",
+   "GU",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "NE",
+   "GAR"
+  ],
+  "definicion": "NEGAR 👉 SIGNIFICA DECIR QUE NO A ALGO QUE TE PIDEN.",
+  "sinonimos": [
+   {
+    "texto": "RECHAZAR",
+    "img": "1EP_U4_NEGAR_sin1.webp"
+   },
+   {
+    "texto": "DENEGAR",
+    "img": "1EP_U4_NEGAR_sin2.webp"
+   },
+   {
+    "texto": "PROHIBIR",
+    "img": "1EP_U4_NEGAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ACEPTAR",
+    "img": "1EP_U4_NEGAR_ant1.webp"
+   },
+   {
+    "texto": "CONCEDER",
+    "img": "1EP_U4_NEGAR_ant2.webp"
+   },
+   {
+    "texto": "AFIRMAR",
+    "img": "1EP_U4_NEGAR_ant3.webp"
+   }
+  ],
+  "frase": "EL REY NIEGA EL PERMISO PARA CONSTRUIR EL PUENTE 👑.",
+  "img_frase": "1EP_U4_NEGAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U4",
+  "archivo": "U4_OPINAR_1EP.pptx",
+  "palabra": "OPINAR",
+  "img_dibujo": "1EP_U4_OPINAR_dibujo.webp",
+  "fonemas": [
+   "O",
+   "P",
+   "I",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "O",
+   "PI",
+   "NAR"
+  ],
+  "definicion": "OPINAR 👉 SIGNIFICA DECIR LO QUE PIENSAS SOBRE ALGO.",
+  "sinonimos": [
+   {
+    "texto": "PENSAR",
+    "img": "1EP_U4_OPINAR_sin1.webp"
+   },
+   {
+    "texto": "CONSIDERAR",
+    "img": "1EP_U4_OPINAR_sin2.webp"
+   },
+   {
+    "texto": "DECIR",
+    "img": "1EP_U4_OPINAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "CALLAR",
+    "img": "1EP_U4_OPINAR_ant1.webp"
+   },
+   {
+    "texto": "DUDAR",
+    "img": "1EP_U4_OPINAR_ant2.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "1EP_U4_OPINAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PERIODISTA OPINA SOBRE LAS NOTICIAS 📰.",
+  "img_frase": "1EP_U4_OPINAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U5",
+  "archivo": "U5_NOMBRAR_1EP.pptx",
+  "palabra": "NOMBRAR",
+  "img_dibujo": "1EP_U5_NOMBRAR_dibujo.webp",
+  "fonemas": [
+   "N",
+   "O",
+   "M",
+   "BV",
+   "R",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "NOM",
+   "BRAR"
+  ],
+  "definicion": "NOMBRAR 👉 SIGNIFICA DECIR EL NOMBRE DE UNA PERSONA O COSA.",
+  "sinonimos": [
+   {
+    "texto": "LLAMAR",
+    "img": "1EP_U5_NOMBRAR_sin1.webp"
+   },
+   {
+    "texto": "ETIQUETAR",
+    "img": "1EP_U5_NOMBRAR_sin2.webp"
+   },
+   {
+    "texto": "APUNTAR",
+    "img": "1EP_U5_NOMBRAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "OLVIDAR",
+    "img": "1EP_U5_NOMBRAR_ant1.webp"
+   },
+   {
+    "texto": "OMITIR",
+    "img": "1EP_U5_NOMBRAR_ant2.webp"
+   },
+   {
+    "texto": "CALLAR",
+    "img": "1EP_U5_NOMBRAR_ant3.webp"
+   }
+  ],
+  "frase": "EL JUEZ NOMBRA AL GANADOR DEL TROFEO 🏆.",
+  "img_frase": "1EP_U5_NOMBRAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U5",
+  "archivo": "U5_RELACIONAR_1EP.pptx",
+  "palabra": "RELACIONAR",
+  "img_dibujo": "1EP_U5_RELACIONAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "L",
+   "A",
+   "CZ",
+   "I",
+   "O",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 10,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "LA",
+   "CIO",
+   "NAR"
+  ],
+  "definicion": "RELACIONAR 👉 SIGNIFICA ENCONTRAR LA UNIÓN ENTRE DOS COSAS O IDEAS.",
+  "sinonimos": [
+   {
+    "texto": "UNIR",
+    "img": "1EP_U5_RELACIONAR_sin1.webp"
+   },
+   {
+    "texto": "ASOCIAR",
+    "img": "1EP_U5_RELACIONAR_sin2.webp"
+   },
+   {
+    "texto": "JUNTAR",
+    "img": "1EP_U5_RELACIONAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "SEPARAR",
+    "img": "1EP_U5_RELACIONAR_ant1.webp"
+   },
+   {
+    "texto": "DESCONECTAR",
+    "img": "1EP_U5_RELACIONAR_ant2.webp"
+   },
+   {
+    "texto": "AISLAR",
+    "img": "1EP_U5_RELACIONAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PROFESOR RELACIONA LOS DIBUJOS CON SUS NOMBRES 🖍.",
+  "img_frase": "1EP_U5_RELACIONAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U5",
+  "archivo": "U5_SEÑALAR_1EP.pptx",
+  "palabra": "SEÑALAR",
+  "img_dibujo": "1EP_U5_SENALAR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "E",
+   "Ñ",
+   "A",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "SE",
+   "ÑA",
+   "LAR"
+  ],
+  "definicion": "SEÑALAR 👉 SIGNIFICA INDICAR CON EL DEDO DÓNDE ESTÁ ALGO.",
+  "sinonimos": [
+   {
+    "texto": "INDICAR",
+    "img": "1EP_U5_SENALAR_sin1.webp"
+   },
+   {
+    "texto": "MARCAR",
+    "img": "1EP_U5_SENALAR_sin2.webp"
+   },
+   {
+    "texto": "APUNTAR",
+    "img": "1EP_U5_SENALAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ESCONDER",
+    "img": "1EP_U5_SENALAR_ant1.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "1EP_U5_SENALAR_ant2.webp"
+   },
+   {
+    "texto": "TAPAR",
+    "img": "1EP_U5_SENALAR_ant3.webp"
+   }
+  ],
+  "frase": "EL GUÍA SEÑALA EL CAMINO EN LA MONTAÑA ⛰.",
+  "img_frase": "1EP_U5_SENALAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U6",
+  "archivo": "U6_DIMINUTO_1EP.pptx",
+  "palabra": "DIMINUTO",
+  "img_dibujo": "1EP_U6_DIMINUTO_dibujo.webp",
+  "fonemas": [
+   "D",
+   "I",
+   "M",
+   "I",
+   "N",
+   "U",
+   "T",
+   "O"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "DI",
+   "MI",
+   "NU",
+   "TO"
+  ],
+  "definicion": "DIMINUTO 👉 SIGNIFICA MUY MUY PEQUEÑO, CASI NO SE PUEDE VER.",
+  "sinonimos": [
+   {
+    "texto": "PEQUEÑO",
+    "img": "1EP_U6_DIMINUTO_sin1.webp"
+   },
+   {
+    "texto": "MINÚSCULO",
+    "img": "1EP_U6_DIMINUTO_sin2.webp"
+   },
+   {
+    "texto": "MENOR",
+    "img": "1EP_U6_DIMINUTO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "GRANDE",
+    "img": "1EP_U6_DIMINUTO_ant1.webp"
+   },
+   {
+    "texto": "GIGANTE",
+    "img": "1EP_U6_DIMINUTO_ant2.webp"
+   },
+   {
+    "texto": "MAYOR",
+    "img": "1EP_U6_DIMINUTO_ant3.webp"
+   }
+  ],
+  "frase": "EL MOSQUITO ES DIMINUTO PERO MUY RÁPIDO 💨.",
+  "img_frase": "1EP_U6_DIMINUTO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U6",
+  "archivo": "U6_GIGANTESCO_1EP.pptx",
+  "palabra": "GIGANTESCO",
+  "img_dibujo": "1EP_U6_GIGANTESCO_dibujo.webp",
+  "fonemas": [
+   "GJ",
+   "I",
+   "GU",
+   "A",
+   "N",
+   "T",
+   "E",
+   "S",
+   "K",
+   "O"
+  ],
+  "fonemas_pptx": 10,
+  "fonemas_ok": true,
+  "silabas": [
+   "GI",
+   "GAN",
+   "TES",
+   "CO"
+  ],
+  "definicion": "GIGANTESCO 👉 SIGNIFICA MUY MUY GRANDE, MUCHO MÁS GRANDE DE LO NORMAL.",
+  "sinonimos": [
+   {
+    "texto": "GRANDE",
+    "img": "1EP_U6_GIGANTESCO_sin1.webp"
+   },
+   {
+    "texto": "ENORME",
+    "img": "1EP_U6_GIGANTESCO_sin2.webp"
+   },
+   {
+    "texto": "GIGANTE",
+    "img": "1EP_U6_GIGANTESCO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "DIMINUTO",
+    "img": "1EP_U6_GIGANTESCO_ant1.webp"
+   },
+   {
+    "texto": "PEQUEÑO",
+    "img": "1EP_U6_GIGANTESCO_ant2.webp"
+   },
+   {
+    "texto": "MINÚSCULO",
+    "img": "1EP_U6_GIGANTESCO_ant3.webp"
+   }
+  ],
+  "frase": "EL DINOSAURIO ES GIGANTESCO Y CAMINA DESPACIO 🦕.",
+  "img_frase": "1EP_U6_GIGANTESCO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U6",
+  "archivo": "U6_LIGERO_1EP.pptx",
+  "palabra": "LIGERO",
+  "img_dibujo": "1EP_U6_LIGERO_dibujo.webp",
+  "fonemas": [
+   "L",
+   "I",
+   "GJ",
+   "E",
+   "R",
+   "O"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "LI",
+   "GE",
+   "RO"
+  ],
+  "definicion": "LIGERO 👉 SIGNIFICA QUE PESA MUY POCO, FÁCIL DE LEVANTAR.",
+  "sinonimos": [
+   {
+    "texto": "LIVIANO",
+    "img": "1EP_U6_LIGERO_sin1.webp"
+   },
+   {
+    "texto": "LEVE",
+    "img": "1EP_U6_LIGERO_sin2.webp"
+   },
+   {
+    "texto": "SUAVE",
+    "img": "1EP_U6_LIGERO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PESADO",
+    "img": "1EP_U6_LIGERO_ant1.webp"
+   },
+   {
+    "texto": "GRANDE",
+    "img": "1EP_U6_LIGERO_ant2.webp"
+   },
+   {
+    "texto": "FUERTE",
+    "img": "1EP_U6_LIGERO_ant3.webp"
+   }
+  ],
+  "frase": "LA HOJA ES LIGERA Y CAE DESPACIO DEL ÁRBOL 🍂.",
+  "img_frase": "1EP_U6_LIGERO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U7",
+  "archivo": "U7_ILUSIÓN_1EP.pptx",
+  "palabra": "ILUSIÓN",
+  "img_dibujo": "1EP_U7_ILUSION_dibujo.webp",
+  "fonemas": [
+   "I",
+   "L",
+   "U",
+   "S",
+   "I",
+   "O",
+   "N"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "I",
+   "LU",
+   "SIÓN"
+  ],
+  "definicion": "ILUSIÓN 👉 SIGNIFICA TENER MUCHAS GANAS DE QUE ALGO BONITO PASE.",
+  "sinonimos": [
+   {
+    "texto": "ESPERANZA",
+    "img": "1EP_U7_ILUSION_sin1.webp"
+   },
+   {
+    "texto": "DESEO",
+    "img": "1EP_U7_ILUSION_sin2.webp"
+   },
+   {
+    "texto": "ANHELO",
+    "img": "1EP_U7_ILUSION_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRISTEZA",
+    "img": "1EP_U7_ILUSION_ant1.webp"
+   },
+   {
+    "texto": "ABURRIMIENTO",
+    "img": "1EP_U7_ILUSION_ant2.webp"
+   },
+   {
+    "texto": "MIEDO",
+    "img": "1EP_U7_ILUSION_ant3.webp"
+   }
+  ],
+  "frase": "LA FAMILIA SIENTE ILUSIÓN POR EL VIAJE DE VERANO ✈.",
+  "img_frase": "1EP_U7_ILUSION_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U7",
+  "archivo": "U7_INQUIETO_1EP.pptx",
+  "palabra": "INQUIETO",
+  "img_dibujo": "1EP_U7_INQUIETO_dibujo.webp",
+  "fonemas": [
+   "I",
+   "N",
+   "K",
+   "I",
+   "E",
+   "T",
+   "O"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "IN",
+   "QUIE",
+   "TO"
+  ],
+  "definicion": "INQUIETO 👉 SIGNIFICA QUE NO PUEDE ESTAR QUIETO NI TRANQUILO.",
+  "sinonimos": [
+   {
+    "texto": "NERVIOSO",
+    "img": "1EP_U7_INQUIETO_sin1.webp"
+   },
+   {
+    "texto": "AGITADO",
+    "img": "1EP_U7_INQUIETO_sin2.webp"
+   },
+   {
+    "texto": "MIEDOSO",
+    "img": "1EP_U7_INQUIETO_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "TRANQUILO",
+    "img": "1EP_U7_INQUIETO_ant1.webp"
+   },
+   {
+    "texto": "SERENO",
+    "img": "1EP_U7_INQUIETO_ant2.webp"
+   },
+   {
+    "texto": "CONTENTO",
+    "img": "1EP_U7_INQUIETO_ant3.webp"
+   }
+  ],
+  "frase": "EL PERRO ESTÁ INQUIETO CUANDO OYE LA TORMENTA 🌩.",
+  "img_frase": "1EP_U7_INQUIETO_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U7",
+  "archivo": "U7_TEMOR_1EP.pptx",
+  "palabra": "TEMOR",
+  "img_dibujo": "1EP_U7_TEMOR_dibujo.webp",
+  "fonemas": [
+   "T",
+   "E",
+   "M",
+   "O",
+   "R"
+  ],
+  "fonemas_pptx": 5,
+  "fonemas_ok": true,
+  "silabas": [
+   "TE",
+   "MOR"
+  ],
+  "definicion": "TEMOR 👉 SIGNIFICA SENTIR MIEDO DE ALGO QUE PUEDE PASAR.",
+  "sinonimos": [
+   {
+    "texto": "MIEDO",
+    "img": "1EP_U7_TEMOR_sin1.webp"
+   },
+   {
+    "texto": "SUSTO",
+    "img": "1EP_U7_TEMOR_sin2.webp"
+   },
+   {
+    "texto": "PAVOR",
+    "img": "1EP_U7_TEMOR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "VALIENTE",
+    "img": "1EP_U7_TEMOR_ant1.webp"
+   },
+   {
+    "texto": "TRANQUILO",
+    "img": "1EP_U7_TEMOR_ant2.webp"
+   },
+   {
+    "texto": "CONTENTO",
+    "img": "1EP_U7_TEMOR_ant3.webp"
+   }
+  ],
+  "frase": "EL GATO TIENE TEMOR AL PERRO GRANDE 🐈.",
+  "img_frase": "1EP_U7_TEMOR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U8",
+  "archivo": "U8_DISEÑAR_1EP.pptx",
+  "palabra": "DISEÑAR",
+  "img_dibujo": "1EP_U8_DISENAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "I",
+   "S",
+   "E",
+   "Ñ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "DI",
+   "SE",
+   "ÑAR"
+  ],
+  "definicion": "DISEÑAR 👉 SIGNIFICA CREAR ALGO NUEVO CON UN DIBUJO O UN PLAN.",
+  "sinonimos": [
+   {
+    "texto": "CREAR",
+    "img": "1EP_U8_DISENAR_sin1.webp"
+   },
+   {
+    "texto": "INVENTAR",
+    "img": "1EP_U8_DISENAR_sin2.webp"
+   },
+   {
+    "texto": "DIBUJAR",
+    "img": "1EP_U8_DISENAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "COPIAR",
+    "img": "1EP_U8_DISENAR_ant1.webp"
+   },
+   {
+    "texto": "BORRAR",
+    "img": "1EP_U8_DISENAR_ant2.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "1EP_U8_DISENAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ARQUITECTO DISEÑA UNA CASA MUY MODERNA 🏠.",
+  "img_frase": "1EP_U8_DISENAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U8",
+  "archivo": "U8_EMOCIONAR_1EP.pptx",
+  "palabra": "EMOCIONAR",
+  "img_dibujo": "1EP_U8_EMOCIONAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "M",
+   "O",
+   "CZ",
+   "I",
+   "O",
+   "N",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "E",
+   "MO",
+   "CIO",
+   "NAR"
+  ],
+  "definicion": "EMOCIONAR 👉 SIGNIFICA HACER SENTIR ALEGRÍA O TERNURA A ALGUIEN.",
+  "sinonimos": [
+   {
+    "texto": "IMPRESIONAR",
+    "img": "1EP_U8_EMOCIONAR_sin1.webp"
+   },
+   {
+    "texto": "ILUSIONAR",
+    "img": "1EP_U8_EMOCIONAR_sin2.webp"
+   },
+   {
+    "texto": "CONMOVER",
+    "img": "1EP_U8_EMOCIONAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ABURRIR",
+    "img": "1EP_U8_EMOCIONAR_ant1.webp"
+   },
+   {
+    "texto": "IGNORAR",
+    "img": "1EP_U8_EMOCIONAR_ant2.webp"
+   },
+   {
+    "texto": "CALLAR",
+    "img": "1EP_U8_EMOCIONAR_ant3.webp"
+   }
+  ],
+  "frase": "LA CARTA EMOCIONA A LA ABUELA CUANDO LA LEE 💌.",
+  "img_frase": "1EP_U8_EMOCIONAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U8",
+  "archivo": "U8_REDACTAR_1EP.pptx",
+  "palabra": "REDACTAR",
+  "img_dibujo": "1EP_U8_REDACTAR_dibujo.webp",
+  "fonemas": [
+   "RR",
+   "E",
+   "D",
+   "A",
+   "K",
+   "T",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 8,
+  "fonemas_ok": true,
+  "silabas": [
+   "RE",
+   "DAC",
+   "TAR"
+  ],
+  "definicion": "REDACTAR 👉 SIGNIFICA ESCRIBIR UN TEXTO CON ORDEN Y SENTIDO.",
+  "sinonimos": [
+   {
+    "texto": "ESCRIBIR",
+    "img": "1EP_U8_REDACTAR_sin1.webp"
+   },
+   {
+    "texto": "COMPONER",
+    "img": "1EP_U8_REDACTAR_sin2.webp"
+   },
+   {
+    "texto": "APUNTAR",
+    "img": "1EP_U8_REDACTAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "BORRAR",
+    "img": "1EP_U8_REDACTAR_ant1.webp"
+   },
+   {
+    "texto": "COPIAR",
+    "img": "1EP_U8_REDACTAR_ant2.webp"
+   },
+   {
+    "texto": "CALLAR",
+    "img": "1EP_U8_REDACTAR_ant3.webp"
+   }
+  ],
+  "frase": "EL ESCRITOR REDACTA UN CUENTO MUY BONITO 📖.",
+  "img_frase": "1EP_U8_REDACTAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U9",
+  "archivo": "U9_ARRANCAR_1EP.pptx",
+  "palabra": "ARRANCAR",
+  "img_dibujo": "1EP_U9_ARRANCAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "RR",
+   "A",
+   "N",
+   "K",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "RRAN",
+   "CAR"
+  ],
+  "definicion": "ARRANCAR 👉 SIGNIFICA SACAR ALGO DE RAÍZ TIRANDO CON FUERZA.",
+  "sinonimos": [
+   {
+    "texto": "SACAR",
+    "img": "1EP_U9_ARRANCAR_sin1.webp"
+   },
+   {
+    "texto": "QUITAR",
+    "img": "1EP_U9_ARRANCAR_sin2.webp"
+   },
+   {
+    "texto": "EXTRAER",
+    "img": "1EP_U9_ARRANCAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PLANTAR",
+    "img": "1EP_U9_ARRANCAR_ant1.webp"
+   },
+   {
+    "texto": "SEMBRAR",
+    "img": "1EP_U9_ARRANCAR_ant2.webp"
+   },
+   {
+    "texto": "COLOCAR",
+    "img": "1EP_U9_ARRANCAR_ant3.webp"
+   }
+  ],
+  "frase": "EL DENTISTA ARRANCA UNA MUELA AL PACIENTE 🦷.",
+  "img_frase": "1EP_U9_ARRANCAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U9",
+  "archivo": "U9_ARROJAR_1EP.pptx",
+  "palabra": "ARROJAR",
+  "img_dibujo": "1EP_U9_ARROJAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "RR",
+   "O",
+   "GJ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "A",
+   "RRO",
+   "JAR"
+  ],
+  "definicion": "ARROJAR 👉 SIGNIFICA LANZAR ALGO CON FUERZA HACIA UN LUGAR.",
+  "sinonimos": [
+   {
+    "texto": "LANZAR",
+    "img": "1EP_U9_ARROJAR_sin1.webp"
+   },
+   {
+    "texto": "TIRAR",
+    "img": "1EP_U9_ARROJAR_sin2.webp"
+   },
+   {
+    "texto": "ECHAR",
+    "img": "1EP_U9_ARROJAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "ATRAPAR",
+    "img": "1EP_U9_ARROJAR_ant1.webp"
+   },
+   {
+    "texto": "COGER",
+    "img": "1EP_U9_ARROJAR_ant2.webp"
+   },
+   {
+    "texto": "RECOGER",
+    "img": "1EP_U9_ARROJAR_ant3.webp"
+   }
+  ],
+  "frase": "EL PESCADOR ARROJA LA RED AL MAR 🌊.",
+  "img_frase": "1EP_U9_ARROJAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U9",
+  "archivo": "U9_DESPLAZAR_1EP.pptx",
+  "palabra": "DESPLAZAR",
+  "img_dibujo": "1EP_U9_DESPLAZAR_dibujo.webp",
+  "fonemas": [
+   "D",
+   "E",
+   "S",
+   "P",
+   "L",
+   "A",
+   "CZ",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "DES",
+   "PLA",
+   "ZAR"
+  ],
+  "definicion": "DESPLAZAR 👉 SIGNIFICA MOVER ALGO DE UN SITIO A OTRO.",
+  "sinonimos": [
+   {
+    "texto": "MOVER",
+    "img": "1EP_U9_DESPLAZAR_sin1.webp"
+   },
+   {
+    "texto": "TRASLADAR",
+    "img": "1EP_U9_DESPLAZAR_sin2.webp"
+   },
+   {
+    "texto": "CAMBIAR",
+    "img": "1EP_U9_DESPLAZAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "PARAR",
+    "img": "1EP_U9_DESPLAZAR_ant1.webp"
+   },
+   {
+    "texto": "DETENER",
+    "img": "1EP_U9_DESPLAZAR_ant2.webp"
+   },
+   {
+    "texto": "DEJAR",
+    "img": "1EP_U9_DESPLAZAR_ant3.webp"
+   }
+  ],
+  "frase": "LA GRÚA DESPLAZA EL COCHE AVERIADO 🚗.",
+  "img_frase": "1EP_U9_DESPLAZAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U10",
+  "archivo": "U10_ALQUILAR_1EP.pptx",
+  "palabra": "ALQUILAR",
+  "img_dibujo": "1EP_U10_ALQUILAR_dibujo.webp",
+  "fonemas": [
+   "A",
+   "L",
+   "K",
+   "I",
+   "L",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 7,
+  "fonemas_ok": true,
+  "silabas": [
+   "AL",
+   "QUI",
+   "LAR"
+  ],
+  "definicion": "ALQUILAR 👉 SIGNIFICA USAR ALGO PAGANDO POR UN TIEMPO.",
+  "sinonimos": [
+   {
+    "texto": "ARRENDAR",
+    "img": "1EP_U10_ALQUILAR_sin1.webp"
+   },
+   {
+    "texto": "PAGAR",
+    "img": "1EP_U10_ALQUILAR_sin2.webp"
+   },
+   {
+    "texto": "USAR",
+    "img": "1EP_U10_ALQUILAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "COMPRAR",
+    "img": "1EP_U10_ALQUILAR_ant1.webp"
+   },
+   {
+    "texto": "VENDER",
+    "img": "1EP_U10_ALQUILAR_ant2.webp"
+   },
+   {
+    "texto": "REGALAR",
+    "img": "1EP_U10_ALQUILAR_ant3.webp"
+   }
+  ],
+  "frase": "EL TURISTA ALQUILA UN COCHE PARA EL VIAJE 🚗.",
+  "img_frase": "1EP_U10_ALQUILAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U10",
+  "archivo": "U10_ENVIAR_1EP.pptx",
+  "palabra": "ENVIAR",
+  "img_dibujo": "1EP_U10_ENVIAR_dibujo.webp",
+  "fonemas": [
+   "E",
+   "N",
+   "BV",
+   "I",
+   "A",
+   "R"
+  ],
+  "fonemas_pptx": 6,
+  "fonemas_ok": true,
+  "silabas": [
+   "EN",
+   "VIAR"
+  ],
+  "definicion": "ENVIAR 👉 SIGNIFICA MANDAR ALGO A OTRA PERSONA O LUGAR.",
+  "sinonimos": [
+   {
+    "texto": "MANDAR",
+    "img": "1EP_U10_ENVIAR_sin1.webp"
+   },
+   {
+    "texto": "REPARTIR",
+    "img": "1EP_U10_ENVIAR_sin2.webp"
+   },
+   {
+    "texto": "ENTREGAR",
+    "img": "1EP_U10_ENVIAR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "RECIBIR",
+    "img": "1EP_U10_ENVIAR_ant1.webp"
+   },
+   {
+    "texto": "GUARDAR",
+    "img": "1EP_U10_ENVIAR_ant2.webp"
+   },
+   {
+    "texto": "QUEDAR",
+    "img": "1EP_U10_ENVIAR_ant3.webp"
+   }
+  ],
+  "frase": "LA ABUELA ENVÍA UNA CARTA LLENA DE CARIÑO 💌.",
+  "img_frase": "1EP_U10_ENVIAR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ },
+ {
+  "curso": "1EP",
+  "unidad": "U10",
+  "archivo": "U10_SUSTITUIR_1EP.pptx",
+  "palabra": "SUSTITUIR",
+  "img_dibujo": "1EP_U10_SUSTITUIR_dibujo.webp",
+  "fonemas": [
+   "S",
+   "U",
+   "S",
+   "T",
+   "I",
+   "T",
+   "U",
+   "I",
+   "R"
+  ],
+  "fonemas_pptx": 9,
+  "fonemas_ok": true,
+  "silabas": [
+   "SUS",
+   "TI",
+   "TU",
+   "IR"
+  ],
+  "definicion": "SUSTITUIR 👉 SIGNIFICA PONER UNA COSA EN EL LUGAR DE OTRA.",
+  "sinonimos": [
+   {
+    "texto": "CAMBIAR",
+    "img": "1EP_U10_SUSTITUIR_sin1.webp"
+   },
+   {
+    "texto": "CANJEAR",
+    "img": "1EP_U10_SUSTITUIR_sin2.webp"
+   },
+   {
+    "texto": "REPONER",
+    "img": "1EP_U10_SUSTITUIR_sin3.webp"
+   }
+  ],
+  "antonimos": [
+   {
+    "texto": "MANTENER",
+    "img": "1EP_U10_SUSTITUIR_ant1.webp"
+   },
+   {
+    "texto": "GUARDAR",
+    "img": "1EP_U10_SUSTITUIR_ant2.webp"
+   },
+   {
+    "texto": "QUEDAR",
+    "img": "1EP_U10_SUSTITUIR_ant3.webp"
+   }
+  ],
+  "frase": "EL JUGADOR SUSTITUYE A SU COMPAÑERO EN EL PARTIDO ⚽.",
+  "img_frase": "1EP_U10_SUSTITUIR_frase.webp",
+  "etapa": "primaria",
+  "curso_nombre": "1º Primaria"
+ }
+]

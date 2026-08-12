@@ -1,0 +1,12 @@
+# El repositorio de GitHub Pages es PÚBLICO: la programación curricular no se sube.
+Programación de Vocabulario.xlsx
+
+# Temporales de la sincronización de Google Drive
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Temporales de trabajo
+_chrome_tmp/
+_*.png
+__pycache__/
+*.pyc
